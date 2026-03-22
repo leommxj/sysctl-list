@@ -13,6 +13,7 @@ const cname = process.env.GITHUB_PAGES_CNAME?.trim() || "";
 const siteUrl = process.env.PUBLIC_SITE_URL?.trim() || "";
 const base = process.env.PUBLIC_BASE?.trim() || "/";
 const dryRun = process.argv.includes("--dry-run");
+const noPush = process.argv.includes("--no-push");
 
 if (!siteUrl) {
   console.error("Missing PUBLIC_SITE_URL. Example: PUBLIC_SITE_URL=https://sysctl.leommxj.com");
@@ -46,15 +47,15 @@ const ghPagesArgs = [
   distDir,
   "-b",
   branch,
-  "-r",
+  "-o",
   remote,
   "--dotfiles",
   "-m",
   message
 ];
 
-if (cname) {
-  ghPagesArgs.push("-c", cname);
+if (noPush) {
+  ghPagesArgs.push("--no-push");
 }
 
 run(process.execPath, ghPagesArgs);
