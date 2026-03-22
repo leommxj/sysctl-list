@@ -1,0 +1,3 @@
+{
+  "text": "Disable IPv6 operation.  If accept_dad is set to 2, this value\n\twill be dynamically set to TRUE if DAD fails for the link-local\n\taddress.\n\tDefault: FALSE (enable IPv6 operation)"
+}

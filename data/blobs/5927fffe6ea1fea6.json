@@ -1,0 +1,3 @@
+{
+  "text": "This file indicates the amount of address space  which a user process will\nbe restricted from mmapping.  Since kernel null dereference bugs could\naccidentally operate based on the information in the first couple of pages\nof memory userspace processes should not be allowed to write to them.  By\ndefault this value is set to 0 and no protections will be enforced by the\nsecurity module.  Setting this value to something like 64k will allow the\nvast majority of applications to work correctly and provide defense in depth\nagainst future potential kernel bugs."
+}

@@ -1,0 +1,3 @@
+{
+  "text": "These three toggles allows to specify desired id for next allocated IPC\nobject: message, semaphore or shared memory respectively.\n\nBy default they are equal to -1, which means generic allocation logic.\nPossible values to set are in range {0..INT_MAX}.\n\nNotes:\n1) kernel doesn't guarantee, that new object will have desired id. So,\nit's up to userspace, how to handle an object with \"wrong\" id.\n2) Toggle with non-default value will be set back to -1 by kernel after\nsuccessful IPC object allocation."
+}

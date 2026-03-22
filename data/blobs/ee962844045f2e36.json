@@ -1,0 +1,3 @@
+{
+  "text": "This parameter can be used to control the NMI watchdog\n(i.e. the hard lockup detector) on x86 systems.\n\n   0 - disable the hard lockup detector\n   1 - enable the hard lockup detector\n\nThe hard lockup detector monitors each CPU for its ability to respond to\ntimer interrupts. The mechanism utilizes CPU performance counter registers\nthat are programmed to generate Non-Maskable Interrupts (NMIs) periodically\nwhile a CPU is busy. Hence, the alternative name 'NMI watchdog'.\n\nThe NMI watchdog is disabled by default if the kernel is running as a guest\nin a KVM virtual machine. This default can be overridden by adding\n\n   nmi_watchdog=1\n\nto the guest kernel command line (see Documentation/kernel-parameters.txt)."
+}

@@ -1,0 +1,31 @@
+{
+  "availableVersions": [
+    "v5.17"
+  ],
+  "name": "kernel.random.add_interrupt_avg_deviation",
+  "namespace": "kernel",
+  "slug": "kernel.random.add_interrupt_avg_deviation",
+  "versions": [
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "avg_deviation",
+          "handler_symbol": "proc_doulongvec_minmax",
+          "path_segments": [
+            "kernel",
+            "random",
+            "add_interrupt_avg_deviation"
+          ],
+          "source_path": "drivers/char/random.c",
+          "table": "random_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v5.17"
+    }
+  ]
+}

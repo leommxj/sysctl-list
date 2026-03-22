@@ -1,0 +1,3 @@
+{
+  "text": "Controls Appropriate Byte Count defined in RFC3465. If set to\n\t0 then does congestion avoid once per ack. 1 is conservative\n\tvalue, and 2 is more agressive."
+}

@@ -1,0 +1,125 @@
+{
+  "availableVersions": [
+    "v6.16",
+    "v6.17",
+    "v6.18",
+    "v6.19"
+  ],
+  "name": "vm.vfs_cache_pressure_denom",
+  "namespace": "vm",
+  "slug": "vm.vfs_cache_pressure_denom",
+  "versions": [
+    {
+      "docRefs": [
+        {
+          "blob": "b9f6f06b81fa3615",
+          "heading": "vfs_cache_pressure_denom",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/vm.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "sysctl_vfs_cache_pressure_denom",
+          "handler_symbol": "proc_dointvec_minmax",
+          "path_segments": [
+            "vm",
+            "vfs_cache_pressure_denom"
+          ],
+          "source_path": "fs/dcache.c",
+          "table": "vm_dcache_sysctls"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.16"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "b9f6f06b81fa3615",
+          "heading": "vfs_cache_pressure_denom",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/vm.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "sysctl_vfs_cache_pressure_denom",
+          "handler_symbol": "proc_dointvec_minmax",
+          "path_segments": [
+            "vm",
+            "vfs_cache_pressure_denom"
+          ],
+          "source_path": "fs/dcache.c",
+          "table": "vm_dcache_sysctls"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.17"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "b9f6f06b81fa3615",
+          "heading": "vfs_cache_pressure_denom",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/vm.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "sysctl_vfs_cache_pressure_denom",
+          "handler_symbol": "proc_dointvec_minmax",
+          "path_segments": [
+            "vm",
+            "vfs_cache_pressure_denom"
+          ],
+          "source_path": "fs/dcache.c",
+          "table": "vm_dcache_sysctls"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.18"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "b9f6f06b81fa3615",
+          "heading": "vfs_cache_pressure_denom",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/vm.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "sysctl_vfs_cache_pressure_denom",
+          "handler_symbol": "proc_dointvec_minmax",
+          "path_segments": [
+            "vm",
+            "vfs_cache_pressure_denom"
+          ],
+          "source_path": "fs/dcache.c",
+          "table": "vm_dcache_sysctls"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.19"
+    }
+  ]
+}

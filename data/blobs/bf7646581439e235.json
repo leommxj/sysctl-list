@@ -1,0 +1,3 @@
+{
+  "text": "Setting this to \"1\" will cause the \"nosymlinks\" flag set\n\tby the **xfs_io(8)** chattr command on a directory to be\n\tinherited by files in that directory."
+}

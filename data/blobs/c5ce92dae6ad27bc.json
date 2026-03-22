@@ -1,0 +1,3 @@
+{
+  "text": "When set, disables tracing (see :doc:`/trace/ftrace`) when a\n``WARN()`` is hit."
+}

@@ -1,0 +1,3 @@
+{
+  "text": "TCP tries to reduce number of SACK sent, using a timer\n\tbased on 5% of SRTT, capped by this sysctl, in nano seconds.\n\tThe default is 1ms, based on TSO autosizing period.\n\n\tDefault : 1,000,000 ns (1 ms)"
+}

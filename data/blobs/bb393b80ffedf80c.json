@@ -1,0 +1,3 @@
+{
+  "text": "- 1 : pass bridged ARP traffic to arptables' FORWARD chain.\n\t- 0 : disable this.\n\n\tDefault: 1"
+}

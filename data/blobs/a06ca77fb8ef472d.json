@@ -1,0 +1,3 @@
+{
+  "text": "This tunable takes a value in the range [0, 100] with a default value of\n20. This tunable determines how aggressively compaction is done in the\nbackground. Setting it to 0 disables proactive compaction.\n\nNote that compaction has a non-trivial system-wide impact as pages\nbelonging to different processes are moved around, which could also lead\nto latency spikes in unsuspecting applications. The kernel employs\nvarious heuristics to avoid wasting CPU cycles if it detects that\nproactive compaction is not being effective.\n\nBe careful when setting it to extreme values like 100, as that may\ncause excessive background compaction activity."
+}

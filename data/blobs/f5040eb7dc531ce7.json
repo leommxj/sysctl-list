@@ -1,0 +1,3 @@
+{
+  "text": "Time to hold socket in state FIN-WAIT-2, if it was closed\n\tby our side. Peer can be broken and never close its side,\n\tor even died unexpectedly. Default value is 60sec.\n\tUsual value used in 2.2 was 180 seconds, you may restore\n\tit, but remember that if your machine is even underloaded WEB server,\n\tyou risk to overflow memory with kilotons of dead sockets,\n\tFIN-WAIT-2 sockets are less dangerous than FIN-WAIT-1,\n\tbecause they eat maximum 1.5K of memory, but they tend\n\tto live longer.\tCf. tcp_max_orphans."
+}

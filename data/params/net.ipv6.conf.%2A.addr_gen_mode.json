@@ -1,0 +1,201 @@
+{
+  "availableVersions": [
+    "v4.11",
+    "v4.12",
+    "v4.13",
+    "v4.14",
+    "v4.15",
+    "v4.16",
+    "v4.17",
+    "v4.18"
+  ],
+  "name": "net.ipv6.conf.*.addr_gen_mode",
+  "namespace": "net",
+  "slug": "net.ipv6.conf.%2A.addr_gen_mode",
+  "versions": [
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "addr_gen_mode",
+          "handler_symbol": "addrconf_sysctl_addr_gen_mode",
+          "path_segments": [
+            "net",
+            "ipv6",
+            "conf",
+            "*",
+            "addr_gen_mode"
+          ],
+          "source_path": "net/ipv6/addrconf.c",
+          "table": "addrconf_sysctl"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v4.11"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "addr_gen_mode",
+          "handler_symbol": "addrconf_sysctl_addr_gen_mode",
+          "path_segments": [
+            "net",
+            "ipv6",
+            "conf",
+            "*",
+            "addr_gen_mode"
+          ],
+          "source_path": "net/ipv6/addrconf.c",
+          "table": "addrconf_sysctl"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v4.12"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "addr_gen_mode",
+          "handler_symbol": "addrconf_sysctl_addr_gen_mode",
+          "path_segments": [
+            "net",
+            "ipv6",
+            "conf",
+            "*",
+            "addr_gen_mode"
+          ],
+          "source_path": "net/ipv6/addrconf.c",
+          "table": "addrconf_sysctl"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v4.13"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "addr_gen_mode",
+          "handler_symbol": "addrconf_sysctl_addr_gen_mode",
+          "path_segments": [
+            "net",
+            "ipv6",
+            "conf",
+            "*",
+            "addr_gen_mode"
+          ],
+          "source_path": "net/ipv6/addrconf.c",
+          "table": "addrconf_sysctl"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v4.14"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "addr_gen_mode",
+          "handler_symbol": "addrconf_sysctl_addr_gen_mode",
+          "path_segments": [
+            "net",
+            "ipv6",
+            "conf",
+            "*",
+            "addr_gen_mode"
+          ],
+          "source_path": "net/ipv6/addrconf.c",
+          "table": "addrconf_sysctl"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v4.15"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "addr_gen_mode",
+          "handler_symbol": "addrconf_sysctl_addr_gen_mode",
+          "path_segments": [
+            "net",
+            "ipv6",
+            "conf",
+            "*",
+            "addr_gen_mode"
+          ],
+          "source_path": "net/ipv6/addrconf.c",
+          "table": "addrconf_sysctl"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v4.16"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "addr_gen_mode",
+          "handler_symbol": "addrconf_sysctl_addr_gen_mode",
+          "path_segments": [
+            "net",
+            "ipv6",
+            "conf",
+            "*",
+            "addr_gen_mode"
+          ],
+          "source_path": "net/ipv6/addrconf.c",
+          "table": "addrconf_sysctl"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v4.17"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "addr_gen_mode",
+          "handler_symbol": "addrconf_sysctl_addr_gen_mode",
+          "path_segments": [
+            "net",
+            "ipv6",
+            "conf",
+            "*",
+            "addr_gen_mode"
+          ],
+          "source_path": "net/ipv6/addrconf.c",
+          "table": "addrconf_sysctl"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v4.18"
+    }
+  ]
+}

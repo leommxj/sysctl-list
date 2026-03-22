@@ -1,0 +1,3 @@
+{
+  "text": "Size of connection tracking table.  Default value is\n\tnf_conntrack_buckets value * 4."
+}

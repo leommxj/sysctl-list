@@ -1,0 +1,185 @@
+{
+  "availableVersions": [
+    "v3.1",
+    "v3.2",
+    "v3.3",
+    "v3.4",
+    "v3.5",
+    "v3.6",
+    "v3.14",
+    "v3.15"
+  ],
+  "name": "net.sctp.default_auto_asconf",
+  "namespace": "net",
+  "slug": "net.sctp.default_auto_asconf",
+  "versions": [
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl_paths",
+          "data_symbol": "sctp_default_auto_asconf",
+          "handler_symbol": "proc_dointvec",
+          "path_segments": [
+            "net",
+            "sctp",
+            "default_auto_asconf"
+          ],
+          "source_path": "net/sctp/sysctl.c",
+          "table": "sctp_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v3.1"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl_paths",
+          "data_symbol": "sctp_default_auto_asconf",
+          "handler_symbol": "proc_dointvec",
+          "path_segments": [
+            "net",
+            "sctp",
+            "default_auto_asconf"
+          ],
+          "source_path": "net/sctp/sysctl.c",
+          "table": "sctp_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v3.2"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl_paths",
+          "data_symbol": "sctp_default_auto_asconf",
+          "handler_symbol": "proc_dointvec",
+          "path_segments": [
+            "net",
+            "sctp",
+            "default_auto_asconf"
+          ],
+          "source_path": "net/sctp/sysctl.c",
+          "table": "sctp_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v3.3"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl_paths",
+          "data_symbol": "sctp_default_auto_asconf",
+          "handler_symbol": "proc_dointvec",
+          "path_segments": [
+            "net",
+            "sctp",
+            "default_auto_asconf"
+          ],
+          "source_path": "net/sctp/sysctl.c",
+          "table": "sctp_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v3.4"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "sctp_default_auto_asconf",
+          "handler_symbol": "proc_dointvec",
+          "path_segments": [
+            "net",
+            "sctp",
+            "default_auto_asconf"
+          ],
+          "source_path": "net/sctp/sysctl.c",
+          "table": "sctp_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v3.5"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "sctp_default_auto_asconf",
+          "handler_symbol": "proc_dointvec",
+          "path_segments": [
+            "net",
+            "sctp",
+            "default_auto_asconf"
+          ],
+          "source_path": "net/sctp/sysctl.c",
+          "table": "sctp_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v3.6"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "default_auto_asconf",
+          "handler_symbol": "proc_dointvec",
+          "path_segments": [
+            "net",
+            "sctp",
+            "default_auto_asconf"
+          ],
+          "source_path": "net/sctp/sysctl.c",
+          "table": "sctp_net_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v3.14"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "default_auto_asconf",
+          "handler_symbol": "proc_dointvec",
+          "path_segments": [
+            "net",
+            "sctp",
+            "default_auto_asconf"
+          ],
+          "source_path": "net/sctp/sysctl.c",
+          "table": "sctp_net_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v3.15"
+    }
+  ]
+}

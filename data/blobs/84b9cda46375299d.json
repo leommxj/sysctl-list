@@ -1,0 +1,3 @@
+{
+  "text": "The delay in milliseconds before a TIME-WAIT socket can be reused by a\n        new connection, if TIME-WAIT socket reuse is enabled. The actual reuse\n        threshold is within [N, N+1] range, where N is the requested delay in\n        milliseconds, to ensure the delay interval is never shorter than the\n        configured value.\n\n        This setting contains an assumption about the other TCP timestamp clock\n        tick interval. It should not be set to a value lower than the peer's\n        clock tick for PAWS (Protection Against Wrapped Sequence numbers)\n        mechanism work correctly for the reused connection.\n\n        Default: 1000 (milliseconds)"
+}

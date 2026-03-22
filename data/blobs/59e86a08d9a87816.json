@@ -1,0 +1,3 @@
+{
+  "text": "- 0 - disabled (default)\n\t- not 0 - enabled\n\n\tForward Packets between interfaces.\n\n\tThis variable is special, its change resets all configuration\n\tparameters to their default state (RFC1122 for hosts, RFC1812\n\tfor routers)"
+}

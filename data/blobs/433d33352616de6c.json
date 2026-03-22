@@ -1,0 +1,3 @@
+{
+  "text": "If non-zero, this sysctl disables the new 32-bit mmap layout - the kernel\nwill use the legacy (2.4) layout for all processes."
+}

@@ -1,0 +1,3 @@
+{
+  "text": "This parameter can be used to control kernel stack erasing at the end\nof syscalls for kernels built with ``CONFIG_KSTACK_ERASE``.\n\nThat erasing reduces the information which kernel stack leak bugs\ncan reveal and blocks some uninitialized stack variable attacks.\nThe tradeoff is the performance impact: on a single CPU system kernel\ncompilation sees a 1% slowdown, other systems and workloads may vary.\n\n= ====================================================================\n0 Kernel stack erasing is disabled, KSTACK_ERASE_METRICS are not updated.\n1 Kernel stack erasing is enabled (default), it is performed before\n  returning to the userspace at the end of syscalls.\n= ===================================================================="
+}

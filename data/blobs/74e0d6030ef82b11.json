@@ -1,0 +1,3 @@
+{
+  "text": "If set to 1, then the kernel will respond with ICMP Errors\n\tresulting from requests sent to it over the IPv6 protocol destined\n\tto anycast address essentially treating anycast as unicast.\n\n\tDefault: 0"
+}

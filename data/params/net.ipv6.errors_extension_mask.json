@@ -1,0 +1,26 @@
+{
+  "availableVersions": [
+    "v6.19"
+  ],
+  "name": "net.ipv6.errors_extension_mask",
+  "namespace": "net",
+  "slug": "net.ipv6.errors_extension_mask",
+  "versions": [
+    {
+      "docRefs": [
+        {
+          "blob": "35b9756dab60fd3b",
+          "heading": "errors_extension_mask",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v6.19"
+    }
+  ]
+}

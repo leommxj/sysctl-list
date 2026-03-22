@@ -1,0 +1,3 @@
+{
+  "text": "- If the sysctl \"fs.verity.require_signatures\" is set to 1 and the\n  file is not signed by a key in the \".fs-verity\" keyring, then\n  opening the file will fail.  See `Built-in signature verification`_."
+}

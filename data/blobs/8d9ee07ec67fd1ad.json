@@ -1,0 +1,3 @@
+{
+  "text": "This sysctl is now unused.\n\nThis was used to control console messages from the networking stack that\noccur because of problems on the network like duplicate address or bad\nchecksums.\n\nThese messages are now emitted at KERN_DEBUG and can generally be enabled\nand controlled by the dynamic_debug facility."
+}

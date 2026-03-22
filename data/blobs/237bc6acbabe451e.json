@@ -1,0 +1,3 @@
+{
+  "text": "Whether to perform Optimistic Duplicate Address Detection (RFC 4429).\n\t\t0: disabled (default)\n\t\t1: enabled"
+}

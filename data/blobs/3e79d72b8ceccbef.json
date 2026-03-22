@@ -1,0 +1,3 @@
+{
+  "text": "See :doc:`/driver-api/firmware/fallback-mechanisms`.\n\nThe entries in this directory allow the firmware loader helper\nfallback to be controlled:\n\n* ``force_sysfs_fallback``, when set to 1, forces the use of the\n  fallback;\n* ``ignore_sysfs_fallback``, when set to 1, ignores any fallback."
+}

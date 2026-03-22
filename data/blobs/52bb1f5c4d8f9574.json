@@ -1,0 +1,3 @@
+{
+  "text": "Enables Forward RTO-Recovery (F-RTO) defined in RFC5682.\n\tF-RTO is an enhanced recovery algorithm for TCP retransmission\n\ttimeouts.  It is particularly beneficial in networks where the\n\tRTT fluctuates (e.g., wireless). F-RTO is sender-side only\n\tmodification. It does not require any support from the peer.\n\n\tBy default it's enabled with a non-zero value. 0 disables F-RTO."
+}

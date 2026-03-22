@@ -1,0 +1,3 @@
+{
+  "text": "Controls the MLD query robustness variable (see RFC3810 9.1).\n\tDefault: 2 (as specified by RFC3810 9.1)\n\tMinimum: 1 (as specified by RFC6636 4.5)\n\nIPv6 Fragmentation:"
+}

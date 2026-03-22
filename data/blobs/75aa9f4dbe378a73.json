@@ -1,0 +1,3 @@
+{
+  "text": "The number of MPTCP-level retransmission intervals with no traffic and\n\tpending outstanding data on a given subflow required to declare it stale.\n\tThe packet scheduler ignores stale subflows.\n\tA low stale_loss_cnt  value allows for fast active-backup switch-over,\n\tan high value maximize links utilization on edge scenarios e.g. lossy\n\tlink with high BER or peer pausing the data processing.\n\n\tThis is a per-namespace sysctl.\n\n\tDefault: 4"
+}

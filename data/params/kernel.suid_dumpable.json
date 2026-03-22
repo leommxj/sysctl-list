@@ -1,0 +1,94 @@
+{
+  "availableVersions": [
+    "v2.6.13",
+    "v2.6.14",
+    "v2.6.15",
+    "v2.6.16",
+    "v2.6.17"
+  ],
+  "name": "kernel.suid_dumpable",
+  "namespace": "kernel",
+  "slug": "kernel.suid_dumpable",
+  "versions": [
+    {
+      "docRefs": [
+        {
+          "blob": "402a3a4e9547693a",
+          "heading": "suid_dumpable",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/sysctl/kernel.txt"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v2.6.13"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "402a3a4e9547693a",
+          "heading": "suid_dumpable",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/sysctl/kernel.txt"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v2.6.14"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "402a3a4e9547693a",
+          "heading": "suid_dumpable",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/sysctl/kernel.txt"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v2.6.15"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "402a3a4e9547693a",
+          "heading": "suid_dumpable",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/sysctl/kernel.txt"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v2.6.16"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "402a3a4e9547693a",
+          "heading": "suid_dumpable",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/sysctl/kernel.txt"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v2.6.17"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+{
+  "text": "When set to a non-zero value, a kernel panic will be triggered if the\nnumber of hung tasks found during a single scan reaches this value.\nThis file shows up if ``CONFIG_DETECT_HUNG_TASK`` is enabled.\n\n= =======================================================\n0 Continue operation. This is the default behavior.\nN Panic when N hung tasks are found during a single scan.\n= ======================================================="
+}

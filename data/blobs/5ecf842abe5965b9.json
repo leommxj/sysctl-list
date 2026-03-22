@@ -1,0 +1,3 @@
+{
+  "text": "This parameter sets the total amount of shared memory pages that can be used\ninside ipc namespace. The shared memory pages counting occurs for each ipc\nnamespace separately and is not inherited. Hence, ``shmall`` should always be at\nleast ``ceil(shmmax/PAGE_SIZE)``.\n\nIf you are not sure what the default ``PAGE_SIZE`` is on your Linux\nsystem, you can run the following command::\n\n\t# getconf PAGE_SIZE\n\nTo reduce or disable the ability to allocate shared memory, you must create a\nnew ipc namespace, set this parameter to the required value and prohibit the\ncreation of a new ipc namespace in the current user namespace or cgroups can\nbe used."
+}

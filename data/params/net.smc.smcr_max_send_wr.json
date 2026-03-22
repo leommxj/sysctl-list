@@ -1,0 +1,39 @@
+{
+  "availableVersions": [
+    "v6.19"
+  ],
+  "name": "net.smc.smcr_max_send_wr",
+  "namespace": "net",
+  "slug": "net.smc.smcr_max_send_wr",
+  "versions": [
+    {
+      "docRefs": [
+        {
+          "blob": "05a5437104567801",
+          "heading": "smcr_max_send_wr",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/smc-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "sysctl_smcr_max_send_wr",
+          "handler_symbol": "proc_dointvec_minmax",
+          "path_segments": [
+            "net",
+            "smc",
+            "smcr_max_send_wr"
+          ],
+          "source_path": "net/smc/smc_sysctl.c",
+          "table": "smc_table"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.19"
+    }
+  ]
+}

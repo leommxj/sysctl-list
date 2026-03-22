@@ -1,0 +1,3 @@
+{
+  "text": "While long term we enforce one message per `printk_ratelimit`_\nseconds, we do allow a burst of messages to pass through.\n``printk_ratelimit_burst`` specifies the number of messages we can\nsend before ratelimiting kicks in.  After `printk_ratelimit`_ seconds\nhave elapsed, another burst of messages may be sent.\n\nThe default value is 10 messages."
+}

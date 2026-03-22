@@ -1,0 +1,3 @@
+{
+  "text": "Define the IOAM id of this node. Uses only 24 bits out of 32 in total.\n\n        Possible value range:\n\n        - Min: 0\n        - Max: 0xFFFFFF\n\n        Default: 0xFFFFFF"
+}

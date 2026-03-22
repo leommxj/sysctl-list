@@ -1,0 +1,3 @@
+{
+  "text": "Settings about how to handle connections with direct neighbors (nodes attached\nto the same link) can be found in the directory /proc/sys/net/ipv4/neigh."
+}

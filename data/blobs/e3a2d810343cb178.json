@@ -1,0 +1,3 @@
+{
+  "text": "Show the number of hash buckets for TCP sockets in the current\n\tnetworking namespace.\n\n\tA negative value means the networking namespace does not own its\n\thash buckets and shares the initial networking namespace's one."
+}

@@ -1,0 +1,3 @@
+{
+  "text": "DCCP_SOCKOPT_QPOLICY_TXQLEN sets the maximum length of the output queue. A zero\nvalue is always interpreted as unbounded queue length. If different from zero,\nthe interpretation of this parameter depends on the current dequeuing policy\n(see above): the \"simple\" policy will enforce a fixed queue size by returning\nEAGAIN, whereas the \"prio\" policy enforces a fixed queue length by dropping the\nlowest-priority packet first. The default value for this parameter is\ninitialised from /proc/sys/net/dccp/default/tx_qlen."
+}

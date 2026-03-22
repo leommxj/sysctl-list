@@ -1,0 +1,3 @@
+{
+  "text": "Keep all IPv6 addresses on an interface down event. If set static\n\tglobal addresses with no expiration time are not flushed.\n\n\t*   >0 : enabled\n\t*    0 : system default\n\t*   <0 : disabled\n\n\tDefault: 0 (addresses are removed)"
+}

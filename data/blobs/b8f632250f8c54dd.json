@@ -1,0 +1,3 @@
+{
+  "text": "Optimize input packet processing down to one demux for\n\tcertain kinds of local sockets.  Currently we only do this\n\tfor established TCP and connected UDP sockets.\n\n\tIt may add an additional cost for pure routing workloads that\n\treduces overall throughput, in such case you should disable it.\n\tDefault: 1"
+}

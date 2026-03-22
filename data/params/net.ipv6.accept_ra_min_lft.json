@@ -1,0 +1,457 @@
+{
+  "availableVersions": [
+    "v6.6",
+    "v6.7",
+    "v6.8",
+    "v6.9",
+    "v6.10",
+    "v6.11",
+    "v6.12",
+    "v6.13",
+    "v6.14",
+    "v6.15",
+    "v6.16",
+    "v6.17",
+    "v6.18",
+    "v6.19"
+  ],
+  "name": "net.ipv6.accept_ra_min_lft",
+  "namespace": "net",
+  "slug": "net.ipv6.accept_ra_min_lft",
+  "versions": [
+    {
+      "docRefs": [
+        {
+          "blob": "eac16c338db33230",
+          "heading": "accept_ra_min_lft",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "accept_ra_min_lft",
+          "handler_symbol": "proc_dointvec",
+          "path_segments": [
+            "net",
+            "ipv6",
+            "conf",
+            "*",
+            "accept_ra_min_lft"
+          ],
+          "source_path": "net/ipv6/addrconf.c",
+          "table": "addrconf_sysctl"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.6"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "eac16c338db33230",
+          "heading": "accept_ra_min_lft",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "accept_ra_min_lft",
+          "handler_symbol": "proc_dointvec",
+          "path_segments": [
+            "net",
+            "ipv6",
+            "conf",
+            "*",
+            "accept_ra_min_lft"
+          ],
+          "source_path": "net/ipv6/addrconf.c",
+          "table": "addrconf_sysctl"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.7"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "eac16c338db33230",
+          "heading": "accept_ra_min_lft",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "accept_ra_min_lft",
+          "handler_symbol": "proc_dointvec",
+          "path_segments": [
+            "net",
+            "ipv6",
+            "conf",
+            "*",
+            "accept_ra_min_lft"
+          ],
+          "source_path": "net/ipv6/addrconf.c",
+          "table": "addrconf_sysctl"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.8"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "eac16c338db33230",
+          "heading": "accept_ra_min_lft",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "accept_ra_min_lft",
+          "handler_symbol": "proc_dointvec",
+          "path_segments": [
+            "net",
+            "ipv6",
+            "conf",
+            "*",
+            "accept_ra_min_lft"
+          ],
+          "source_path": "net/ipv6/addrconf.c",
+          "table": "addrconf_sysctl"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.9"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "eac16c338db33230",
+          "heading": "accept_ra_min_lft",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "accept_ra_min_lft",
+          "handler_symbol": "proc_dointvec",
+          "path_segments": [
+            "net",
+            "ipv6",
+            "conf",
+            "*",
+            "accept_ra_min_lft"
+          ],
+          "source_path": "net/ipv6/addrconf.c",
+          "table": "addrconf_sysctl"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.10"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "eac16c338db33230",
+          "heading": "accept_ra_min_lft",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "accept_ra_min_lft",
+          "handler_symbol": "proc_dointvec",
+          "path_segments": [
+            "net",
+            "ipv6",
+            "conf",
+            "*",
+            "accept_ra_min_lft"
+          ],
+          "source_path": "net/ipv6/addrconf.c",
+          "table": "addrconf_sysctl"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.11"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "eac16c338db33230",
+          "heading": "accept_ra_min_lft",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "accept_ra_min_lft",
+          "handler_symbol": "proc_dointvec",
+          "path_segments": [
+            "net",
+            "ipv6",
+            "conf",
+            "*",
+            "accept_ra_min_lft"
+          ],
+          "source_path": "net/ipv6/addrconf.c",
+          "table": "addrconf_sysctl"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.12"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "eac16c338db33230",
+          "heading": "accept_ra_min_lft",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "accept_ra_min_lft",
+          "handler_symbol": "proc_dointvec",
+          "path_segments": [
+            "net",
+            "ipv6",
+            "conf",
+            "*",
+            "accept_ra_min_lft"
+          ],
+          "source_path": "net/ipv6/addrconf.c",
+          "table": "addrconf_sysctl"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.13"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "eac16c338db33230",
+          "heading": "accept_ra_min_lft",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "accept_ra_min_lft",
+          "handler_symbol": "proc_dointvec",
+          "path_segments": [
+            "net",
+            "ipv6",
+            "conf",
+            "*",
+            "accept_ra_min_lft"
+          ],
+          "source_path": "net/ipv6/addrconf.c",
+          "table": "addrconf_sysctl"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.14"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "eac16c338db33230",
+          "heading": "accept_ra_min_lft",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "accept_ra_min_lft",
+          "handler_symbol": "proc_dointvec",
+          "path_segments": [
+            "net",
+            "ipv6",
+            "conf",
+            "*",
+            "accept_ra_min_lft"
+          ],
+          "source_path": "net/ipv6/addrconf.c",
+          "table": "addrconf_sysctl"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.15"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "eac16c338db33230",
+          "heading": "accept_ra_min_lft",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "accept_ra_min_lft",
+          "handler_symbol": "proc_dointvec",
+          "path_segments": [
+            "net",
+            "ipv6",
+            "conf",
+            "*",
+            "accept_ra_min_lft"
+          ],
+          "source_path": "net/ipv6/addrconf.c",
+          "table": "addrconf_sysctl"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.16"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "eac16c338db33230",
+          "heading": "accept_ra_min_lft",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "accept_ra_min_lft",
+          "handler_symbol": "proc_dointvec",
+          "path_segments": [
+            "net",
+            "ipv6",
+            "conf",
+            "*",
+            "accept_ra_min_lft"
+          ],
+          "source_path": "net/ipv6/addrconf.c",
+          "table": "addrconf_sysctl"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.17"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "eac16c338db33230",
+          "heading": "accept_ra_min_lft",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "accept_ra_min_lft",
+          "handler_symbol": "proc_dointvec",
+          "path_segments": [
+            "net",
+            "ipv6",
+            "conf",
+            "*",
+            "accept_ra_min_lft"
+          ],
+          "source_path": "net/ipv6/addrconf.c",
+          "table": "addrconf_sysctl"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.18"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "eac16c338db33230",
+          "heading": "accept_ra_min_lft",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "accept_ra_min_lft",
+          "handler_symbol": "proc_dointvec",
+          "path_segments": [
+            "net",
+            "ipv6",
+            "conf",
+            "*",
+            "accept_ra_min_lft"
+          ],
+          "source_path": "net/ipv6/addrconf.c",
+          "table": "addrconf_sysctl"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.19"
+    }
+  ]
+}

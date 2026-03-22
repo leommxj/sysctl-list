@@ -1,0 +1,3 @@
+{
+  "text": "Number of entries in the platform label table.  It is not\n\tpossible to configure forwarding for label values equal to or\n\tgreater than the number of platform labels.\n\n\tA dense utilization of the entries in the platform label table\n\tis possible and expected as the platform labels are locally\n\tallocated.\n\n\tIf the number of platform label table entries is set to 0 no\n\tlabel will be recognized by the kernel and mpls forwarding\n\twill be disabled.\n\n\tReducing this value will remove all label routing entries that\n\tno longer fit in the table.\n\n\tPossible values: 0 - 1048575\n\tDefault: 0"
+}

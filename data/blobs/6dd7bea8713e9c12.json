@@ -1,0 +1,3 @@
+{
+  "text": "Dynamic Address Reconfiguration (ADD-IP) requires the use of\n\tauthentication to protect the operations of adding or removing new\n\taddresses.  This requirement is mandated so that unauthorized hosts\n\twould not be able to hijack associations.  However, older\n\timplementations may not have implemented this requirement while\n\tallowing the ADD-IP extension.  For reasons of interoperability,\n\twe provide this variable to control the enforcement of the\n\tauthentication requirement.\n\n\t1: Allow ADD-IP extension to be used without authentication.  This\n\t   should only be set in a closed environment for interoperability\n\t   with older implementations.\n\n\t0: Enforce the authentication requirement\n\n\tDefault: 0"
+}

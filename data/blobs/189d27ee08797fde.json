@@ -1,0 +1,3 @@
+{
+  "text": "scsi_mod.scsi_logging_level=\n\t\t\t[SCSI] a bit mask of logging levels\n\t\t\tSee drivers/scsi/scsi_logging.h for bits.  Also\n\t\t\tsettable via sysctl at dev.scsi.logging_level\n\t\t\t(/proc/sys/dev/scsi/logging_level).\n\t\t\tThere is also a nice 'scsi_logging_level' script in the\n\t\t\tS390-tools package, available for download at\n\t\t\thttps://github.com/ibm-s390-linux/s390-tools/blob/master/scripts/scsi_logging_level"
+}

@@ -1,0 +1,3 @@
+{
+  "text": "This denotes the maximum number of file-handles a process can\nallocate. Default value is 1024*1024 (1048576) which should be\nenough for most machines. Actual limit depends on RLIMIT_NOFILE\nresource limit."
+}

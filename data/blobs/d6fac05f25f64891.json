@@ -1,0 +1,3 @@
+{
+  "text": "``msgmax`` is the maximum size of an IPC message, in bytes. 8192 by\ndefault (``MSGMAX``).\n\n``msgmnb`` is the maximum size of an IPC queue, in bytes. 16384 by\ndefault (``MSGMNB``).\n\n``msgmni`` is the maximum number of IPC queues. 32000 by default\n(``MSGMNI``)."
+}

@@ -1,0 +1,230 @@
+{
+  "availableVersions": [
+    "v6.7",
+    "v6.8",
+    "v6.9",
+    "v6.10",
+    "v6.11",
+    "v6.12",
+    "v6.13",
+    "v6.14",
+    "v6.15",
+    "v6.16",
+    "v6.17",
+    "v6.18",
+    "v6.19"
+  ],
+  "name": "net.core.somaxconn.tcp_pingpong_thresh",
+  "namespace": "net",
+  "slug": "net.core.somaxconn.tcp_pingpong_thresh",
+  "versions": [
+    {
+      "docRefs": [
+        {
+          "blob": "7c478b1ce8ba21a8",
+          "heading": "tcp_pingpong_thresh",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v6.7"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "7c478b1ce8ba21a8",
+          "heading": "tcp_pingpong_thresh",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v6.8"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "7c478b1ce8ba21a8",
+          "heading": "tcp_pingpong_thresh",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v6.9"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "7c478b1ce8ba21a8",
+          "heading": "tcp_pingpong_thresh",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v6.10"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "7954a5d4877e8e76",
+          "heading": "tcp_pingpong_thresh",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v6.11"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "7954a5d4877e8e76",
+          "heading": "tcp_pingpong_thresh",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v6.12"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "7954a5d4877e8e76",
+          "heading": "tcp_pingpong_thresh",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v6.13"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "7954a5d4877e8e76",
+          "heading": "tcp_pingpong_thresh",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v6.14"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "7954a5d4877e8e76",
+          "heading": "tcp_pingpong_thresh",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v6.15"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "7954a5d4877e8e76",
+          "heading": "tcp_pingpong_thresh",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v6.16"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "7954a5d4877e8e76",
+          "heading": "tcp_pingpong_thresh",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v6.17"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "7954a5d4877e8e76",
+          "heading": "tcp_pingpong_thresh",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v6.18"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "7954a5d4877e8e76",
+          "heading": "tcp_pingpong_thresh",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v6.19"
+    }
+  ]
+}

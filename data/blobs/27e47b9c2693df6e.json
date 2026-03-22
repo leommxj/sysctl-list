@@ -1,0 +1,3 @@
+{
+  "text": "Select the hmac algorithm used when generating the cookie value sent by\n\ta listening sctp socket to a connecting client in the INIT-ACK chunk.\n\tValid values are:\n\n\t* sha256\n\t* none\n\n\tDefault: sha256"
+}

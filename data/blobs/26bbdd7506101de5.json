@@ -1,0 +1,3 @@
+{
+  "text": "The default queuing discipline to use for network devices. This allows\noverriding the default queue discipline of pfifo_fast with an\nalternative. Since the default queuing discipline is created with the\nno additional parameters so is best suited to queuing disciplines that\nwork well without configuration like stochastic fair queue (sfq),\nCoDel (codel) or fair queue CoDel (fq_codel). Don't use queuing disciplines\nlike Hierarchical Token Bucket or Deficit Round Robin which require setting\nup classes and bandwidths.\nDefault: pfifo_fast"
+}

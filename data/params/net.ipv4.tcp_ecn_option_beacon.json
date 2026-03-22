@@ -1,0 +1,69 @@
+{
+  "availableVersions": [
+    "v6.18",
+    "v6.19"
+  ],
+  "name": "net.ipv4.tcp_ecn_option_beacon",
+  "namespace": "net",
+  "slug": "net.ipv4.tcp_ecn_option_beacon",
+  "versions": [
+    {
+      "docRefs": [
+        {
+          "blob": "5d016e42788e34c5",
+          "heading": "tcp_ecn_option_beacon",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "sysctl_tcp_ecn_option_beacon",
+          "handler_symbol": "proc_dou8vec_minmax",
+          "path_segments": [
+            "net",
+            "ipv4",
+            "tcp_ecn_option_beacon"
+          ],
+          "source_path": "net/ipv4/sysctl_net_ipv4.c",
+          "table": "ipv4_net_table"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.18"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "5d016e42788e34c5",
+          "heading": "tcp_ecn_option_beacon",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "sysctl_tcp_ecn_option_beacon",
+          "handler_symbol": "proc_dou8vec_minmax",
+          "path_segments": [
+            "net",
+            "ipv4",
+            "tcp_ecn_option_beacon"
+          ],
+          "source_path": "net/ipv4/sysctl_net_ipv4.c",
+          "table": "ipv4_net_table"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.19"
+    }
+  ]
+}

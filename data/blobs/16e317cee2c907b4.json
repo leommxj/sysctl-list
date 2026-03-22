@@ -1,0 +1,3 @@
+{
+  "text": "- 0 - disabled (default)\n\t- not 0 - enabled\n\n\tIt controls sending icmp error messages (ICMP_DEST_UNREACH)\n\tfor VS/NAT when the load balancer receives packets from real\n\tservers but the connection entries don't exist."
+}

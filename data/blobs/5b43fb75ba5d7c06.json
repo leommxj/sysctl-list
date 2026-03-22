@@ -1,0 +1,3 @@
+{
+  "text": "The upper bound on the number of tasks that are checked.\nThis file shows up if ``CONFIG_DETECT_HUNG_TASK`` is enabled."
+}

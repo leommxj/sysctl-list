@@ -1,0 +1,3 @@
+{
+  "text": "Per-cpu reserved forward alloc cache size in page units. Default 1MB per CPU."
+}

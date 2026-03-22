@@ -1,0 +1,3 @@
+{
+  "text": "This value controls the soft lockup detector thread's behavior\nwhen a soft lockup condition is detected as to whether or not\nto gather further debug information. If enabled, each cpu will\nbe issued an NMI and instructed to capture stack trace.\n\nThis feature is only applicable for architectures which support\nNMI.\n\n0: do nothing. This is the default behavior.\n\n1: on detection capture more debug information."
+}

@@ -1,0 +1,3 @@
+{
+  "text": "This is available only on NUMA kernels.\n\nA percentage of the file backed pages in each zone.  Zone reclaim will only\noccur if more than this percentage of pages are file backed and unmapped.\nThis is to insure that a minimal amount of local pages is still available for\nfile I/O even if the node is overallocated.\n\nThe default is 1 percent."
+}

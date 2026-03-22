@@ -1,0 +1,3 @@
+{
+  "text": "If set, the TCP stack behaves conforming to RFC1337. If unset,\n\twe are not conforming to RFC, but prevent TCP TIME_WAIT\n\tassassination.\n\tDefault: 0"
+}

@@ -1,0 +1,3 @@
+{
+  "text": "0 - disabled (default)\n        not 0 - enabled\n\n        If it is enabled, forward packets to the original destination\n        directly when no cache server is available and destination\n        address is not local (iph->daddr is RTN_UNICAST). It is mostly\n        used in transparent web cache cluster."
+}

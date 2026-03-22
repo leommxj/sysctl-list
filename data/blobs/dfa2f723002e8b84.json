@@ -1,0 +1,3 @@
+{
+  "text": "Path for the hotplug policy agent.\nDefault value is \"``/sbin/hotplug``\".\n\n\nhung_task_all_cpu_backtrace:\n================\n\nIf this option is set, the kernel will send an NMI to all CPUs to dump\ntheir backtraces when a hung task is detected. This file shows up if\nCONFIG_DETECT_HUNG_TASK and CONFIG_SMP are enabled.\n\n0: Won't show all CPUs backtraces when a hung task is detected.\nThis is the default behavior.\n\n1: Will non-maskably interrupt all CPUs and dump their backtraces when\na hung task is detected."
+}

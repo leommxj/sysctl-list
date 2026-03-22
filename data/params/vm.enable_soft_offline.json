@@ -1,0 +1,270 @@
+{
+  "availableVersions": [
+    "v6.11",
+    "v6.12",
+    "v6.13",
+    "v6.14",
+    "v6.15",
+    "v6.16",
+    "v6.17",
+    "v6.18",
+    "v6.19"
+  ],
+  "name": "vm.enable_soft_offline",
+  "namespace": "vm",
+  "slug": "vm.enable_soft_offline",
+  "versions": [
+    {
+      "docRefs": [
+        {
+          "blob": "2c1638e4705b789d",
+          "heading": "enable_soft_offline",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/vm.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "sysctl_enable_soft_offline",
+          "handler_symbol": "proc_dointvec_minmax",
+          "path_segments": [
+            "vm",
+            "enable_soft_offline"
+          ],
+          "source_path": "mm/memory-failure.c",
+          "table": "memory_failure_table"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.11"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "2c1638e4705b789d",
+          "heading": "enable_soft_offline",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/vm.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "sysctl_enable_soft_offline",
+          "handler_symbol": "proc_dointvec_minmax",
+          "path_segments": [
+            "vm",
+            "enable_soft_offline"
+          ],
+          "source_path": "mm/memory-failure.c",
+          "table": "memory_failure_table"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.12"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "2c1638e4705b789d",
+          "heading": "enable_soft_offline",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/vm.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "sysctl_enable_soft_offline",
+          "handler_symbol": "proc_dointvec_minmax",
+          "path_segments": [
+            "vm",
+            "enable_soft_offline"
+          ],
+          "source_path": "mm/memory-failure.c",
+          "table": "memory_failure_table"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.13"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "2c1638e4705b789d",
+          "heading": "enable_soft_offline",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/vm.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "sysctl_enable_soft_offline",
+          "handler_symbol": "proc_dointvec_minmax",
+          "path_segments": [
+            "vm",
+            "enable_soft_offline"
+          ],
+          "source_path": "mm/memory-failure.c",
+          "table": "memory_failure_table"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.14"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "2c1638e4705b789d",
+          "heading": "enable_soft_offline",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/vm.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "sysctl_enable_soft_offline",
+          "handler_symbol": "proc_dointvec_minmax",
+          "path_segments": [
+            "vm",
+            "enable_soft_offline"
+          ],
+          "source_path": "mm/memory-failure.c",
+          "table": "memory_failure_table"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.15"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "2c1638e4705b789d",
+          "heading": "enable_soft_offline",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/vm.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "sysctl_enable_soft_offline",
+          "handler_symbol": "proc_dointvec_minmax",
+          "path_segments": [
+            "vm",
+            "enable_soft_offline"
+          ],
+          "source_path": "mm/memory-failure.c",
+          "table": "memory_failure_table"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.16"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "2c1638e4705b789d",
+          "heading": "enable_soft_offline",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/vm.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "sysctl_enable_soft_offline",
+          "handler_symbol": "proc_dointvec_minmax",
+          "path_segments": [
+            "vm",
+            "enable_soft_offline"
+          ],
+          "source_path": "mm/memory-failure.c",
+          "table": "memory_failure_table"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.17"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "2c1638e4705b789d",
+          "heading": "enable_soft_offline",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/vm.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "sysctl_enable_soft_offline",
+          "handler_symbol": "proc_dointvec_minmax",
+          "path_segments": [
+            "vm",
+            "enable_soft_offline"
+          ],
+          "source_path": "mm/memory-failure.c",
+          "table": "memory_failure_table"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.18"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "2c1638e4705b789d",
+          "heading": "enable_soft_offline",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/vm.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "sysctl_enable_soft_offline",
+          "handler_symbol": "proc_dointvec_minmax",
+          "path_segments": [
+            "vm",
+            "enable_soft_offline"
+          ],
+          "source_path": "mm/memory-failure.c",
+          "table": "memory_failure_table"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.19"
+    }
+  ]
+}

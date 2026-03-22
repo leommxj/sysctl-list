@@ -1,0 +1,3 @@
+{
+  "text": "- 0 - disabled (default)\n\t- 1 - enabled\n\n\tIf it's 1, we don't mark out of window RST segments as INVALID."
+}

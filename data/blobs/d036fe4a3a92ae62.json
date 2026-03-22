@@ -1,0 +1,3 @@
+{
+  "text": "Maximum memory used to reassemble IP fragments. When\n\tipfrag_high_thresh bytes of memory is allocated for this purpose,\n\tthe fragment handler will toss packets until ipfrag_low_thresh\n\tis reached."
+}

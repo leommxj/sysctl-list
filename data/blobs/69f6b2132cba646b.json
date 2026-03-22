@@ -1,0 +1,3 @@
+{
+  "text": "UDP does not have tx memory accounting and this tunable has no effect.\n\nRAW variables\n============="
+}

@@ -1,0 +1,3 @@
+{
+  "text": "Enable TCP Westwood+ congestion control algorithm.\n\tTCP Westwood+ is a sender-side only modification of the TCP Reno\n\tprotocol stack that optimizes the performance of TCP congestion\n\tcontrol. It is based on end-to-end bandwidth estimation to set\n\tcongestion window and slow start threshold after a congestion\n\tepisode. Using this estimation, TCP Westwood+ adaptively sets a\n\tslow start threshold and a congestion window which takes into\n\taccount the bandwidth used  at the time congestion is experienced.\n\tTCP Westwood+ significantly increases fairness wrt TCP Reno in\n\twired networks and throughput over wireless links.\n        Default: 0"
+}

@@ -1,0 +1,3 @@
+{
+  "text": "Enable or disable the Partial Reliability extension (RFC3758) which\n\tis used to notify peers that a given DATA should no longer be expected.\n\n\t- 1: Enable extension\n\t- 0: Disable\n\n\tDefault: 1"
+}

@@ -1,0 +1,3 @@
+{
+  "text": "Control use of Explicit Congestion Notification (ECN) by SCTP.\n        Like in TCP, ECN is used only when both ends of the SCTP connection\n        indicate support for it. This feature is useful in avoiding losses\n        due to congestion by allowing supporting routers to signal congestion\n        before having to drop packets.\n\n        1: Enable ecn.\n        0: Disable ecn.\n\n        Default: 1"
+}

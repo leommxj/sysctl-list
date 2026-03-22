@@ -1,0 +1,3 @@
+{
+  "text": "The value in this file represents the number of seconds the\nkernel waits before rebooting on a panic. When you use the\nsoftware watchdog, the recommended setting is 60."
+}

@@ -1,0 +1,3 @@
+{
+  "text": "Maximum number of packets taken from all interfaces in one polling cycle (NAPI\npoll). In one polling cycle interfaces which are registered to polling are\nprobed in a round-robin manner. Also, a polling cycle may not exceed\nnetdev_budget_usecs microseconds, even if netdev_budget has not been\nexhausted."
+}

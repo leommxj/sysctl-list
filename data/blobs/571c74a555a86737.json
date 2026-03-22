@@ -1,0 +1,3 @@
+{
+  "text": "Calling ``prctl(PR_SET_TAGGED_ADDR_CTRL, PR_TAGGED_ADDR_ENABLE, 0, 0, 0)``\n   returns ``-EINVAL`` if the AArch64 Tagged Address ABI is globally\n   disabled by ``sysctl abi.tagged_addr_disabled=1``. The default\n   ``sysctl abi.tagged_addr_disabled`` configuration is 0."
+}

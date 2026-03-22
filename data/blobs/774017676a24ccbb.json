@@ -1,0 +1,3 @@
+{
+  "text": "This value controls the hard lockup detector behavior when a hard\nlockup condition is detected as to whether or not to gather further\ndebug information. If enabled, arch-specific all-CPU stack dumping\nwill be initiated.\n\n0: do nothing. This is the default behavior.\n\n1: on detection capture more debug information."
+}

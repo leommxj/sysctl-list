@@ -1,0 +1,3 @@
+{
+  "text": "Accept RA with source-address that is found on local machine\n\tif the RA is otherwise proper and able to be accepted.\n\n\tDefault is to NOT accept these as it may be an un-intended\n\tnetwork loop.\n\n\tFunctional default:\n\n\t   - enabled if accept_ra_from_local is enabled\n\t     on a specific interface.\n\t   - disabled if accept_ra_from_local is disabled\n\t     on a specific interface."
+}

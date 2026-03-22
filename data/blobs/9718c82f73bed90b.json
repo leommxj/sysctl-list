@@ -1,0 +1,3 @@
+{
+  "text": "0 - disabled (default)\n\tnot 0 - enabled\n\n\tIf set, disable the director function while the server is\n\tin backup mode to avoid packet loops for DR/TUN methods."
+}

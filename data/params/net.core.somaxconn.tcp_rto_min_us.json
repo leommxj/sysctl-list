@@ -1,0 +1,162 @@
+{
+  "availableVersions": [
+    "v6.11",
+    "v6.12",
+    "v6.13",
+    "v6.14",
+    "v6.15",
+    "v6.16",
+    "v6.17",
+    "v6.18",
+    "v6.19"
+  ],
+  "name": "net.core.somaxconn.tcp_rto_min_us",
+  "namespace": "net",
+  "slug": "net.core.somaxconn.tcp_rto_min_us",
+  "versions": [
+    {
+      "docRefs": [
+        {
+          "blob": "a372c48b778c3022",
+          "heading": "tcp_rto_min_us",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v6.11"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "a372c48b778c3022",
+          "heading": "tcp_rto_min_us",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v6.12"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "a372c48b778c3022",
+          "heading": "tcp_rto_min_us",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v6.13"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "a372c48b778c3022",
+          "heading": "tcp_rto_min_us",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v6.14"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "f98d382c2ef91e0c",
+          "heading": "tcp_rto_min_us",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v6.15"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "f98d382c2ef91e0c",
+          "heading": "tcp_rto_min_us",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v6.16"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "f98d382c2ef91e0c",
+          "heading": "tcp_rto_min_us",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v6.17"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "f98d382c2ef91e0c",
+          "heading": "tcp_rto_min_us",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v6.18"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "f98d382c2ef91e0c",
+          "heading": "tcp_rto_min_us",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v6.19"
+    }
+  ]
+}

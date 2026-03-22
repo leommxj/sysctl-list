@@ -1,0 +1,3 @@
+{
+  "text": "/proc/sys/kernel/sched_rt_period_us:\n  The scheduling period that is equivalent to 100% CPU bandwidth."
+}

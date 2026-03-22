@@ -1,0 +1,3 @@
+{
+  "text": "0 - disabled\n\tnot 0 - enabled (default)\n\n\tBy default, reject with FRAG_NEEDED all DF packets that exceed\n\tthe PMTU, irrespective of the forwarding method. For TUN method\n\tthe flag can be disabled to fragment such packets."
+}

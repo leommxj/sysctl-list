@@ -1,0 +1,3 @@
+{
+  "text": "- 0  - disabled (default)\n\n\tThe drop_packet defense is designed to drop 1/rate packets\n\tbefore forwarding them to real servers. If the rate is 1, then\n\tdrop all the incoming packets.\n\n\tThe value definition is the same as that of the drop_entry. In\n\tthe automatic mode, the rate is determined by the follow\n\tformula: rate = amemthresh / (amemthresh - available_memory)\n\twhen available memory is less than the available memory\n\tthreshold. When the mode 3 is set, the always mode drop rate"
+}

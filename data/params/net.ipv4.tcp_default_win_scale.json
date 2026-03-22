@@ -1,0 +1,43 @@
+{
+  "availableVersions": [
+    "v2.6.11",
+    "v2.6.12"
+  ],
+  "name": "net.ipv4.tcp_default_win_scale",
+  "namespace": "net",
+  "slug": "net.ipv4.tcp_default_win_scale",
+  "versions": [
+    {
+      "docRefs": [
+        {
+          "blob": "c261d278b160f87a",
+          "heading": "tcp_default_win_scale",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.txt"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v2.6.11"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "c261d278b160f87a",
+          "heading": "tcp_default_win_scale",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.txt"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v2.6.12"
+    }
+  ]
+}

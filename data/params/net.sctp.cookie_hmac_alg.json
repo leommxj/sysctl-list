@@ -1,0 +1,53 @@
+{
+  "availableVersions": [
+    "v3.14",
+    "v3.15"
+  ],
+  "name": "net.sctp.cookie_hmac_alg",
+  "namespace": "net",
+  "slug": "net.sctp.cookie_hmac_alg",
+  "versions": [
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "sctp_hmac_alg",
+          "handler_symbol": "proc_sctp_do_hmac_alg",
+          "path_segments": [
+            "net",
+            "sctp",
+            "cookie_hmac_alg"
+          ],
+          "source_path": "net/sctp/sysctl.c",
+          "table": "sctp_net_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v3.14"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "sctp_hmac_alg",
+          "handler_symbol": "proc_sctp_do_hmac_alg",
+          "path_segments": [
+            "net",
+            "sctp",
+            "cookie_hmac_alg"
+          ],
+          "source_path": "net/sctp/sysctl.c",
+          "table": "sctp_net_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v3.15"
+    }
+  ]
+}

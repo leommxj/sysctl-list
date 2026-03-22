@@ -1,0 +1,3 @@
+{
+  "text": "valid lifetime (in seconds) for temporary addresses.\n\tDefault: 604800 (7 days)"
+}

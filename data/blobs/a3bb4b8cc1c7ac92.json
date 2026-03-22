@@ -1,0 +1,3 @@
+{
+  "text": "When implementing a user daemon, please be careful of RLIMIT_NOFILE,\n``/proc/sys/fs/nr_open`` and ``/proc/sys/fs/file-max``.  Typically these needn't\nbe huge since they're related to the number of open device blobs rather than\nopen files of each individual filesystem."
+}

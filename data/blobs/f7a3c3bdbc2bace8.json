@@ -1,0 +1,3 @@
+{
+  "text": "This controls console messages from the networking stack that can occur because\nof problems on the network like duplicate address or bad checksums. Normally,\nthis should be enabled, but if the problem persists the messages can be\ndisabled."
+}

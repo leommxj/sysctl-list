@@ -1,0 +1,3 @@
+{
+  "text": "0 - disabled (default)\n\tnot 0 - enabled\n\n\tBy default, only init_net namespace can log packets into kernel log\n\twith LOG target; this aims to prevent containers from flooding host\n\tkernel log. If enabled, this target also works in other network\n\tnamespaces. This variable is only accessible from init_net."
+}

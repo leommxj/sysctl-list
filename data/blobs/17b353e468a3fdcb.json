@@ -1,0 +1,3 @@
+{
+  "text": "Controls which hash policy to use for multipath routes. Only valid\n\tfor kernels built with CONFIG_IP_ROUTE_MULTIPATH enabled.\n\n\tDefault: 0 (Layer 3)\n\n\tPossible values:\n\n\t- 0 - Layer 3\n\t- 1 - Layer 4\n\t- 2 - Layer 3 or inner Layer 3 if present\n\t- 3 - Custom multipath hash. Fields used for multipath hash calculation\n\t  are determined by fib_multipath_hash_fields sysctl"
+}

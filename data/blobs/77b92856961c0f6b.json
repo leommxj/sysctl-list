@@ -1,0 +1,3 @@
+{
+  "text": "Allow processes to receive tx timestamps looped together with the original\npacket contents. If disabled, transmit timestamp requests from unprivileged\nprocesses are dropped unless socket option SOF_TIMESTAMPING_OPT_TSONLY is set.\nDefault: 1 (on)"
+}

@@ -1,0 +1,3 @@
+{
+  "text": "This protection is similar to protected_fifos, but it\navoids writes to an attacker-controlled regular file, where a program\nexpected to create one.\n\nWhen set to \"0\", writing to regular files is unrestricted.\n\nWhen set to \"1\" don't allow O_CREAT open on regular files that we\ndon't own in world writable sticky directories, unless they are\nowned by the owner of the directory.\n\nWhen set to \"2\" it also applies to group writable sticky directories."
+}

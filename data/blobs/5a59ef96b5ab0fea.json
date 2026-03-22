@@ -1,0 +1,3 @@
+{
+  "text": "This factor controls the aggressiveness of kswapd. It defines the\namount of memory left in a node/system before kswapd is woken up and\nhow much memory needs to be free before kswapd goes back to sleep.\n\nThe unit is in fractions of 10,000. The default value of 10 means the\ndistances between watermarks are 0.1% of the available memory in the\nnode/system. The maximum value is 3000, or 30% of memory.\n\nA high rate of threads entering direct reclaim (allocstall) or kswapd\ngoing to sleep prematurely (kswapd_low_wmark_hit_quickly) can indicate\nthat the number of free pages kswapd maintains for latency reasons is\ntoo small for the allocation bursts occurring in the system. This knob\ncan then be used to tune kswapd aggressiveness accordingly."
+}

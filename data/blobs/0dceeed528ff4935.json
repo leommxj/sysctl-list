@@ -1,0 +1,3 @@
+{
+  "text": "Automatically reflect the flow label. Needed for Path MTU\n\tDiscovery to work with Equal Cost Multipath Routing in anycast\n\tenvironments. See RFC 7690 and:\n\thttps://tools.ietf.org/html/draft-wang-6man-flow-label-reflection-01\n\tTRUE: enabled\n\tFALSE: disabled\n\tDefault: FALSE"
+}

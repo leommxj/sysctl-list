@@ -1,0 +1,3 @@
+{
+  "text": "The threshold at which we will start garbage collecting for IPv4\n\tdestination cache entries.  At twice this value the system will\n\trefuse new allocations. The value must be set below the flowcache\n\tlimit (4096 * number of online cpus) to take effect."
+}

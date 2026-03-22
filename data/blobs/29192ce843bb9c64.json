@@ -1,0 +1,3 @@
+{
+  "text": "Setting this to \"1\" clears accumulated XFS statistics\n\tin /proc/fs/xfs/stat.  It then immediately resets to \"0\"."
+}

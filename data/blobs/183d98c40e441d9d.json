@@ -1,0 +1,3 @@
+{
+  "text": "Set the maximum number for retransmissions that an association can\n\tattempt deciding that the remote end is unreachable.  If this value\n\tis exceeded, the association is terminated.\n\n\tDefault: 10"
+}

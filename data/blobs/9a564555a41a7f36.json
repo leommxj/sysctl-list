@@ -1,0 +1,3 @@
+{
+  "text": "Controls the kernel's behaviour when an oops or BUG is encountered.\n\n= ===================================================================\n0 Try to continue operation.\n1 Panic immediately.  If the `panic` sysctl is also non-zero then the\n  machine will be rebooted.\n= ==================================================================="
+}

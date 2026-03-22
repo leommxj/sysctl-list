@@ -1,0 +1,3 @@
+{
+  "text": "This parameter can be used to disable or enable the soft lockup detector\n_and_ the NMI watchdog (i.e. the hard lockup detector) at the same time.\n\n   0 - disable both lockup detectors\n   1 - enable both lockup detectors\n\nThe soft lockup detector and the NMI watchdog can also be disabled or\nenabled individually, using the soft_watchdog and nmi_watchdog parameters.\nIf the watchdog parameter is read, for example by executing\n\n   cat /proc/sys/kernel/watchdog\n\nthe output of this command (0 or 1) shows the logical OR of soft_watchdog\nand nmi_watchdog."
+}

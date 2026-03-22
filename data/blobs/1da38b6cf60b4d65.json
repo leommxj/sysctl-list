@@ -1,0 +1,3 @@
+{
+  "text": "This value can be used to query and set the run time limit\non the maximum shared memory segment size that can be created.\nShared memory segments up to 1Gb are now supported in the\nkernel.  This value defaults to ``SHMMAX``."
+}

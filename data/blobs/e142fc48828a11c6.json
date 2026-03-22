@@ -1,0 +1,3 @@
+{
+  "text": "Some warning messages are rate limited. printk_ratelimit specifies\nthe minimum length of time between these messages (in jiffies), by\ndefault we allow one every 5 seconds.\n\nA value of 0 will disable rate limiting."
+}

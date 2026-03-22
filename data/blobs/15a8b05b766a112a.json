@@ -1,0 +1,3 @@
+{
+  "text": "The maximum value (in milliseconds) of the round trip timeout.  This\n\tis the largest time interval that can elapse between retransmissions.\n\n\tDefault: 60000"
+}

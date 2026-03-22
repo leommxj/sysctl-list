@@ -1,0 +1,3 @@
+{
+  "text": "Available only when CONFIG_COMPACTION is set. When set to 1, compaction is\nallowed to examine the unevictable lru (mlocked pages) for pages to compact.\nThis should be used on systems where stalls for minor page faults are an\nacceptable trade for large contiguous free memory.  Set to 0 to prevent\ncompaction from moving pages that are unevictable.  Default value is 1."
+}

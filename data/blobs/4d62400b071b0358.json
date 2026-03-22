@@ -1,0 +1,3 @@
+{
+  "text": "Maximum value for DESYNC_FACTOR, which is a random value\n\tthat ensures that clients don't synchronize with each\n\tother and generate new addresses at exactly the same time.\n\tvalue is in seconds.\n\n\tDefault: 600"
+}

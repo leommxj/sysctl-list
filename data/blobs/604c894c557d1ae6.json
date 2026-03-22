@@ -1,0 +1,3 @@
+{
+  "text": "Limit the maximal rates for sending ICMPv6 packets.\n\t0 to disable any limiting, otherwise the maximal rate in jiffies(1)\n\tDefault: 100\n\n\nIPv6 Update by:\nPekka Savola <pekkas@netcore.fi>\nYOSHIFUJI Hideaki / USAGI Project <yoshfuji@linux-ipv6.org>"
+}

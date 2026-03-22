@@ -1,0 +1,105 @@
+{
+  "availableVersions": [
+    "v6.17",
+    "v6.18",
+    "v6.19"
+  ],
+  "name": "net.ipv6.force_forwarding",
+  "namespace": "net",
+  "slug": "net.ipv6.force_forwarding",
+  "versions": [
+    {
+      "docRefs": [
+        {
+          "blob": "b75374c68a9709fe",
+          "heading": "force_forwarding",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "force_forwarding",
+          "handler_symbol": "addrconf_sysctl_force_forwarding",
+          "path_segments": [
+            "net",
+            "ipv6",
+            "conf",
+            "*",
+            "force_forwarding"
+          ],
+          "source_path": "net/ipv6/addrconf.c",
+          "table": "addrconf_sysctl"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.17"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "b75374c68a9709fe",
+          "heading": "force_forwarding",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "force_forwarding",
+          "handler_symbol": "addrconf_sysctl_force_forwarding",
+          "path_segments": [
+            "net",
+            "ipv6",
+            "conf",
+            "*",
+            "force_forwarding"
+          ],
+          "source_path": "net/ipv6/addrconf.c",
+          "table": "addrconf_sysctl"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.18"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "b75374c68a9709fe",
+          "heading": "force_forwarding",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "force_forwarding",
+          "handler_symbol": "addrconf_sysctl_force_forwarding",
+          "path_segments": [
+            "net",
+            "ipv6",
+            "conf",
+            "*",
+            "force_forwarding"
+          ],
+          "source_path": "net/ipv6/addrconf.c",
+          "table": "addrconf_sysctl"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.19"
+    }
+  ]
+}

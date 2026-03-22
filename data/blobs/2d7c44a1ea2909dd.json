@@ -1,0 +1,3 @@
+{
+  "text": "When logging unaligned accesses, controls whether the stack is\ndumped.\n\n= ===================================================\n0 Do not dump the stack. This is the default setting.\n1 Dump the stack.\n= ===================================================\n\nSee also `ignore-unaligned-usertrap`_."
+}

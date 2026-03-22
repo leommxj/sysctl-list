@@ -1,0 +1,3 @@
+{
+  "text": "The maximum send socket buffer size in bytes.\n\nDefault: 4194304"
+}

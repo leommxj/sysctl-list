@@ -1,0 +1,77 @@
+{
+  "availableVersions": [
+    "v5.3",
+    "v5.4",
+    "v5.5",
+    "v5.6"
+  ],
+  "name": "kernel.l2cr",
+  "namespace": "kernel",
+  "slug": "kernel.l2cr",
+  "versions": [
+    {
+      "docRefs": [
+        {
+          "blob": "31f89f7887539ff9",
+          "heading": "l2cr: (PPC only)",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/kernel.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v5.3"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "31f89f7887539ff9",
+          "heading": "l2cr: (PPC only)",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/kernel.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v5.4"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "31f89f7887539ff9",
+          "heading": "l2cr: (PPC only)",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/kernel.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v5.5"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "31f89f7887539ff9",
+          "heading": "l2cr: (PPC only)",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/kernel.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v5.6"
+    }
+  ]
+}

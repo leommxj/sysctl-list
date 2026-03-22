@@ -1,0 +1,3 @@
+{
+  "text": "- 0 - disabled (default)\n\t- not 0 - enabled\n\n\tIf set, maintain connection tracking entries for\n\tconnections handled by IPVS.\n\n\tThis should be enabled if connections handled by IPVS are to be\n\talso handled by stateful firewall rules. That is, iptables rules\n\tthat make use of connection tracking.  It is a performance\n\toptimisation to disable this setting otherwise.\n\n\tConnections handled by the IPVS FTP application module\n\twill have connection tracking entries regardless of this setting.\n\n\tOnly available when IPVS is compiled with CONFIG_IP_VS_NFCT enabled."
+}

@@ -1,0 +1,3 @@
+{
+  "text": "Limit the maximal rates for sending ICMPv6 packets.\n\t0 to disable any limiting,\n\totherwise the minimal space between responses in milliseconds.\n\tDefault: 1000\n\n\nIPv6 Update by:\nPekka Savola <pekkas@netcore.fi>\nYOSHIFUJI Hideaki / USAGI Project <yoshfuji@linux-ipv6.org>"
+}

@@ -1,0 +1,3 @@
+{
+  "text": "Defines how link-local and autoconf addresses are generated.\n\n\t=  =================================================================\n\t0  generate address based on EUI64 (default)\n\t1  do no generate a link-local address, use EUI64 for addresses\n\t   generated from autoconf\n\t2  generate stable privacy addresses, using the secret from\n\t   stable_secret (RFC7217)\n\t3  generate stable privacy addresses, using a random secret if unset\n\t=  ================================================================="
+}

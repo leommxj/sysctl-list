@@ -1,0 +1,38 @@
+{
+  "availableVersions": [
+    "v6.19"
+  ],
+  "name": "kernel.softlockup_sys_info",
+  "namespace": "kernel",
+  "slug": "kernel.softlockup_sys_info",
+  "versions": [
+    {
+      "docRefs": [
+        {
+          "blob": "1d7837050ec18efd",
+          "heading": "softlockup_sys_info & hardlockup_sys_info",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/kernel.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "softlockup_si_mask",
+          "handler_symbol": "sysctl_sys_info_handler",
+          "path_segments": [
+            "kernel",
+            "softlockup_sys_info"
+          ],
+          "source_path": "kernel/watchdog.c",
+          "table": "watchdog_sysctls"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.19"
+    }
+  ]
+}

@@ -1,0 +1,669 @@
+{
+  "availableVersions": [
+    "v5.18",
+    "v5.19",
+    "v6.0",
+    "v6.1",
+    "v6.2",
+    "v6.3",
+    "v6.4",
+    "v6.5",
+    "v6.6",
+    "v6.7",
+    "v6.8",
+    "v6.9",
+    "v6.10",
+    "v6.11",
+    "v6.12",
+    "v6.13",
+    "v6.14",
+    "v6.15",
+    "v6.16",
+    "v6.17",
+    "v6.18",
+    "v6.19"
+  ],
+  "name": "net.smc.autocorking_size",
+  "namespace": "net",
+  "slug": "net.smc.autocorking_size",
+  "versions": [
+    {
+      "docRefs": [
+        {
+          "blob": "c65b4206913f3386",
+          "heading": "autocorking_size",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/smc-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "sysctl_autocorking_size",
+          "handler_symbol": "proc_douintvec",
+          "path_segments": [
+            "net",
+            "smc",
+            "autocorking_size"
+          ],
+          "source_path": "net/smc/smc_sysctl.c",
+          "table": "smc_table"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v5.18"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "c65b4206913f3386",
+          "heading": "autocorking_size",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/smc-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "sysctl_autocorking_size",
+          "handler_symbol": "proc_douintvec",
+          "path_segments": [
+            "net",
+            "smc",
+            "autocorking_size"
+          ],
+          "source_path": "net/smc/smc_sysctl.c",
+          "table": "smc_table"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v5.19"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "c65b4206913f3386",
+          "heading": "autocorking_size",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/smc-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "sysctl_autocorking_size",
+          "handler_symbol": "proc_douintvec",
+          "path_segments": [
+            "net",
+            "smc",
+            "autocorking_size"
+          ],
+          "source_path": "net/smc/smc_sysctl.c",
+          "table": "smc_table"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.0"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "c65b4206913f3386",
+          "heading": "autocorking_size",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/smc-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "sysctl_autocorking_size",
+          "handler_symbol": "proc_douintvec",
+          "path_segments": [
+            "net",
+            "smc",
+            "autocorking_size"
+          ],
+          "source_path": "net/smc/smc_sysctl.c",
+          "table": "smc_table"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.1"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "c65b4206913f3386",
+          "heading": "autocorking_size",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/smc-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "sysctl_autocorking_size",
+          "handler_symbol": "proc_douintvec",
+          "path_segments": [
+            "net",
+            "smc",
+            "autocorking_size"
+          ],
+          "source_path": "net/smc/smc_sysctl.c",
+          "table": "smc_table"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.2"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "c65b4206913f3386",
+          "heading": "autocorking_size",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/smc-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "sysctl_autocorking_size",
+          "handler_symbol": "proc_douintvec",
+          "path_segments": [
+            "net",
+            "smc",
+            "autocorking_size"
+          ],
+          "source_path": "net/smc/smc_sysctl.c",
+          "table": "smc_table"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.3"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "c65b4206913f3386",
+          "heading": "autocorking_size",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/smc-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "sysctl_autocorking_size",
+          "handler_symbol": "proc_douintvec",
+          "path_segments": [
+            "net",
+            "smc",
+            "autocorking_size"
+          ],
+          "source_path": "net/smc/smc_sysctl.c",
+          "table": "smc_table"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.4"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "c65b4206913f3386",
+          "heading": "autocorking_size",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/smc-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "sysctl_autocorking_size",
+          "handler_symbol": "proc_douintvec",
+          "path_segments": [
+            "net",
+            "smc",
+            "autocorking_size"
+          ],
+          "source_path": "net/smc/smc_sysctl.c",
+          "table": "smc_table"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.5"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "c65b4206913f3386",
+          "heading": "autocorking_size",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/smc-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "sysctl_autocorking_size",
+          "handler_symbol": "proc_douintvec",
+          "path_segments": [
+            "net",
+            "smc",
+            "autocorking_size"
+          ],
+          "source_path": "net/smc/smc_sysctl.c",
+          "table": "smc_table"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.6"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "c65b4206913f3386",
+          "heading": "autocorking_size",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/smc-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "sysctl_autocorking_size",
+          "handler_symbol": "proc_douintvec",
+          "path_segments": [
+            "net",
+            "smc",
+            "autocorking_size"
+          ],
+          "source_path": "net/smc/smc_sysctl.c",
+          "table": "smc_table"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.7"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "c65b4206913f3386",
+          "heading": "autocorking_size",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/smc-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "sysctl_autocorking_size",
+          "handler_symbol": "proc_douintvec",
+          "path_segments": [
+            "net",
+            "smc",
+            "autocorking_size"
+          ],
+          "source_path": "net/smc/smc_sysctl.c",
+          "table": "smc_table"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.8"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "c65b4206913f3386",
+          "heading": "autocorking_size",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/smc-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "sysctl_autocorking_size",
+          "handler_symbol": "proc_douintvec",
+          "path_segments": [
+            "net",
+            "smc",
+            "autocorking_size"
+          ],
+          "source_path": "net/smc/smc_sysctl.c",
+          "table": "smc_table"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.9"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "c65b4206913f3386",
+          "heading": "autocorking_size",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/smc-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "sysctl_autocorking_size",
+          "handler_symbol": "proc_douintvec",
+          "path_segments": [
+            "net",
+            "smc",
+            "autocorking_size"
+          ],
+          "source_path": "net/smc/smc_sysctl.c",
+          "table": "smc_table"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.10"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "c65b4206913f3386",
+          "heading": "autocorking_size",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/smc-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "sysctl_autocorking_size",
+          "handler_symbol": "proc_douintvec",
+          "path_segments": [
+            "net",
+            "smc",
+            "autocorking_size"
+          ],
+          "source_path": "net/smc/smc_sysctl.c",
+          "table": "smc_table"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.11"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "c65b4206913f3386",
+          "heading": "autocorking_size",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/smc-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "sysctl_autocorking_size",
+          "handler_symbol": "proc_douintvec",
+          "path_segments": [
+            "net",
+            "smc",
+            "autocorking_size"
+          ],
+          "source_path": "net/smc/smc_sysctl.c",
+          "table": "smc_table"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.12"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "c65b4206913f3386",
+          "heading": "autocorking_size",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/smc-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "sysctl_autocorking_size",
+          "handler_symbol": "proc_douintvec",
+          "path_segments": [
+            "net",
+            "smc",
+            "autocorking_size"
+          ],
+          "source_path": "net/smc/smc_sysctl.c",
+          "table": "smc_table"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.13"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "c65b4206913f3386",
+          "heading": "autocorking_size",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/smc-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "sysctl_autocorking_size",
+          "handler_symbol": "proc_douintvec",
+          "path_segments": [
+            "net",
+            "smc",
+            "autocorking_size"
+          ],
+          "source_path": "net/smc/smc_sysctl.c",
+          "table": "smc_table"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.14"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "c65b4206913f3386",
+          "heading": "autocorking_size",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/smc-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "sysctl_autocorking_size",
+          "handler_symbol": "proc_douintvec",
+          "path_segments": [
+            "net",
+            "smc",
+            "autocorking_size"
+          ],
+          "source_path": "net/smc/smc_sysctl.c",
+          "table": "smc_table"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.15"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "c65b4206913f3386",
+          "heading": "autocorking_size",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/smc-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "sysctl_autocorking_size",
+          "handler_symbol": "proc_douintvec",
+          "path_segments": [
+            "net",
+            "smc",
+            "autocorking_size"
+          ],
+          "source_path": "net/smc/smc_sysctl.c",
+          "table": "smc_table"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.16"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "c65b4206913f3386",
+          "heading": "autocorking_size",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/smc-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "sysctl_autocorking_size",
+          "handler_symbol": "proc_douintvec",
+          "path_segments": [
+            "net",
+            "smc",
+            "autocorking_size"
+          ],
+          "source_path": "net/smc/smc_sysctl.c",
+          "table": "smc_table"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.17"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "c65b4206913f3386",
+          "heading": "autocorking_size",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/smc-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "sysctl_autocorking_size",
+          "handler_symbol": "proc_douintvec",
+          "path_segments": [
+            "net",
+            "smc",
+            "autocorking_size"
+          ],
+          "source_path": "net/smc/smc_sysctl.c",
+          "table": "smc_table"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.18"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "c65b4206913f3386",
+          "heading": "autocorking_size",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/smc-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "sysctl_autocorking_size",
+          "handler_symbol": "proc_douintvec",
+          "path_segments": [
+            "net",
+            "smc",
+            "autocorking_size"
+          ],
+          "source_path": "net/smc/smc_sysctl.c",
+          "table": "smc_table"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.19"
+    }
+  ]
+}

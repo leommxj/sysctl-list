@@ -1,0 +1,3 @@
+{
+  "text": "Controls user space access for reading perf event counters. When set to 1,\nuser space can read performance monitor counter registers directly.\n\nThe default value is 0 (access disabled).\n\nSee Documentation/arm64/perf.rst for more information."
+}

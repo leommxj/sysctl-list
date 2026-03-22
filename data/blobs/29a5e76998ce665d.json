@@ -1,0 +1,3 @@
+{
+  "text": "Default value for IPV6_V6ONLY socket option,\n\twhich restricts use of the IPv6 socket to IPv6 communication\n\tonly.\n\t\tTRUE: disable IPv4-mapped address feature\n\t\tFALSE: enable IPv4-mapped address feature\n\n\tDefault: FALSE (as specified in RFC3493)\n\nIPv6 Fragmentation:"
+}

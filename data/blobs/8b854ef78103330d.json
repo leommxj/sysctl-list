@@ -1,0 +1,3 @@
+{
+  "text": "Minimum number of entries to keep.  Garbage collector will not\n\tpurge entries if there are fewer than this number.\n\n\tDefault: 128"
+}

@@ -1,0 +1,3 @@
+{
+  "text": "Enables child sockets to inherit the L3 master device index.\n\tEnabling this option allows a \"global\" listen socket to work\n\tacross L3 master domains (e.g., VRFs) with connected sockets\n\tderived from the listen socket to be bound to the L3 domain in\n\twhich the packets originated. Only valid when the kernel was\n\tcompiled with CONFIG_NET_L3_MASTER_DEV.\n\n\tDefault: 0 (disabled)"
+}

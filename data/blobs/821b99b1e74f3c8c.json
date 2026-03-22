@@ -1,0 +1,3 @@
+{
+  "text": "The four values in printk denote: console_loglevel,\ndefault_message_loglevel, minimum_console_loglevel and\ndefault_console_loglevel respectively.\n\nThese values influence printk() behavior when printing or\nlogging error messages. See 'man 2 syslog' for more info on\nthe different loglevels.\n\n- console_loglevel:\n\tmessages with a higher priority than\n\tthis will be printed to the console\n- default_message_loglevel:\n\tmessages without an explicit priority\n\twill be printed with this priority\n- minimum_console_loglevel:\n\tminimum (highest) value to which\n\tconsole_loglevel can be set\n- default_console_loglevel:\n\tdefault value for console_loglevel"
+}

@@ -1,0 +1,3 @@
+{
+  "text": "Controls files created in SGID directories.\n\tIf the group ID of the new file does not match the effective group\n\tID or one of the supplementary group IDs of the parent dir, the\n\tISGID bit is cleared if the irix_sgid_inherit compatibility sysctl\n\tis set."
+}

@@ -1,0 +1,3 @@
+{
+  "text": "Max allowed *minimum* utilization.\n\nDefault value is 1024, which is the maximum possible value.\n\nIt means that any requested uclamp.min value cannot be greater than\nsched_util_clamp_min, i.e., it is restricted to the range\n[0:sched_util_clamp_min]."
+}

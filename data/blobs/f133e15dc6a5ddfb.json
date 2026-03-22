@@ -1,0 +1,3 @@
+{
+  "text": "Control RFC 6980 (Security Implications of IPv6 Fragmentation\n\twith IPv6 Neighbor Discovery) behavior:\n\t1 - (default) discard fragmented neighbor discovery packets\n\t0 - allow fragmented neighbor discovery packets\n\nicmp/*:"
+}

@@ -1,0 +1,3 @@
+{
+  "text": "0 - disabled (default)\n\tnot 0 - enabled\n\n\tEnable connection tracking flow timestamping.\n\nnf_conntrack_udp_timeout - INTEGER (seconds)\n\tdefault 30\n\nnf_conntrack_udp_timeout_stream - INTEGER (seconds)\n\tdefault 180\n\n\tThis extended timeout will be used in case there is an UDP stream\n\tdetected."
+}

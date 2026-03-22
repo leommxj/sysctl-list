@@ -1,0 +1,3 @@
+{
+  "text": "Hung task check interval. If hung task checking is enabled\n(see hung_task_timeout_secs), the check is done every\nhung_task_check_interval_secs seconds.\nThis file shows up if CONFIG_DETECT_HUNG_TASK is enabled.\n\n0 (default): means use hung_task_timeout_secs as checking interval.\nPossible values to set are in range {0..LONG_MAX/HZ}."
+}

@@ -1,0 +1,3 @@
+{
+  "text": "This is the pid which will be signalled on reboot (notably, by\nCtrl-Alt-Delete). Writing a value to this file which doesn't\ncorrespond to a running process will result in ``-ESRCH``.\n\nSee also `ctrl-alt-del`_."
+}

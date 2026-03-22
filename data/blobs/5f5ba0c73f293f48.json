@@ -1,0 +1,3 @@
+{
+  "text": "Number of attempts before give up attempting to generate\n\tvalid temporary addresses.\n\n\tDefault: 5"
+}

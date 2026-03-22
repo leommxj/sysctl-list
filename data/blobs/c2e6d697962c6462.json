@@ -1,0 +1,3 @@
+{
+  "text": "1 : pass bridged pppoe-tagged IP/IPv6 traffic to {ip,ip6}tables.\n\t0 : disable this.\n\tDefault: 1\n\n\nUNDOCUMENTED:\n\ndev_weight FIXME\ndiscovery_slots FIXME\ndiscovery_timeout FIXME\nfast_poll_increase FIXME\nip6_queue_maxlen FIXME\nlap_keepalive_time FIXME\nlo_cong FIXME\nmax_baud_rate FIXME\nmax_dgram_qlen FIXME\nmax_noreply_time FIXME\nmax_tx_data_size FIXME\nmax_tx_window FIXME\nmin_tx_turn_time FIXME\nmod_cong FIXME\nno_cong FIXME\nno_cong_thresh FIXME\nslot_timeout FIXME\nwarn_noreply_time FIXME"
+}

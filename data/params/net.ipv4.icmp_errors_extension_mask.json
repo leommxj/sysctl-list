@@ -1,0 +1,31 @@
+{
+  "availableVersions": [
+    "v6.19"
+  ],
+  "name": "net.ipv4.icmp_errors_extension_mask",
+  "namespace": "net",
+  "slug": "net.ipv4.icmp_errors_extension_mask",
+  "versions": [
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "sysctl_icmp_errors_extension_mask",
+          "handler_symbol": "proc_dou8vec_minmax",
+          "path_segments": [
+            "net",
+            "ipv4",
+            "icmp_errors_extension_mask"
+          ],
+          "source_path": "net/ipv4/sysctl_net_ipv4.c",
+          "table": "ipv4_net_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.19"
+    }
+  ]
+}

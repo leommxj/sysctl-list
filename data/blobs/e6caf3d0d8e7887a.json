@@ -1,0 +1,3 @@
+{
+  "text": "# NUM_RPS_ENTRIES=16384\n   # echo $NUM_RPS_ENTRIES > /proc/sys/net/core/rps_sock_flow_entries"
+}

@@ -1,0 +1,3 @@
+{
+  "text": "When the pending fast open request number is larger than\nfastopenq->max_qlen, the TCP stack will reject the fast open request\nand update this counter. When this counter is updated, the TCP stack\nwon't update TcpExtTCPFastOpenPassive or\nTcpExtTCPFastOpenPassiveFail. The fastopenq->max_qlen is set by the\nTCP_FASTOPEN socket operation and it could not be larger than\nnet.core.somaxconn. For example:"
+}

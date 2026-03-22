@@ -1,0 +1,3 @@
+{
+  "text": "Controls the max number of connections can be added to a SMC-R link group. The\n\tacceptable value ranges from 16 to 255. Only for SMC-R v2.1 and later.\n\n\tDefault: 255"
+}

@@ -1,0 +1,3 @@
+{
+  "text": "Scales the maximum number of packets that can be processed during a TX softirq cycle.\nEffective on a per CPU basis. Allows scaling of current dev_weight for asymmetric\nnet stack processing needs. Be careful to avoid making TX softirq processing a CPU hog.\nCalculation is based on dev_weight (dev_weight * dev_weight_tx_bias).\nDefault: 1"
+}

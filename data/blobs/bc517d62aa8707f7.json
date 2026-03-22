@@ -1,0 +1,3 @@
+{
+  "text": "Define HMAC policy for ingress SR-enabled packets on this interface.\n\n\t-1 - Ignore HMAC field\n\t0 - Accept SR packets without HMAC, validate SR packets with HMAC\n\t1 - Drop SR packets without HMAC, validate SR packets with HMAC\n\n\tDefault is 0."
+}

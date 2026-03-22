@@ -1,0 +1,3 @@
+{
+  "text": "Flow limit is compiled in by default (CONFIG_NET_FLOW_LIMIT), but not\nturned on. It is implemented for each CPU independently (to avoid lock\nand cache contention) and toggled per CPU by setting the relevant bit\nin sysctl net.core.flow_limit_cpu_bitmap. It exposes the same CPU\nbitmap interface as rps_cpus (see above) when called from procfs::"
+}

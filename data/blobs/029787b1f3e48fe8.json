@@ -1,0 +1,3 @@
+{
+  "text": "Controls which hash policy to use for multipath routes.\n\tDefault: 0 (Layer 3)\n\tPossible values:\n\t0 - Layer 3 (source and destination addresses plus flow label)\n\t1 - Layer 4 (standard 5-tuple)\n\t2 - Layer 3 or inner Layer 3 if present"
+}

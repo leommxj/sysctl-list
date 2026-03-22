@@ -1,0 +1,3 @@
+{
+  "text": "0 - disabled\n\tnot 0 - enabled (default)\n\n\tIf disabled, the estimation will be stop, and you can't see\n\tany update on speed estimation data.\n\n\tYou can always re-enable estimation by setting this value to 1.\n\tBut be careful, the first estimation after re-enable is not\n\taccurate."
+}

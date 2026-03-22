@@ -1,0 +1,3 @@
+{
+  "text": "# use a randomly generated GUID\n    [ -n \"$guid\" ] || guid=\"$(cat /proc/sys/kernel/random/uuid)\""
+}

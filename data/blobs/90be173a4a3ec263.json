@@ -1,0 +1,3 @@
+{
+  "text": "Forces BIC TCP to more quickly respond to changes in congestion\n\twindow. Allows two flows sharing the same connection to converge\n\tmore rapidly.\n\tDefault: 1"
+}

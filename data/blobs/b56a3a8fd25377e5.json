@@ -1,0 +1,3 @@
+{
+  "text": "0 - disabled (default)\n\tnot 0 - enabled\n\n\tWhen set to a non-zero value, the load balancer will expire\n\tpersistent templates when the destination server is quiescent.\n\tThis may be useful, when a user makes a destination server\n\tquiescent by setting its weight to 0 and it is desired that\n\tsubsequent otherwise persistent connections are sent to a\n\tdifferent destination server.  By default new persistent\n\tconnections are allowed to quiescent destination servers.\n\n\tIf this feature is enabled, the load balancer will expire the\n\tpersistence template if it is to be used to schedule a new\n\tconnection and the destination server is quiescent."
+}

@@ -1,0 +1,3 @@
+{
+  "text": "- 0 - disabled (default)\n\t- not 0 - enabled\n\n\tIf this option is enabled, the lightweight tunnel netfilter hooks are\n\tenabled. This option cannot be disabled once it is enabled.\n\nnf_flowtable_tcp_timeout - INTEGER (seconds)\n        default 30\n\n        Control offload timeout for tcp connections.\n        TCP connections may be offloaded from nf conntrack to nf flow table.\n        Once aged, the connection is returned to nf conntrack.\n\nnf_flowtable_udp_timeout - INTEGER (seconds)\n        default 30\n\n        Control offload timeout for udp connections.\n        UDP connections may be offloaded from nf conntrack to nf flow table.\n        Once aged, the connection is returned to nf conntrack."
+}

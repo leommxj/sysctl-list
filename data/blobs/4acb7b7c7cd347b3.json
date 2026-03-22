@@ -1,0 +1,3 @@
+{
+  "text": "This parameter sets the total amount of shared memory pages that\ncan be used system wide. Hence, SHMALL should always be at least\nceil(shmmax/PAGE_SIZE).\n\nIf you are not sure what the default PAGE_SIZE is on your Linux\nsystem, you can run the following command:\n\n# getconf PAGE_SIZE"
+}

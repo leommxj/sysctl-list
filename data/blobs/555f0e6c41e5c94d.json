@@ -1,0 +1,3 @@
+{
+  "text": "1 - do source validation by reversed path, as specified in RFC1812\n\t    Recommended option for single homed hosts and stub network\n\t    routers. Could cause troubles for complicated (not loop free)\n\t    networks running a slow unreliable protocol (sort of RIP),\n\t    or using static routes.\n\n\t0 - No source validation.\n\n\tconf/all/rp_filter must also be set to TRUE to do source validation\n\ton the interface\n\n\tDefault value is 0. Note that some distributions enable it\n\tin startup scripts."
+}

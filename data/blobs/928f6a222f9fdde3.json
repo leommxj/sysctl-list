@@ -1,0 +1,3 @@
+{
+  "text": "The listening port for the local UDP tunneling sock. Normally it's\n\tusing the IANA-assigned UDP port number 9899 (sctp-tunneling).\n\n\tThis UDP sock is used for processing the incoming UDP-encapsulated\n\tSCTP packets (from RFC6951), and shared by all applications in the\n\tsame net namespace. This UDP sock will be closed when the value is\n\tset to 0.\n\n\tThe value will also be used to set the src port of the UDP header\n\tfor the outgoing UDP-encapsulated SCTP packets. For the dest port,\n\tplease refer to 'encap_port' below.\n\n\tDefault: 0"
+}

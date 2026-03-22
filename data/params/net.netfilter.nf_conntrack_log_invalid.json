@@ -1,0 +1,53 @@
+{
+  "availableVersions": [
+    "v2.6.25",
+    "v2.6.26"
+  ],
+  "name": "net.netfilter.nf_conntrack_log_invalid",
+  "namespace": "net",
+  "slug": "net.netfilter.nf_conntrack_log_invalid",
+  "versions": [
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl_paths",
+          "data_symbol": "nf_ct_log_invalid",
+          "handler_symbol": "proc_dointvec_minmax",
+          "path_segments": [
+            "net",
+            "netfilter",
+            "nf_conntrack_log_invalid"
+          ],
+          "source_path": "net/netfilter/nf_conntrack_standalone.c",
+          "table": "nf_ct_netfilter_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v2.6.25"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl_paths",
+          "data_symbol": "nf_ct_log_invalid",
+          "handler_symbol": "proc_dointvec_minmax",
+          "path_segments": [
+            "net",
+            "netfilter",
+            "nf_conntrack_log_invalid"
+          ],
+          "source_path": "net/netfilter/nf_conntrack_standalone.c",
+          "table": "nf_ct_netfilter_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v2.6.26"
+    }
+  ]
+}

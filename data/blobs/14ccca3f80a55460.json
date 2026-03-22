@@ -1,0 +1,3 @@
+{
+  "text": "sunrpc.tcp_slot_table_entries=\n\tsunrpc.udp_slot_table_entries=\n\t\t\t[NFS,SUNRPC]\n\t\t\tSets the upper limit on the number of simultaneous\n\t\t\tRPC calls that can be sent from the client to a\n\t\t\tserver. Increasing these values may allow you to\n\t\t\timprove throughput, but will also increase the\n\t\t\tamount of memory reserved for use by the client."
+}

@@ -1,0 +1,3 @@
+{
+  "text": "Minimum acceptable lifetime value in Router Advertisement.\n\n\tRA sections with a lifetime less than this value shall be\n\tignored. Zero lifetimes stay unaffected.\n\n\tDefault: 0"
+}

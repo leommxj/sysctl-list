@@ -1,0 +1,3 @@
+{
+  "text": "Accept Redirects.\n\n\tFunctional default:\n\n\t\t- enabled if local forwarding is disabled.\n\t\t- disabled if local forwarding is enabled."
+}

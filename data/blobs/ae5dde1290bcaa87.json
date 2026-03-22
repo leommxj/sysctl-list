@@ -1,0 +1,3 @@
+{
+  "text": "default 262144\n\n\tMaximum memory used to reassemble IPv6 fragments.  When\n\tnf_conntrack_frag6_high_thresh bytes of memory is allocated for this\n\tpurpose, the fragment handler will toss packets until\n\tnf_conntrack_frag6_low_thresh is reached."
+}

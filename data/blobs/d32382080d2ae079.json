@@ -1,0 +1,3 @@
+{
+  "text": "Controls the delay in seconds after which time to retry\n\tprivacy stable address generation if a DAD conflict is\n\tdetected.\n\tDefault: 1 (as specified in RFC7217)"
+}

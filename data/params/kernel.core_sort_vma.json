@@ -1,0 +1,183 @@
+{
+  "availableVersions": [
+    "v6.14",
+    "v6.15",
+    "v6.16",
+    "v6.17",
+    "v6.18",
+    "v6.19"
+  ],
+  "name": "kernel.core_sort_vma",
+  "namespace": "kernel",
+  "slug": "kernel.core_sort_vma",
+  "versions": [
+    {
+      "docRefs": [
+        {
+          "blob": "746e67e989019c99",
+          "heading": "core_sort_vma",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/kernel.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "core_sort_vma",
+          "handler_symbol": "proc_douintvec_minmax",
+          "path_segments": [
+            "kernel",
+            "core_sort_vma"
+          ],
+          "source_path": "fs/coredump.c",
+          "table": "coredump_sysctls"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.14"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "746e67e989019c99",
+          "heading": "core_sort_vma",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/kernel.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "core_sort_vma",
+          "handler_symbol": "proc_douintvec_minmax",
+          "path_segments": [
+            "kernel",
+            "core_sort_vma"
+          ],
+          "source_path": "fs/coredump.c",
+          "table": "coredump_sysctls"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.15"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "746e67e989019c99",
+          "heading": "core_sort_vma",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/kernel.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "core_sort_vma",
+          "handler_symbol": "proc_douintvec_minmax",
+          "path_segments": [
+            "kernel",
+            "core_sort_vma"
+          ],
+          "source_path": "fs/coredump.c",
+          "table": "coredump_sysctls"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.16"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "746e67e989019c99",
+          "heading": "core_sort_vma",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/kernel.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "core_sort_vma",
+          "handler_symbol": "proc_douintvec_minmax",
+          "path_segments": [
+            "kernel",
+            "core_sort_vma"
+          ],
+          "source_path": "fs/coredump.c",
+          "table": "coredump_sysctls"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.17"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "746e67e989019c99",
+          "heading": "core_sort_vma",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/kernel.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "core_sort_vma",
+          "handler_symbol": "proc_douintvec_minmax",
+          "path_segments": [
+            "kernel",
+            "core_sort_vma"
+          ],
+          "source_path": "fs/coredump.c",
+          "table": "coredump_sysctls"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.18"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "746e67e989019c99",
+          "heading": "core_sort_vma",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/kernel.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "core_sort_vma",
+          "handler_symbol": "proc_douintvec_minmax",
+          "path_segments": [
+            "kernel",
+            "core_sort_vma"
+          ],
+          "source_path": "fs/coredump.c",
+          "table": "coredump_sysctls"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.19"
+    }
+  ]
+}

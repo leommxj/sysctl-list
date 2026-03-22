@@ -1,0 +1,3 @@
+{
+  "text": "- 0 - disabled (default)\n\t- not 0 - enabled\n\n\tIf set, ipvs will set the ipvs_property on all packets which are of\n\tunrecognized protocols.  This prevents us from routing tunneled\n\tprotocols like ipip, which is useful to prevent rescheduling\n\tpackets that have been tunneled to the ipvs host (i.e. to prevent\n\tipvs routing loops when ipvs is also acting as a real server)."
+}

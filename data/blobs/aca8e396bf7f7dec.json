@@ -1,0 +1,3 @@
+{
+  "text": "Controls how often (in ms) a busy connected flow can select another tx queue.\n\nA resection is desirable when/if user thread has migrated and XPS\nwould select a different queue. Same can occur without XPS\nif the flow hash has changed.\n\nBut switching txq can introduce reorders, especially if the\nold queue is under high pressure. Modern TCP stacks deal\nwell with reorders if they happen not too often.\n\nTo disable this feature, set the value to 0.\n\nDefault : 1000"
+}

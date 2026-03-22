@@ -1,0 +1,3 @@
+{
+  "text": "Controls TCP Packetization-Layer Path MTU Discovery.  Takes three\n\tvalues:\n\n\t- 0 - Disabled\n\t- 1 - Disabled by default, enabled when an ICMP black hole detected\n\t- 2 - Always enabled, use initial MSS of tcp_base_mss."
+}

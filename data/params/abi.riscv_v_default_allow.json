@@ -1,0 +1,444 @@
+{
+  "availableVersions": [
+    "v6.5",
+    "v6.6",
+    "v6.7",
+    "v6.8",
+    "v6.9",
+    "v6.10",
+    "v6.11",
+    "v6.12",
+    "v6.13",
+    "v6.14",
+    "v6.15",
+    "v6.16",
+    "v6.17",
+    "v6.18",
+    "v6.19"
+  ],
+  "name": "abi.riscv_v_default_allow",
+  "namespace": "abi",
+  "slug": "abi.riscv_v_default_allow",
+  "versions": [
+    {
+      "docRefs": [
+        {
+          "blob": "06cea1fd13df4558",
+          "heading": "/proc/sys/abi/riscv_v_default_allow",
+          "lineEnd": 132,
+          "lineStart": 110,
+          "path": "Documentation/riscv/vector.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "riscv_v_implicit_uacc",
+          "handler_symbol": "proc_dobool",
+          "path_segments": [
+            "abi",
+            "riscv_v_default_allow"
+          ],
+          "source_path": "arch/riscv/kernel/vector.c",
+          "table": "riscv_v_default_vstate_table"
+        }
+      ],
+      "supportStatus": "context",
+      "tag": "v6.5"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "06cea1fd13df4558",
+          "heading": "/proc/sys/abi/riscv_v_default_allow",
+          "lineEnd": 132,
+          "lineStart": 110,
+          "path": "Documentation/riscv/vector.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "riscv_v_implicit_uacc",
+          "handler_symbol": "proc_dobool",
+          "path_segments": [
+            "abi",
+            "riscv_v_default_allow"
+          ],
+          "source_path": "arch/riscv/kernel/vector.c",
+          "table": "riscv_v_default_vstate_table"
+        }
+      ],
+      "supportStatus": "context",
+      "tag": "v6.6"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "06cea1fd13df4558",
+          "heading": "/proc/sys/abi/riscv_v_default_allow",
+          "lineEnd": 132,
+          "lineStart": 110,
+          "path": "Documentation/arch/riscv/vector.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "riscv_v_implicit_uacc",
+          "handler_symbol": "proc_dobool",
+          "path_segments": [
+            "abi",
+            "riscv_v_default_allow"
+          ],
+          "source_path": "arch/riscv/kernel/vector.c",
+          "table": "riscv_v_default_vstate_table"
+        }
+      ],
+      "supportStatus": "context",
+      "tag": "v6.7"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "06cea1fd13df4558",
+          "heading": "/proc/sys/abi/riscv_v_default_allow",
+          "lineEnd": 132,
+          "lineStart": 110,
+          "path": "Documentation/arch/riscv/vector.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "riscv_v_implicit_uacc",
+          "handler_symbol": "proc_dobool",
+          "path_segments": [
+            "abi",
+            "riscv_v_default_allow"
+          ],
+          "source_path": "arch/riscv/kernel/vector.c",
+          "table": "riscv_v_default_vstate_table"
+        }
+      ],
+      "supportStatus": "context",
+      "tag": "v6.8"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "06cea1fd13df4558",
+          "heading": "/proc/sys/abi/riscv_v_default_allow",
+          "lineEnd": 132,
+          "lineStart": 110,
+          "path": "Documentation/arch/riscv/vector.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "riscv_v_implicit_uacc",
+          "handler_symbol": "proc_dobool",
+          "path_segments": [
+            "abi",
+            "riscv_v_default_allow"
+          ],
+          "source_path": "arch/riscv/kernel/vector.c",
+          "table": "riscv_v_default_vstate_table"
+        }
+      ],
+      "supportStatus": "context",
+      "tag": "v6.9"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "06cea1fd13df4558",
+          "heading": "/proc/sys/abi/riscv_v_default_allow",
+          "lineEnd": 132,
+          "lineStart": 110,
+          "path": "Documentation/arch/riscv/vector.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "riscv_v_implicit_uacc",
+          "handler_symbol": "proc_dobool",
+          "path_segments": [
+            "abi",
+            "riscv_v_default_allow"
+          ],
+          "source_path": "arch/riscv/kernel/vector.c",
+          "table": "riscv_v_default_vstate_table"
+        }
+      ],
+      "supportStatus": "context",
+      "tag": "v6.10"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "06cea1fd13df4558",
+          "heading": "/proc/sys/abi/riscv_v_default_allow",
+          "lineEnd": 132,
+          "lineStart": 110,
+          "path": "Documentation/arch/riscv/vector.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "riscv_v_implicit_uacc",
+          "handler_symbol": "proc_dobool",
+          "path_segments": [
+            "abi",
+            "riscv_v_default_allow"
+          ],
+          "source_path": "arch/riscv/kernel/vector.c",
+          "table": "riscv_v_default_vstate_table"
+        }
+      ],
+      "supportStatus": "context",
+      "tag": "v6.11"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "06cea1fd13df4558",
+          "heading": "/proc/sys/abi/riscv_v_default_allow",
+          "lineEnd": 132,
+          "lineStart": 110,
+          "path": "Documentation/arch/riscv/vector.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "riscv_v_implicit_uacc",
+          "handler_symbol": "proc_dobool",
+          "path_segments": [
+            "abi",
+            "riscv_v_default_allow"
+          ],
+          "source_path": "arch/riscv/kernel/vector.c",
+          "table": "riscv_v_default_vstate_table"
+        }
+      ],
+      "supportStatus": "context",
+      "tag": "v6.12"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "06cea1fd13df4558",
+          "heading": "/proc/sys/abi/riscv_v_default_allow",
+          "lineEnd": 132,
+          "lineStart": 110,
+          "path": "Documentation/arch/riscv/vector.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "riscv_v_implicit_uacc",
+          "handler_symbol": "proc_dobool",
+          "path_segments": [
+            "abi",
+            "riscv_v_default_allow"
+          ],
+          "source_path": "arch/riscv/kernel/vector.c",
+          "table": "riscv_v_default_vstate_table"
+        }
+      ],
+      "supportStatus": "context",
+      "tag": "v6.13"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "06cea1fd13df4558",
+          "heading": "/proc/sys/abi/riscv_v_default_allow",
+          "lineEnd": 132,
+          "lineStart": 110,
+          "path": "Documentation/arch/riscv/vector.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "riscv_v_implicit_uacc",
+          "handler_symbol": "proc_dobool",
+          "path_segments": [
+            "abi",
+            "riscv_v_default_allow"
+          ],
+          "source_path": "arch/riscv/kernel/vector.c",
+          "table": "riscv_v_default_vstate_table"
+        }
+      ],
+      "supportStatus": "context",
+      "tag": "v6.14"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "06cea1fd13df4558",
+          "heading": "/proc/sys/abi/riscv_v_default_allow",
+          "lineEnd": 132,
+          "lineStart": 110,
+          "path": "Documentation/arch/riscv/vector.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "riscv_v_implicit_uacc",
+          "handler_symbol": "proc_dobool",
+          "path_segments": [
+            "abi",
+            "riscv_v_default_allow"
+          ],
+          "source_path": "arch/riscv/kernel/vector.c",
+          "table": "riscv_v_default_vstate_table"
+        }
+      ],
+      "supportStatus": "context",
+      "tag": "v6.15"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "06cea1fd13df4558",
+          "heading": "/proc/sys/abi/riscv_v_default_allow",
+          "lineEnd": 132,
+          "lineStart": 110,
+          "path": "Documentation/arch/riscv/vector.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "riscv_v_implicit_uacc",
+          "handler_symbol": "proc_dobool",
+          "path_segments": [
+            "abi",
+            "riscv_v_default_allow"
+          ],
+          "source_path": "arch/riscv/kernel/vector.c",
+          "table": "riscv_v_default_vstate_table"
+        }
+      ],
+      "supportStatus": "context",
+      "tag": "v6.16"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "06cea1fd13df4558",
+          "heading": "/proc/sys/abi/riscv_v_default_allow",
+          "lineEnd": 132,
+          "lineStart": 110,
+          "path": "Documentation/arch/riscv/vector.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "riscv_v_implicit_uacc",
+          "handler_symbol": "proc_dobool",
+          "path_segments": [
+            "abi",
+            "riscv_v_default_allow"
+          ],
+          "source_path": "arch/riscv/kernel/vector.c",
+          "table": "riscv_v_default_vstate_table"
+        }
+      ],
+      "supportStatus": "context",
+      "tag": "v6.17"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "06cea1fd13df4558",
+          "heading": "/proc/sys/abi/riscv_v_default_allow",
+          "lineEnd": 132,
+          "lineStart": 110,
+          "path": "Documentation/arch/riscv/vector.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "riscv_v_implicit_uacc",
+          "handler_symbol": "proc_dobool",
+          "path_segments": [
+            "abi",
+            "riscv_v_default_allow"
+          ],
+          "source_path": "arch/riscv/kernel/vector.c",
+          "table": "riscv_v_default_vstate_table"
+        }
+      ],
+      "supportStatus": "context",
+      "tag": "v6.18"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "06cea1fd13df4558",
+          "heading": "/proc/sys/abi/riscv_v_default_allow",
+          "lineEnd": 132,
+          "lineStart": 110,
+          "path": "Documentation/arch/riscv/vector.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "riscv_v_implicit_uacc",
+          "handler_symbol": "proc_dobool",
+          "path_segments": [
+            "abi",
+            "riscv_v_default_allow"
+          ],
+          "source_path": "arch/riscv/kernel/vector.c",
+          "table": "riscv_v_default_vstate_table"
+        }
+      ],
+      "supportStatus": "context",
+      "tag": "v6.19"
+    }
+  ]
+}

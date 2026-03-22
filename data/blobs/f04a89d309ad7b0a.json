@@ -1,0 +1,3 @@
+{
+  "text": "Define behavior when gratuitous arp replies are received:\n\t0 - drop gratuitous arp frames\n\t1 - accept gratuitous arp frames"
+}

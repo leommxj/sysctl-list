@@ -1,0 +1,3 @@
+{
+  "text": "Automatically generate flow labels based based on a flow hash\n\tof the packet. This allows intermediate devices, such as routers,\n\tto idenfify packet flows for mechanisms like Equal Cost Multipath\n\tRouting (see RFC 6438).\n\tTRUE: enabled\n\tFALSE: disabled\n\tDefault: false"
+}

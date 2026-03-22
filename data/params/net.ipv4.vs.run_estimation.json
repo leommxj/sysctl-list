@@ -1,0 +1,147 @@
+{
+  "availableVersions": [
+    "v5.16",
+    "v5.17",
+    "v5.18",
+    "v5.19",
+    "v6.0",
+    "v6.1"
+  ],
+  "name": "net.ipv4.vs.run_estimation",
+  "namespace": "net",
+  "slug": "net.ipv4.vs.run_estimation",
+  "versions": [
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "",
+          "handler_symbol": "proc_dointvec",
+          "path_segments": [
+            "net",
+            "ipv4",
+            "vs",
+            "run_estimation"
+          ],
+          "source_path": "net/netfilter/ipvs/ip_vs_ctl.c",
+          "table": "vs_vars"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v5.16"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "",
+          "handler_symbol": "proc_dointvec",
+          "path_segments": [
+            "net",
+            "ipv4",
+            "vs",
+            "run_estimation"
+          ],
+          "source_path": "net/netfilter/ipvs/ip_vs_ctl.c",
+          "table": "vs_vars"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v5.17"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "",
+          "handler_symbol": "proc_dointvec",
+          "path_segments": [
+            "net",
+            "ipv4",
+            "vs",
+            "run_estimation"
+          ],
+          "source_path": "net/netfilter/ipvs/ip_vs_ctl.c",
+          "table": "vs_vars"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v5.18"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "",
+          "handler_symbol": "proc_dointvec",
+          "path_segments": [
+            "net",
+            "ipv4",
+            "vs",
+            "run_estimation"
+          ],
+          "source_path": "net/netfilter/ipvs/ip_vs_ctl.c",
+          "table": "vs_vars"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v5.19"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "",
+          "handler_symbol": "proc_dointvec",
+          "path_segments": [
+            "net",
+            "ipv4",
+            "vs",
+            "run_estimation"
+          ],
+          "source_path": "net/netfilter/ipvs/ip_vs_ctl.c",
+          "table": "vs_vars"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.0"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "",
+          "handler_symbol": "proc_dointvec",
+          "path_segments": [
+            "net",
+            "ipv4",
+            "vs",
+            "run_estimation"
+          ],
+          "source_path": "net/netfilter/ipvs/ip_vs_ctl.c",
+          "table": "vs_vars"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.1"
+    }
+  ]
+}

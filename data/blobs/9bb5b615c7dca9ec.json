@@ -1,0 +1,3 @@
+{
+  "text": "If set, the TCP stack makes decisions that prefer lower\n\tlatency as opposed to higher throughput.  By default, this\n\toption is not set meaning that higher throughput is preferred.\n\tAn example of an application where this default should be\n\tchanged would be a Beowulf compute cluster.\n\tDefault: 0"
+}

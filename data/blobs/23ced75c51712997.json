@@ -1,0 +1,3 @@
+{
+  "text": "(Units: seconds   Min: 1  Default: 300  Max: 86400)\n\tThe interval at which the background scanning for inodes\n\twith unused speculative preallocation runs. The scan\n\tremoves unused preallocation from clean inodes and releases\n\tthe unused space back to the free pool."
+}

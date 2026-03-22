@@ -1,0 +1,3 @@
+{
+  "text": "This flag controls the L2 cache of G3 processor boards. If\n0, the cache is disabled. Enabled if nonzero."
+}

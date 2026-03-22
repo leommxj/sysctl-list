@@ -1,0 +1,3 @@
+{
+  "text": "rcvbuf autotuning can over estimate final socket rcvbuf, which\n\tcan lead to cache trashing for high throughput flows.\n\n\tFor small RTT flows (below tcp_rcvbuf_low_rtt usecs), we can relax\n\trcvbuf growth: Few additional ms to reach the final (and smaller)\n\trcvbuf is a good tradeoff.\n\n\tDefault : 1000 (1 ms)"
+}

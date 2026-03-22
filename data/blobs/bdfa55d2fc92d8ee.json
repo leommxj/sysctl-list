@@ -1,0 +1,3 @@
+{
+  "text": "Enable global IPv6 forwarding between all interfaces.\n\n\tIPv4 and IPv6 work differently here; the ``force_forwarding`` flag must\n\tbe used to control which interfaces may forward packets.\n\n\tThis also sets all interfaces' Host/Router setting\n\t'forwarding' to the specified value.  See below for details.\n\n\tThis referred to as global forwarding."
+}

@@ -1,0 +1,3 @@
+{
+  "text": "Change the size of the hugepage pool at run-time on a specific\nset of NUMA nodes.\n\nSee Documentation/admin-guide/mm/hugetlbpage.rst"
+}

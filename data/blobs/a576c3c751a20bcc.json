@@ -1,0 +1,3 @@
+{
+  "text": "Enable or disable extension of Stream Reconfiguration functionality\n        specified in RFC6525. This extension provides the ability to \"reset\"\n        a stream, and it includes the Parameters of \"Outgoing/Incoming SSN\n        Reset\", \"SSN/TSN Reset\" and \"Add Outgoing/Incoming Streams\".\n\n\t- 1: Enable extension.\n\t- 0: Disable extension.\n\n\tDefault: 0"
+}

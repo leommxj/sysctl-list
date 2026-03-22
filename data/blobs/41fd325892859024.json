@@ -1,0 +1,3 @@
+{
+  "text": "Max number of SACK that can be compressed.\n\tUsing 0 disables SACK compression.\n\n\tDefault : 44"
+}

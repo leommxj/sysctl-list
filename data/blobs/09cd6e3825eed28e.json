@@ -1,0 +1,3 @@
+{
+  "text": "The default value is 0 (access disabled).\n\nWhen set to 1, user space can read performance monitor counter registers\ndirectly.\n\nSee Documentation/arch/arm64/perf.rst for more information."
+}

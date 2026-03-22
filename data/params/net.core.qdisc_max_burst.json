@@ -1,0 +1,39 @@
+{
+  "availableVersions": [
+    "v6.19"
+  ],
+  "name": "net.core.qdisc_max_burst",
+  "namespace": "net",
+  "slug": "net.core.qdisc_max_burst",
+  "versions": [
+    {
+      "docRefs": [
+        {
+          "blob": "ebf7965ff5fd5f90",
+          "heading": "qdisc_max_burst",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/net.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "qdisc_max_burst",
+          "handler_symbol": "proc_dointvec",
+          "path_segments": [
+            "net",
+            "core",
+            "qdisc_max_burst"
+          ],
+          "source_path": "net/core/sysctl_net_core.c",
+          "table": "net_core_table"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.19"
+    }
+  ]
+}

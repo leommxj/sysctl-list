@@ -1,0 +1,3 @@
+{
+  "text": "Drop all gratuitous ARP frames, for example if there's a known\n\tgood ARP proxy on the network and such frames need not be used\n\t(or in the case of 802.11, must not be used to prevent attacks.)\n\n\tPossible values:\n\n\t- 0 (disabled)\n\t- 1 (enabled)\n\n\tDefault: 0 (disabled)"
+}

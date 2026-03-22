@@ -1,0 +1,3 @@
+{
+  "text": "The value in this file determines the behaviour of the kernel on a\npanic:\n\n* if zero, the kernel will loop forever;\n* if negative, the kernel will reboot immediately;\n* if positive, the kernel will reboot after the corresponding number\n  of seconds.\n\nWhen you use the software watchdog, the recommended setting is 60."
+}

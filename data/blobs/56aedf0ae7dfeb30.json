@@ -1,0 +1,3 @@
+{
+  "text": "Enable reuse of TIME-WAIT sockets for new connections when it is\n\tsafe from protocol viewpoint.\n\n\t- 0 - disable\n\t- 1 - global enable\n\t- 2 - enable for loopback traffic only\n\n\tIt should not be changed without advice/request of technical\n\texperts.\n\n\tDefault: 2"
+}

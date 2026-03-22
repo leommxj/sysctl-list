@@ -1,0 +1,31 @@
+{
+  "availableVersions": [
+    "v6.19"
+  ],
+  "name": "net.ipv4.tcp_comp_sack_rtt_percent",
+  "namespace": "net",
+  "slug": "net.ipv4.tcp_comp_sack_rtt_percent",
+  "versions": [
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "sysctl_tcp_comp_sack_rtt_percent",
+          "handler_symbol": "proc_dointvec_minmax",
+          "path_segments": [
+            "net",
+            "ipv4",
+            "tcp_comp_sack_rtt_percent"
+          ],
+          "source_path": "net/ipv4/sysctl_net_ipv4.c",
+          "table": "ipv4_net_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.19"
+    }
+  ]
+}

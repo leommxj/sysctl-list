@@ -1,0 +1,3 @@
+{
+  "text": "See :doc:`/power/video`. This allows the video resume mode to be set,\nin a similar fashion to the ``acpi_sleep`` kernel parameter, by\ncombining the following values:\n\n= =======\n1 s3_bios\n2 s3_mode\n4 s3_beep\n= ======="
+}

@@ -1,0 +1,3 @@
+{
+  "text": "Minimum interval (in seconds) between Router Probing described\n\tin RFC4191.\n\n\tDefault: 60"
+}

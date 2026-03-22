@@ -1,0 +1,3 @@
+{
+  "text": "The implementation of postcopy live migration currently uses one\nsingle bidirectional socket but in the future two different sockets\nwill be used (to reduce the latency of the userfaults to the minimum\npossible without having to decrease /proc/sys/net/ipv4/tcp_wmem)."
+}

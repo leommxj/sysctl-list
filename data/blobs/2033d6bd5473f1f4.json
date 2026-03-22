@@ -1,0 +1,3 @@
+{
+  "text": "When set to 1, calls panic() after RCU stall detection messages. This\nis useful to define the root cause of RCU stalls using a vmcore.\n\n= ============================================================\n0 Do not panic() when RCU stall takes place, default behavior.\n1 panic() after printing RCU stall messages.\n= ============================================================"
+}

@@ -1,0 +1,3 @@
+{
+  "text": "The default RPS CPU mask used on newly created network devices. An empty\nmask means RPS disabled by default."
+}

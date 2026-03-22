@@ -1,0 +1,3 @@
+{
+  "text": "TIPC name table updates are distributed asynchronously in a cluster, without\nany form of transaction handling. This means that different race scenarios are\npossible. One such is that a name withdrawal sent out by one node and received\nby another node may arrive after a second, overlapping name publication already\nhas been accepted from a third node, although the conflicting updates\noriginally may have been issued in the correct sequential order.\nIf named_timeout is nonzero, failed topology updates will be placed on a defer\nqueue until another event arrives that clears the error, or until the timeout\nexpires. Value is in milliseconds."
+}

@@ -1,0 +1,3 @@
+{
+  "text": "This value influences the timeout of an alive TCP connection,\n\twhen RTO retransmissions remain unacknowledged.\n\tGiven a value of N, a hypothetical TCP connection following\n\texponential backoff with an initial RTO of TCP_RTO_MIN would\n\tretransmit N times before killing the connection at the (N+1)th RTO.\n\n\tThe default value of 15 yields a hypothetical timeout of 924.6\n\tseconds and is a lower bound for the effective timeout.\n\tTCP will effectively time out at the first RTO which exceeds the\n\thypothetical timeout.\n\tIf tcp_rto_max_ms is decreased, it is recommended to also\n\tchange tcp_retries2.\n\n\tRFC 1122 recommends at least 100 seconds for the timeout,\n\twhich corresponds to a value of at least 8."
+}

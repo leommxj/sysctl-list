@@ -1,0 +1,3 @@
+{
+  "text": "Controls the max number of links can be added to a SMC-R link group. Notice that\n\tthe actual number of the links added to a SMC-R link group depends on the number\n\tof RDMA devices exist in the system. The acceptable value ranges from 1 to 2. Only\n\tfor SMC-R v2.1 and later.\n\n\tDefault: 2"
+}

@@ -1,0 +1,3 @@
+{
+  "text": "The Prefix Information Option P-flag indicates the network can\n\tallocate a unique IPv6 prefix per client using DHCPv6-PD.\n\tThis sysctl can be enabled when a userspace DHCPv6-PD client\n\tis running to cause the P-flag to take effect: i.e. the\n\tP-flag suppresses any effects of the A-flag within the same\n\tPIO. For a given PIO, P=1 and A=1 is treated as A=0.\n\n\t- If disabled, the P-flag is ignored.\n\t- If enabled, the P-flag will disable SLAAC autoconfiguration\n\t  for the given Prefix Information Option.\n\n\tDefault: 0 (disabled)"
+}

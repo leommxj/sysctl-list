@@ -1,0 +1,3 @@
+{
+  "text": "default 552 - minimum Path MTU. Unless this is changed manually,\n\teach cached pmtu will never be lower than this setting."
+}

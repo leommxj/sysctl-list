@@ -1,0 +1,3 @@
+{
+  "text": "Number of times SYNACKs for a passive TCP connection attempt will\n\tbe retransmitted. Should not be higher than 255. Default value\n\tis 5, which corresponds to 31seconds till the last retransmission\n\twith the current initial RTO of 1second. With this the final timeout\n\tfor a passive TCP connection will happen after 63seconds."
+}

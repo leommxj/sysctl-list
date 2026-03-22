@@ -1,0 +1,3 @@
+{
+  "text": "If set non-zero, then the kernel will ignore all ICMP ECHO\n\trequests sent to it over the IPv6 protocol.\n\tDefault: 0"
+}

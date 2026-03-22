@@ -1,0 +1,25 @@
+<!DOCTYPE html><html lang="en" data-base="/" data-theme="dark"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Browse Linux sysctl documentation across kernel versions."><link rel="icon" type="image/svg+xml" href="/favicon.svg"><title>net.bridge.sndbuf_policy · sysctl list</title><script>
+      try {
+        const storedTheme = window.localStorage.getItem("sysctl-explorer.theme");
+        if (storedTheme === "light" || storedTheme === "dark") {
+          document.documentElement.dataset.theme = storedTheme;
+        }
+      } catch {
+        document.documentElement.dataset.theme = "dark";
+      }
+    </script><link rel="stylesheet" href="/_astro/index.BjAU61Np.css"></head> <body class="detail-route">  <main class="page-frame"> <header class="page-bar panel"> <a class="back-link" href="/?param=net.bridge.sndbuf_policy"> <span>List</span> </a> <div class="page-tools"> <label class="field compact"> <span>Version</span> <select id="detailVersion"></select> </label> </div> </header> <section class="panel detail-page-panel"> <div id="detailPagePane" data-slug="net.bridge.sndbuf_policy"> <p class="empty-copy">Loading…</p> </div> </section> </main> <script type="module" src="/_astro/_name_.astro_astro_type_script_index_0_lang.BzTjCa4-.js"></script>  <div class="page-controls" aria-label="Global controls"> <button class="inline-button theme-toggle" type="button" data-theme-toggle aria-pressed="true">
+Dark
+</button> <button class="inline-button" type="button" data-info-open>About</button> </div> <dialog class="info-modal" id="infoModal" aria-labelledby="infoModalTitle"> <article class="info-card"> <div class="info-head"> <div> <p class="eyebrow">Data notes</p> <h2 id="infoModalTitle">About this dataset</h2> </div> <button class="inline-button info-close" type="button" data-info-close>Close</button> </div> <div class="info-copy"> <p>
+Data comes from Linux kernel documentation files plus sysctl registrations extracted from kernel C
+            sources across release tags.
+</p> <p>
+The pipeline normalizes parameter names, scans static and dynamic registration paths, then merges
+            documentation and source matches into a static index for the site.
+</p> <p>
+Some entries may still be incomplete or wrong. Kernel docs are inconsistent in places, and some
+            registrations or aliases are hard to resolve automatically.
+</p> <p>
+Project:
+<a href="https://github.com/leommxj/sysctl-list" target="_blank" rel="noreferrer">
+github.com/leommxj/sysctl-list
+</a> </p> </div> </article> </dialog> <script type="module">function d(){const t=document.querySelector("#infoModal"),n=document.querySelectorAll("[data-info-open]"),e=document.querySelector("[data-info-close]");if(!t||!n.length)return;const l=()=>{if(!t.open){if(typeof t.showModal=="function"){t.showModal();return}t.setAttribute("open","")}},r=()=>{if(!t.open){t.removeAttribute("open");return}if(typeof t.close=="function"){t.close();return}t.removeAttribute("open")};n.forEach(o=>{o.addEventListener("click",l)}),e?.addEventListener("click",r),t.addEventListener("click",o=>{o.target===t&&r()})}d();const i="sysctl-explorer.theme";function u(t){return t==="dark"||t==="light"}function c(){return document.documentElement.dataset.theme==="light"?"light":"dark"}function a(t){document.querySelectorAll("[data-theme-toggle]").forEach(e=>{e.textContent=t==="dark"?"Dark":"Light",e.setAttribute("aria-label",`Switch to ${t==="dark"?"light":"dark"} theme`),e.setAttribute("aria-pressed",String(t==="dark"))})}function s(t){document.documentElement.dataset.theme=t,a(t);try{window.localStorage.setItem(i,t)}catch{return}}function m(){const t=document.querySelectorAll("[data-theme-toggle]");if(!t.length)return;const n=window.localStorage.getItem(i);u(n)&&(document.documentElement.dataset.theme=n),a(c()),t.forEach(e=>{e.addEventListener("click",()=>{s(c()==="dark"?"light":"dark")})})}m();</script> </body> </html>

@@ -1,0 +1,3 @@
+{
+  "text": "If set, incoming connections to listening sockets that do not have a\n\tsocket mark will set the mark of the accepting socket to the fwmark of\n\tthe incoming SYN packet. This will cause all packets on that connection\n\t(starting from the first SYNACK) to be sent with that fwmark. The\n\tlistening socket's mark is unchanged. Listening sockets that already\n\thave a fwmark set via setsockopt(SOL_SOCKET, SO_MARK, ...) are\n\tunaffected.\n\n\tDefault: 0"
+}

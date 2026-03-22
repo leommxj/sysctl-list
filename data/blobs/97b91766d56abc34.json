@@ -1,0 +1,3 @@
+{
+  "text": "How frequently SMC-R link sends out TEST_LINK LLC messages to confirm\n\tviability, after the last activity of connections on it. Value 0 means\n\tdisabling TEST_LINK.\n\n\tDefault: 30 seconds."
+}

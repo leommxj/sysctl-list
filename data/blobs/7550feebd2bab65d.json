@@ -1,0 +1,3 @@
+{
+  "text": "It is possible to adjust TCP/IP's congestion limits by\n\taltering the net.ipv4.tcp_reordering sysctl parameter.  The\n\tusual default value is 3. But keep in mind TCP stack is able\n\tto automatically increase this when it detects reorders."
+}

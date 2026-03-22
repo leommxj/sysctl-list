@@ -1,0 +1,60 @@
+{
+  "availableVersions": [
+    "v6.17",
+    "v6.18",
+    "v6.19"
+  ],
+  "name": "net.core.somaxconn.udp_child_hash_entries",
+  "namespace": "net",
+  "slug": "net.core.somaxconn.udp_child_hash_entries",
+  "versions": [
+    {
+      "docRefs": [
+        {
+          "blob": "39f5581b4850a816",
+          "heading": "udp_child_hash_entries",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v6.17"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "39f5581b4850a816",
+          "heading": "udp_child_hash_entries",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v6.18"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "39f5581b4850a816",
+          "heading": "udp_child_hash_entries",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v6.19"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+{
+  "text": "Lower limit, in bytes, of the size of socket reads that will be\n\toffloaded to a DMA copy engine, if one is present in the system\n\tand CONFIG_NET_DMA is enabled.\n\tDefault: 4096\n\nCIPSOv4 Variables:"
+}

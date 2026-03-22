@@ -1,0 +1,3 @@
+{
+  "text": "The number of SYN + MP_CAPABLE retransmissions before falling back to\n\tTCP, i.e. dropping the MPTCP options. In other words, if all the packets\n\tare dropped on the way, there will be:\n\n\t* The initial SYN with MPTCP support\n\t* This number of SYN retransmitted with MPTCP support\n\t* The next SYN retransmissions will be without MPTCP support\n\n\t0 means the first retransmission will be done without MPTCP options.\n\t>= 128 means that all SYN retransmissions will keep the MPTCP options. A\n\tlower number might increase false-positive MPTCP blackholes detections.\n\tThis is a per-namespace sysctl.\n\n\tDefault: 2"
+}

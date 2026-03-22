@@ -1,0 +1,114 @@
+{
+  "availableVersions": [
+    "v6.4",
+    "v6.5",
+    "v6.6",
+    "v6.7",
+    "v6.8"
+  ],
+  "name": "fs.ntfs-debug",
+  "namespace": "fs",
+  "slug": "fs.ntfs-debug",
+  "versions": [
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "debug_msgs",
+          "handler_symbol": "proc_dointvec",
+          "path_segments": [
+            "fs",
+            "ntfs-debug"
+          ],
+          "source_path": "fs/ntfs/sysctl.c",
+          "table": "ntfs_sysctls"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.4"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "debug_msgs",
+          "handler_symbol": "proc_dointvec",
+          "path_segments": [
+            "fs",
+            "ntfs-debug"
+          ],
+          "source_path": "fs/ntfs/sysctl.c",
+          "table": "ntfs_sysctls"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.5"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "debug_msgs",
+          "handler_symbol": "proc_dointvec",
+          "path_segments": [
+            "fs",
+            "ntfs-debug"
+          ],
+          "source_path": "fs/ntfs/sysctl.c",
+          "table": "ntfs_sysctls"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.6"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "debug_msgs",
+          "handler_symbol": "proc_dointvec",
+          "path_segments": [
+            "fs",
+            "ntfs-debug"
+          ],
+          "source_path": "fs/ntfs/sysctl.c",
+          "table": "ntfs_sysctls"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.7"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "debug_msgs",
+          "handler_symbol": "proc_dointvec",
+          "path_segments": [
+            "fs",
+            "ntfs-debug"
+          ],
+          "source_path": "fs/ntfs/sysctl.c",
+          "table": "ntfs_sysctls"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.8"
+    }
+  ]
+}

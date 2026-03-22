@@ -1,0 +1,43 @@
+{
+  "availableVersions": [
+    "v2.6.16",
+    "v2.6.17"
+  ],
+  "name": "vm.zone_reclaim_interval",
+  "namespace": "vm",
+  "slug": "vm.zone_reclaim_interval",
+  "versions": [
+    {
+      "docRefs": [
+        {
+          "blob": "18a5874466f09afe",
+          "heading": "zone_reclaim_interval",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/sysctl/vm.txt"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v2.6.16"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "18a5874466f09afe",
+          "heading": "zone_reclaim_interval",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/sysctl/vm.txt"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v2.6.17"
+    }
+  ]
+}

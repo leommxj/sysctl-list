@@ -1,0 +1,3 @@
+{
+  "text": "This counter indicates that the TCP stack initiated a TCP Fast Open,\nbut it failed. This counter would be updated in three scenarios: (1)\nthe other side doesn't acknowledge the data in the SYN packet. (2) The\nSYN packet which has the TFO cookie is timeout at least once. (3)\nafter the 3-way handshake, the retransmission timeout happens\nnet.ipv4.tcp_retries1 times, because some middle-boxes may black-hole\nfast open after the handshake."
+}

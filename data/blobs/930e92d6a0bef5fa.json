@@ -1,0 +1,3 @@
+{
+  "text": "If set, TCP performs receive buffer auto-tuning, attempting to\n\tautomatically size the buffer (no greater than tcp_rmem[2]) to\n\tmatch the size required by the path for full throughput.  Enabled by\n\tdefault."
+}

@@ -1,0 +1,3 @@
+{
+  "text": "The default queuing discipline to use for network devices. This allows\noverriding the default of pfifo_fast with an alternative. Since the default\nqueuing discipline is created without additional parameters so is best suited\nto queuing disciplines that work well without configuration like stochastic\nfair queue (sfq), CoDel (codel) or fair queue CoDel (fq_codel). Don't use\nqueuing disciplines like Hierarchical Token Bucket or Deficit Round Robin\nwhich require setting up classes and bandwidths. Note that physical multiqueue\ninterfaces still use mq as root qdisc, which in turn uses this default for its\nleaves. Virtual devices (like e.g. lo or veth) ignore this setting and instead\ndefault to noqueue.\n\nDefault: pfifo_fast"
+}

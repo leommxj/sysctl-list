@@ -1,0 +1,3 @@
+{
+  "text": "0 - disabled\n\tnot 0 - enabled (default)\n\n\tEnable automatic conntrack helper assignment.\n\nnf_conntrack_icmp_timeout - INTEGER (seconds)\n\tdefault 30\n\n\tDefault for ICMP timeout.\n\nnf_conntrack_icmpv6_timeout - INTEGER (seconds)\n\tdefault 30\n\n\tDefault for ICMP6 timeout."
+}

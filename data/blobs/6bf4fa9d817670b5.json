@@ -1,0 +1,3 @@
+{
+  "text": "This enables Berkeley Packet Filter Just in Time compiler.\nCurrently supported on x86_64 architecture, bpf_jit provides a framework\nto speed packet filtering, the one used by tcpdump/libpcap for example.\nValues :\n\t0 - disable the JIT (default value)\n\t1 - enable the JIT\n\t2 - enable the JIT and ask the compiler to emit traces on kernel log."
+}

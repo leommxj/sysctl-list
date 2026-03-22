@@ -1,0 +1,3 @@
+{
+  "text": "Enable BIC TCP congestion control algorithm.\n\tBIC-TCP is a sender-side only change that ensures a linear RTT\n\tfairness under large windows while offering both scalability and\n\tbounded TCP-friendliness. The protocol combines two schemes\n\tcalled additive increase and binary search increase. When the\n\tcongestion window is large, additive increase with a large\n\tincrement ensures linear RTT fairness as well as good\n\tscalability. Under small congestion windows, binary search\n\tincrease provides TCP friendliness.\n\tDefault: 0"
+}

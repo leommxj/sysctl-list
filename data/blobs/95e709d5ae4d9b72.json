@@ -1,0 +1,3 @@
+{
+  "text": "The maximum number of multicast probes in INCOMPLETE state,\n\twhen the associated hardware address is unknown.  Defaults\n\tto 3."
+}

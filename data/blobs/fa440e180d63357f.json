@@ -1,0 +1,3 @@
+{
+  "text": "A volume knob for error reporting when internal errors occur.\n\tThis will generate detailed messages & backtraces for filesystem\n\tshutdowns, for example.  Current threshold values are:\n\n\t\tXFS_ERRLEVEL_OFF:       0\n\t\tXFS_ERRLEVEL_LOW:       1\n\t\tXFS_ERRLEVEL_HIGH:      5"
+}

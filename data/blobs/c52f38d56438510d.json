@@ -1,0 +1,3 @@
+{
+  "text": "When overcommit_memory is set to 2, the committed address space is not\npermitted to exceed swap plus this amount of physical RAM. See below.\n\nNote: overcommit_kbytes is the counterpart of overcommit_ratio. Only one\nof them may be specified at a time. Setting one disables the other (which\nthen appears as 0 when read)."
+}

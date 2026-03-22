@@ -1,0 +1,3 @@
+{
+  "text": "This value is a bitmap to enable various experimental loss recovery\n\tfeatures.\n\n\tRACK: 0x1 enables the RACK loss detection for fast detection of lost\n\t      retransmissions and tail drops.\n\n\tDefault: 0x1"
+}

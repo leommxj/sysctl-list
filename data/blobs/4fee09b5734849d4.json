@@ -1,0 +1,3 @@
+{
+  "text": "Log packets with impossible addresses to kernel log.\n\tlog_martians for the interface will be enabled if at least one of\n\tconf/{all,interface}/log_martians is set to TRUE,\n\tit will be disabled otherwise"
+}

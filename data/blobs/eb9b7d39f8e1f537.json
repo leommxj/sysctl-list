@@ -1,0 +1,3 @@
+{
+  "text": "Maximum number of non-padding TLVs allowed in a Hop-by-Hop\n\toptions extension header. If this value is less than zero\n\tthen unknown options are disallowed and the number of known\n\tTLVs allowed is the absolute value of this number.\n\tDefault: 8\n\nmax dst_opts_len - INTEGER\n\tMaximum length allowed for a Destination options extension\n\theader.\n\tDefault: INT_MAX (unlimited)\n\nmax hbh_opts_len - INTEGER\n\tMaximum length allowed for a Hop-by-Hop options extension\n\theader.\n\tDefault: INT_MAX (unlimited)\n\nIPv6 Fragmentation:"
+}

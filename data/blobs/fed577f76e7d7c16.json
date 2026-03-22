@@ -1,0 +1,3 @@
+{
+  "text": "If zero, icmp error messages are sent with the primary address of\n\tthe exiting interface.\n\n\tIf non-zero, the message will be sent with the primary address of\n\tthe interface that received the packet that caused the icmp error.\n\tThis is the behaviour network many administrators will expect from\n\ta router. And it can make debugging complicated network layouts\n\tmuch easier.\n\n\tNote that if no primary address exists for the interface selected,\n\tthen the primary address of the first non-loopback interface that\n\thas one will be used regarldess of this setting.\n\n\tDefault: 0"
+}

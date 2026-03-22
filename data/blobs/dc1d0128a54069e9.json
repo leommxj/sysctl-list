@@ -1,0 +1,3 @@
+{
+  "text": "Enable Early Retransmit (ER), per RFC 5827. ER lowers the threshold\n\tfor triggering fast retransmit when the amount of outstanding data is\n\tsmall and when no previously unsent data can be transmitted (such\n\tthat limited transmit could be used). Also controls the use of\n\tTail loss probe (TLP) that converts RTOs occuring due to tail\n\tlosses into fast recovery (draft-dukkipati-tcpm-tcp-loss-probe-01).\n\tPossible values:\n\t\t0 disables ER\n\t\t1 enables ER\n\t\t2 enables ER but delays fast recovery and fast retransmit\n\t\t  by a fourth of RTT. This mitigates connection falsely\n\t\t  recovers when network has a small degree of reordering\n\t\t  (less than 3 packets).\n\t\t3 enables delayed ER and TLP.\n\t\t4 enables TLP only.\n\tDefault: 3"
+}

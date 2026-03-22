@@ -1,0 +1,3 @@
+{
+  "text": "Limited Slow-Start for TCP with large congestion windows (cwnd) defined in\n\tRFC3742. Limited slow-start is a mechanism to limit growth of the cwnd\n\ton the region where cwnd is larger than tcp_max_ssthresh. TCP increases cwnd\n\tby at most tcp_max_ssthresh segments, and by at least tcp_max_ssthresh/2\n\tsegments per RTT when the cwnd is above tcp_max_ssthresh.\n\tIf TCP connection increased cwnd to thousands (or tens of thousands) segments,\n\tand thousands of packets were being dropped during slow-start, you can set\n\ttcp_max_ssthresh to improve performance for new TCP connection.\n\tDefault: 0 (off)"
+}

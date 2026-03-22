@@ -1,0 +1,3 @@
+{
+  "text": "The default coredump writes VMAs in address order. By setting\n``core_sort_vma`` to 1, VMAs will be written from smallest size\nto largest size. This is known to break at least elfutils, but\ncan be handy when dealing with very large (and truncated)\ncoredumps where the more useful debugging details are included\nin the smaller VMAs."
+}

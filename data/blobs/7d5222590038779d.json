@@ -1,0 +1,3 @@
+{
+  "text": "Enable TCP Fast Open feature (draft-ietf-tcpm-fastopen) to send data\n\tin the opening SYN packet. To use this feature, the client application\n\tmust not use connect(). Instead, it should use sendmsg() or sendto()\n\twith MSG_FASTOPEN flag which performs a TCP handshake automatically.\n\n\tThe values (bitmap) are:\n\t1: Enables sending data in the opening SYN on the client\n\t5: Enables sending data in the opening SYN on the client regardless\n\t   of cookie availability.\n\n\tDefault: 0"
+}

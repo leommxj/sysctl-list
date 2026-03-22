@@ -1,0 +1,3 @@
+{
+  "text": "Change the minimum size of the hugepage pool.\n\nSee Documentation/admin-guide/mm/hugetlbpage.rst"
+}

@@ -1,0 +1,333 @@
+{
+  "availableVersions": [
+    "v5.2",
+    "v5.3",
+    "v5.4",
+    "v5.5",
+    "v5.6",
+    "v5.7",
+    "v5.8",
+    "v5.9",
+    "v5.10",
+    "v5.11",
+    "v5.12",
+    "v5.13",
+    "v5.14",
+    "v5.15"
+  ],
+  "name": "net.ipv4.tcp_rx_skb_cache",
+  "namespace": "net",
+  "slug": "net.ipv4.tcp_rx_skb_cache",
+  "versions": [
+    {
+      "docRefs": [
+        {
+          "blob": "165178c316f4fe5a",
+          "heading": "tcp_rx_skb_cache",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.txt"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "key",
+          "handler_symbol": "proc_do_static_key",
+          "path_segments": [
+            "net",
+            "ipv4",
+            "tcp_rx_skb_cache"
+          ],
+          "source_path": "net/ipv4/sysctl_net_ipv4.c",
+          "table": "ipv4_table"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v5.2"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "165178c316f4fe5a",
+          "heading": "tcp_rx_skb_cache",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.txt"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "key",
+          "handler_symbol": "proc_do_static_key",
+          "path_segments": [
+            "net",
+            "ipv4",
+            "tcp_rx_skb_cache"
+          ],
+          "source_path": "net/ipv4/sysctl_net_ipv4.c",
+          "table": "ipv4_table"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v5.3"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "key",
+          "handler_symbol": "proc_do_static_key",
+          "path_segments": [
+            "net",
+            "ipv4",
+            "tcp_rx_skb_cache"
+          ],
+          "source_path": "net/ipv4/sysctl_net_ipv4.c",
+          "table": "ipv4_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v5.4"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "key",
+          "handler_symbol": "proc_do_static_key",
+          "path_segments": [
+            "net",
+            "ipv4",
+            "tcp_rx_skb_cache"
+          ],
+          "source_path": "net/ipv4/sysctl_net_ipv4.c",
+          "table": "ipv4_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v5.5"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "key",
+          "handler_symbol": "proc_do_static_key",
+          "path_segments": [
+            "net",
+            "ipv4",
+            "tcp_rx_skb_cache"
+          ],
+          "source_path": "net/ipv4/sysctl_net_ipv4.c",
+          "table": "ipv4_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v5.6"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "key",
+          "handler_symbol": "proc_do_static_key",
+          "path_segments": [
+            "net",
+            "ipv4",
+            "tcp_rx_skb_cache"
+          ],
+          "source_path": "net/ipv4/sysctl_net_ipv4.c",
+          "table": "ipv4_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v5.7"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "key",
+          "handler_symbol": "proc_do_static_key",
+          "path_segments": [
+            "net",
+            "ipv4",
+            "tcp_rx_skb_cache"
+          ],
+          "source_path": "net/ipv4/sysctl_net_ipv4.c",
+          "table": "ipv4_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v5.8"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "key",
+          "handler_symbol": "proc_do_static_key",
+          "path_segments": [
+            "net",
+            "ipv4",
+            "tcp_rx_skb_cache"
+          ],
+          "source_path": "net/ipv4/sysctl_net_ipv4.c",
+          "table": "ipv4_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v5.9"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "key",
+          "handler_symbol": "proc_do_static_key",
+          "path_segments": [
+            "net",
+            "ipv4",
+            "tcp_rx_skb_cache"
+          ],
+          "source_path": "net/ipv4/sysctl_net_ipv4.c",
+          "table": "ipv4_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v5.10"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "key",
+          "handler_symbol": "proc_do_static_key",
+          "path_segments": [
+            "net",
+            "ipv4",
+            "tcp_rx_skb_cache"
+          ],
+          "source_path": "net/ipv4/sysctl_net_ipv4.c",
+          "table": "ipv4_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v5.11"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "key",
+          "handler_symbol": "proc_do_static_key",
+          "path_segments": [
+            "net",
+            "ipv4",
+            "tcp_rx_skb_cache"
+          ],
+          "source_path": "net/ipv4/sysctl_net_ipv4.c",
+          "table": "ipv4_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v5.12"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "key",
+          "handler_symbol": "proc_do_static_key",
+          "path_segments": [
+            "net",
+            "ipv4",
+            "tcp_rx_skb_cache"
+          ],
+          "source_path": "net/ipv4/sysctl_net_ipv4.c",
+          "table": "ipv4_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v5.13"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "key",
+          "handler_symbol": "proc_do_static_key",
+          "path_segments": [
+            "net",
+            "ipv4",
+            "tcp_rx_skb_cache"
+          ],
+          "source_path": "net/ipv4/sysctl_net_ipv4.c",
+          "table": "ipv4_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v5.14"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "key",
+          "handler_symbol": "proc_do_static_key",
+          "path_segments": [
+            "net",
+            "ipv4",
+            "tcp_rx_skb_cache"
+          ],
+          "source_path": "net/ipv4/sysctl_net_ipv4.c",
+          "table": "ipv4_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v5.15"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "availableVersions": [
+    "v4.15",
+    "v4.16"
+  ],
+  "name": "net.ipv6.max_hbh_opts_cnt",
+  "namespace": "net",
+  "slug": "net.ipv6.max_hbh_opts_cnt",
+  "versions": [
+    {
+      "docRefs": [
+        {
+          "blob": "eb9b7d39f8e1f537",
+          "heading": "max_hbh_opts_cnt",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.txt"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v4.15"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "eb9b7d39f8e1f537",
+          "heading": "max_hbh_opts_cnt",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.txt"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v4.16"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+{
+  "text": "Maximum number of supplementary groups, _i.e._ the maximum size which\n``setgroups`` will accept. Exports ``NGROUPS_MAX`` from the kernel."
+}

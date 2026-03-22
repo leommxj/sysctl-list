@@ -1,0 +1,3 @@
+{
+  "text": "Control flow label reflection. Needed for Path MTU\n\tDiscovery to work with Equal Cost Multipath Routing in anycast\n\tenvironments. See RFC 7690 and:\n\thttps://tools.ietf.org/html/draft-wang-6man-flow-label-reflection-01\n\n\tThis is a bitmask.\n\t1: enabled for established flows\n\n\tNote that this prevents automatic flowlabel changes, as done\n\tin \"tcp: change IPv6 flow-label upon receiving spurious retransmission\"\n\tand \"tcp: Change txhash on every SYN and RTO retransmit\"\n\n\t2: enabled for TCP RESET packets (no active listener)\n\tIf set, a RST packet sent in response to a SYN packet on a closed\n\tport will reflect the incoming flow label.\n\n\t4: enabled for ICMPv6 echo reply messages.\n\n\tDefault: 0"
+}

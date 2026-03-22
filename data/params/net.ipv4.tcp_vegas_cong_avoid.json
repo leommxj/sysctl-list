@@ -1,0 +1,43 @@
+{
+  "availableVersions": [
+    "v2.6.11",
+    "v2.6.12"
+  ],
+  "name": "net.ipv4.tcp_vegas_cong_avoid",
+  "namespace": "net",
+  "slug": "net.ipv4.tcp_vegas_cong_avoid",
+  "versions": [
+    {
+      "docRefs": [
+        {
+          "blob": "0935a6496d837ac0",
+          "heading": "tcp_vegas_cong_avoid",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.txt"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v2.6.11"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "0935a6496d837ac0",
+          "heading": "tcp_vegas_cong_avoid",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.txt"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v2.6.12"
+    }
+  ]
+}

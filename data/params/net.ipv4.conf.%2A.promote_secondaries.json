@@ -1,0 +1,225 @@
+{
+  "availableVersions": [
+    "v3.5",
+    "v3.6",
+    "v3.7",
+    "v3.8",
+    "v3.9",
+    "v3.10",
+    "v3.11",
+    "v3.12",
+    "v3.13"
+  ],
+  "name": "net.ipv4.conf.*.promote_secondaries",
+  "namespace": "net",
+  "slug": "net.ipv4.conf.%2A.promote_secondaries",
+  "versions": [
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "",
+          "handler_symbol": "",
+          "path_segments": [
+            "net",
+            "ipv4",
+            "conf",
+            "*",
+            "promote_secondaries"
+          ],
+          "source_path": "net/ipv4/devinet.c",
+          "table": "devinet_sysctl.devinet_vars"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v3.5"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "",
+          "handler_symbol": "",
+          "path_segments": [
+            "net",
+            "ipv4",
+            "conf",
+            "*",
+            "promote_secondaries"
+          ],
+          "source_path": "net/ipv4/devinet.c",
+          "table": "devinet_sysctl.devinet_vars"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v3.6"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "",
+          "handler_symbol": "",
+          "path_segments": [
+            "net",
+            "ipv4",
+            "conf",
+            "*",
+            "promote_secondaries"
+          ],
+          "source_path": "net/ipv4/devinet.c",
+          "table": "devinet_sysctl.devinet_vars"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v3.7"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "",
+          "handler_symbol": "",
+          "path_segments": [
+            "net",
+            "ipv4",
+            "conf",
+            "*",
+            "promote_secondaries"
+          ],
+          "source_path": "net/ipv4/devinet.c",
+          "table": "devinet_sysctl.devinet_vars"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v3.8"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "",
+          "handler_symbol": "",
+          "path_segments": [
+            "net",
+            "ipv4",
+            "conf",
+            "*",
+            "promote_secondaries"
+          ],
+          "source_path": "net/ipv4/devinet.c",
+          "table": "devinet_sysctl.devinet_vars"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v3.9"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "",
+          "handler_symbol": "",
+          "path_segments": [
+            "net",
+            "ipv4",
+            "conf",
+            "*",
+            "promote_secondaries"
+          ],
+          "source_path": "net/ipv4/devinet.c",
+          "table": "devinet_sysctl.devinet_vars"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v3.10"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "",
+          "handler_symbol": "",
+          "path_segments": [
+            "net",
+            "ipv4",
+            "conf",
+            "*",
+            "promote_secondaries"
+          ],
+          "source_path": "net/ipv4/devinet.c",
+          "table": "devinet_sysctl.devinet_vars"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v3.11"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "",
+          "handler_symbol": "",
+          "path_segments": [
+            "net",
+            "ipv4",
+            "conf",
+            "*",
+            "promote_secondaries"
+          ],
+          "source_path": "net/ipv4/devinet.c",
+          "table": "devinet_sysctl.devinet_vars"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v3.12"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "",
+          "handler_symbol": "",
+          "path_segments": [
+            "net",
+            "ipv4",
+            "conf",
+            "*",
+            "promote_secondaries"
+          ],
+          "source_path": "net/ipv4/devinet.c",
+          "table": "devinet_sysctl.devinet_vars"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v3.13"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+{
+  "text": "This enables hardening for the Berkeley Packet Filter Just in Time compiler.\nSupported are eBPF JIT backends. Enabling hardening trades off performance,\nbut can mitigate JIT spraying.\nValues :\n\t0 - disable JIT hardening (default value)\n\t1 - enable JIT hardening for unprivileged users only\n\t2 - enable JIT hardening for all users"
+}

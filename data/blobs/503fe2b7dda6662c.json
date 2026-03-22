@@ -1,0 +1,3 @@
+{
+  "text": "The length of time an orphaned (no longer referenced by any\n\tapplication) connection will remain in the FIN_WAIT_2 state\n\tbefore it is aborted at the local end.  While a perfectly\n\tvalid \"receive only\" state for an un-orphaned connection, an\n\torphaned connection in FIN_WAIT_2 state could otherwise wait\n\tforever for the remote to close its end of the connection.\n\tCf. tcp_max_orphans\n\tDefault: 60 seconds"
+}

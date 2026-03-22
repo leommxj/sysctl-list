@@ -1,0 +1,3 @@
+{
+  "text": "This variable has no effect and may be removed in future kernel\nreleases. Reading it always returns 0.\nUp to Linux 3.17, it enabled/disabled automatic recomputing of msgmni\nupon memory add/remove or upon ipc namespace creation/removal.\nEchoing \"1\" into this file enabled msgmni automatic recomputing.\nEchoing \"0\" turned it off. auto_msgmni default value was 1."
+}

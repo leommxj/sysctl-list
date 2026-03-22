@@ -1,0 +1,3 @@
+{
+  "text": "Controls whether the kernel should collect statistics on BPF programs\n(total time spent running, number of times run...). Enabling\nstatistics causes a slight reduction in performance on each program\nrun. The statistics can be seen using ``bpftool``.\n\n= ===================================\n0 Don't collect statistics (default).\n1 Collect statistics.\n= ==================================="
+}

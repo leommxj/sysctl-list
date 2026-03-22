@@ -1,0 +1,3 @@
+{
+  "text": "Send(router) or accept(host) RFC1620 shared media redirects.\n\tOverrides secure_redirects.\n\n\tshared_media for the interface will be enabled if at least one of\n\tconf/{all,interface}/shared_media is set to TRUE,\n\tit will be disabled otherwise\n\n\tdefault TRUE"
+}

@@ -1,0 +1,3 @@
+{
+  "text": "Minimal number of segments per TSO frame.\n\n\tSince linux-3.12, TCP does an automatic sizing of TSO frames,\n\tdepending on flow rate, instead of filling 64Kbytes packets.\n\tFor specific usages, it's possible to force TCP to build big\n\tTSO frames. Note that TCP stack might split too big TSO packets\n\tif available window is too small.\n\n\tDefault: 2"
+}

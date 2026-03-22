@@ -1,0 +1,3 @@
+{
+  "text": "Highest valid capability of the running kernel.  Exports\n``CAP_LAST_CAP`` from the kernel."
+}

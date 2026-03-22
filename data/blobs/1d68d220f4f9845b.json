@@ -1,0 +1,3 @@
+{
+  "text": "Controls the fwmark of kernel-generated IPv4 reply packets that are not\n\tassociated with a socket for example, TCP RSTs or ICMP echo replies).\n\tIf unset, these packets have a fwmark of zero. If set, they have the\n\tfwmark of the packet they are replying to.\n\n\tDefault: 0"
+}

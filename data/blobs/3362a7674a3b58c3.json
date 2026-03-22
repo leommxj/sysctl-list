@@ -1,0 +1,3 @@
+{
+  "text": "The value in this file affects behavior of handling NMI. When the value is\nnon-zero, unknown NMI is trapped and then panic occurs. At that time, kernel\ndebugging information is displayed on console.\n\nNMI switch that most IA32 servers have fires unknown NMI up, for example.\nIf a system hangs up, try pressing the NMI switch."
+}

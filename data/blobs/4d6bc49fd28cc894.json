@@ -1,0 +1,3 @@
+{
+  "text": "This enables hardening for the BPF JIT compiler. Supported are eBPF\nJIT backends. Enabling hardening trades off performance, but can\nmitigate JIT spraying.\nValues :\n\t0 - disable JIT hardening (default value)\n\t1 - enable JIT hardening for unprivileged users only\n\t2 - enable JIT hardening for all users"
+}

@@ -1,0 +1,3 @@
+{
+  "text": "The default remote UDP encapsulation port.\n\n\tThis value is used to set the dest port of the UDP header for the\n\toutgoing UDP-encapsulated SCTP packets by default. Users can also\n\tchange the value for each sock/asoc/transport by using setsockopt.\n\tFor further information, please refer to RFC6951.\n\n\tNote that when connecting to a remote server, the client should set\n\tthis to the port that the UDP tunneling sock on the peer server is\n\tlistening to and the local UDP tunneling sock on the client also\n\tmust be started. On the server, it would get the encap_port from\n\tthe incoming packet's source port.\n\n\tDefault: 0"
+}

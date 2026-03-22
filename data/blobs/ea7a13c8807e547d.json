@@ -1,0 +1,3 @@
+{
+  "text": "If enabled, do not classify optimistic addresses as deprecated during\n\tsource address selection.  Preferred addresses will still be chosen\n\tbefore optimistic addresses, subject to other ranking in the source\n\taddress selection algorithm.\n\t\t0: disabled (default)\n\t\t1: enabled\n\nicmp/*:"
+}

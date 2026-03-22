@@ -1,0 +1,3 @@
+{
+  "text": "Controls if a new network namespace should inherit all current\nsettings under /proc/sys/net/{ipv4,ipv6}/conf/{all,default}/. By\ndefault, we keep the current behavior: for IPv4 we inherit all current\nsettings from init_net and for IPv6 we reset all settings to default.\n\nIf set to 1, both IPv4 and IPv6 settings are forced to inherit from\ncurrent ones in init_net. If set to 2, both IPv4 and IPv6 settings are\nforced to reset to their default values.\n\nDefault : 0  (for compatibility reasons)"
+}

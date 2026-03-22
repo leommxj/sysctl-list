@@ -1,0 +1,3 @@
+{
+  "text": "This parameter can be used to control whether the kernel panics\nwhen a hard lockup is detected.\n\n   0 - don't panic on hard lockup\n   1 - panic on hard lockup\n\nSee Documentation/admin-guide/lockup-watchdogs.rst for more information.  This can\nalso be set using the nmi_watchdog kernel parameter."
+}

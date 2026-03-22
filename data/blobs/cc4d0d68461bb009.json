@@ -1,0 +1,3 @@
+{
+  "text": "The probe interval for neighbor entries with NTF_MANAGED flag,\n\tthe min value is 1.\n\n\tDefault: 5000"
+}

@@ -1,0 +1,3 @@
+{
+  "text": "Controls whether the panic kmsg data should be reported to Hyper-V.\n\n= =========================================================\n0 Do not report panic kmsg data.\n1 Report the panic kmsg data. This is the default behavior.\n= ========================================================="
+}

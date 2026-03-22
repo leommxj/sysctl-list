@@ -1,0 +1,3 @@
+{
+  "text": "Maximum number of microseconds in one NAPI polling cycle. Polling\nwill exit when either netdev_budget_usecs have elapsed during the\npoll cycle or the number of packets processed reaches netdev_budget."
+}

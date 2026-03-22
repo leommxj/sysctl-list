@@ -1,0 +1,3 @@
+{
+  "text": "Minimal size of send buffer used by UDP sockets in moderation.\n\tEach UDP socket is able to use the size for sending data, even if\n\ttotal pages of UDP sockets exceed udp_mem pressure. The unit is byte.\n\tDefault: 4K\n\nRAW variables:"
+}

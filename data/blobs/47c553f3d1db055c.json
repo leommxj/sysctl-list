@@ -1,0 +1,3 @@
+{
+  "text": "The file rtsig-max can be used to tune the maximum number\nof POSIX realtime (queued) signals that can be outstanding\nin the system.\n\nrtsig-nr shows the number of RT signals currently queued."
+}

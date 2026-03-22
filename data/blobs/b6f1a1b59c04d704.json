@@ -1,0 +1,3 @@
+{
+  "text": "Writing the text representation of an integer to this file sets the system\ndefault vector length to the specified value rounded to a supported value\nusing the same rules as for setting vector length via PR_SVE_SET_VL.\n\nThe result can be determined by reopening the file and reading its\ncontents.\n\nAt boot, the default vector length is initially set to 64 or the maximum\nsupported vector length, whichever is smaller.  This determines the initial\nvector length of the init process (PID 1).\n\nReading this file returns the current system default vector length."
+}

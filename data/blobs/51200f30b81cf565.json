@@ -1,0 +1,3 @@
+{
+  "text": "The machine hardware name, the same output as ``uname -m``\n(e.g. ``x86_64`` or ``aarch64``)."
+}

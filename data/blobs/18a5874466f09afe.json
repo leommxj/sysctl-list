@@ -1,0 +1,3 @@
+{
+  "text": "The time allowed for off node allocations after zone reclaim\nhas failed to reclaim enough pages to allow a local allocation.\n\nTime is set in seconds and set by default to 30 seconds.\n\nReduce the interval if undesired off node allocations occur. However, too\nfrequent scans will have a negative impact onoff node allocation performance."
+}

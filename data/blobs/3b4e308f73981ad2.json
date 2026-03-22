@@ -1,0 +1,3 @@
+{
+  "text": "How may times to retry before killing TCP connection, closed\n\tby our side. Default value 7 corresponds to ~50sec-16min\n\tdepending on RTO. If you machine is loaded WEB server,\n\tyou should think about lowering this value, such sockets\n\tmay consume significant resources. Cf. tcp_max_orphans."
+}

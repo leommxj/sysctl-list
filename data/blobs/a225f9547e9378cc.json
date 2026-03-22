@@ -1,0 +1,3 @@
+{
+  "text": "If set, user thread processing socket backlog tries sending\n\tone ACK for the whole queue. This helps to avoid potential\n\tlong latencies at end of a TCP socket syscall.\n\n\tDefault : true"
+}

@@ -1,0 +1,3 @@
+{
+  "text": "The interval in milliseconds in which the next unsolicited\n\tMLDv2 report retransmit will take place.\n\tDefault: 1000 (1 second)"
+}

@@ -1,0 +1,3 @@
+{
+  "text": "Number of seconds to wait after interface is brought up\n\tbefore sending Router Solicitations.\n\tDefault: 1"
+}

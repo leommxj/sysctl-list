@@ -1,0 +1,3 @@
+{
+  "text": "Number of times SYNACKs for a passive TCP connection attempt will\n\tbe retransmitted. Should not be higher than 255. Default value\n\tis 5, which corresponds to ~180seconds."
+}

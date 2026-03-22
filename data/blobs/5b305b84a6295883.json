@@ -1,0 +1,3 @@
+{
+  "text": "Accept packets with source address 0.b.c.d destined\n\tnot to this host as local ones. It is supposed, that\n\tBOOTP relay daemon will catch and forward such packets.\n\tconf/all/bootp_relay must also be set to TRUE to enable BOOTP relay\n\tfor the interface\n\n\tdefault FALSE\n\n\tNot Implemented Yet."
+}

@@ -1,0 +1,3 @@
+{
+  "text": "How may times to retry before killing alive TCP connection.\n\tRFC1122 says that the limit should be longer than 100 sec.\n\tIt is too small number.\tDefault value 15 corresponds to ~13-30min\n\tdepending on RTO."
+}

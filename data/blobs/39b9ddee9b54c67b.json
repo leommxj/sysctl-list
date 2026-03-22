@@ -1,0 +1,3 @@
+{
+  "text": "Control Accurate ECN (AccECN) option sending when AccECN has been\n\tsuccessfully negotiated during handshake. Send logic inhibits\n\tsending AccECN options regarless of this setting when no AccECN\n\toption has been seen for the reverse direction.\n\n\tPossible values are:\n\n\t= ============================================================\n\t0 Never send AccECN option. This also disables sending AccECN\n\t  option in SYN/ACK during handshake.\n\t1 Send AccECN option sparingly according to the minimum option\n\t  rules outlined in draft-ietf-tcpm-accurate-ecn.\n\t2 Send AccECN option on every packet whenever it fits into TCP\n\t  option space.\n\t= ============================================================\n\n\tDefault: 2"
+}

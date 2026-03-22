@@ -1,0 +1,3 @@
+{
+  "text": "Some filesystems only support 16-bit UIDs and GIDs, although in Linux\nUIDs and GIDs are 32 bits. When one of these filesystems is mounted\nwith writes enabled, any UID or GID that would exceed 65535 is translated\nto a fixed value before being written to disk.\n\nThese sysctls allow you to change the value of the fixed UID and GID.\nThe default is 65534."
+}

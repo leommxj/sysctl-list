@@ -1,0 +1,3 @@
+{
+  "text": "The time interval between which vm statistics are updated.  The default\nis 1 second."
+}

@@ -1,0 +1,3 @@
+{
+  "text": "Enable timestamps as defined in RFC1323.\n\t0: Disabled.\n\t1: Enable timestamps as defined in RFC1323 and use random offset for\n\teach connection rather than only using the current time.\n\t2: Like 1, but without random offsets.\n\tDefault: 1"
+}

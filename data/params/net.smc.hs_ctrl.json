@@ -1,0 +1,31 @@
+{
+  "availableVersions": [
+    "v6.19"
+  ],
+  "name": "net.smc.hs_ctrl",
+  "namespace": "net",
+  "slug": "net.smc.hs_ctrl",
+  "versions": [
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "hs_ctrl",
+          "handler_symbol": "proc_smc_hs_ctrl",
+          "path_segments": [
+            "net",
+            "smc",
+            "hs_ctrl"
+          ],
+          "source_path": "net/smc/smc_sysctl.c",
+          "table": "smc_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.19"
+    }
+  ]
+}

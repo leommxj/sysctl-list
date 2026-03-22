@@ -1,0 +1,3 @@
+{
+  "text": "This is available only on NUMA kernels.\n\nThis is a percentage of the total pages in each zone. Zone reclaim will\nonly occur if more than this percentage of pages are in a state that\nzone_reclaim_mode allows to be reclaimed.\n\nIf zone_reclaim_mode has the value 4 OR'd, then the percentage is compared\nagainst all file-backed unmapped pages including swapcache pages and tmpfs\nfiles. Otherwise, only unmapped pages backed by normal files but not tmpfs\nfiles and similar are considered.\n\nThe default is 1 percent."
+}

@@ -1,0 +1,3 @@
+{
+  "text": "Define mode for notification of address and device changes.\n\n\t ==  ==========================================================\n\t  0  (default): do nothing\n\t  1  Generate gratuitous arp requests when device is brought up\n\t     or hardware address changes.\n\t ==  =========================================================="
+}

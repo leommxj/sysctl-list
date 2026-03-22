@@ -1,0 +1,3 @@
+{
+  "text": "This parameter can be used to control the soft lockup detector.\n\n= =================================\n0 Disable the soft lockup detector.\n1 Enable the soft lockup detector.\n= =================================\n\nThe soft lockup detector monitors CPUs for threads that are hogging the CPUs\nwithout rescheduling voluntarily, and thus prevent the 'watchdog/N' threads\nfrom running. The mechanism depends on the CPUs ability to respond to timer\ninterrupts which are needed for the 'watchdog/N' threads to be woken up by\nthe watchdog timer function, otherwise the NMI watchdog \u2014 if enabled \u2014 can\ndetect a hard lockup condition."
+}

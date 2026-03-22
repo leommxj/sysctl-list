@@ -1,0 +1,3 @@
+{
+  "text": "If MTU probing is enabled this caps the minimum MSS used for search_low\n\tfor the connection.\n\n\tDefault : 48"
+}

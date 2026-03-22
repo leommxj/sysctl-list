@@ -1,0 +1,3 @@
+{
+  "text": "Preference for Privacy Extensions (RFC3041).\n\n\t  * <= 0 : disable Privacy Extensions\n\t  * == 1 : enable Privacy Extensions, but prefer public\n\t    addresses over temporary addresses.\n\t  * >  1 : enable Privacy Extensions and prefer temporary\n\t    addresses over public addresses.\n\n\tDefault:\n\n\t\t* 0 (for most devices)\n\t\t* -1 (for point-to-point devices and loopback devices)"
+}

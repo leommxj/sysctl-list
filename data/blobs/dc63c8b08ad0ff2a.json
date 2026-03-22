@@ -1,0 +1,3 @@
+{
+  "text": "Explicit admission of a 32-bit deadline task to the default root domain\n(e.g. by calling ``sched_setattr(2)``) is rejected on an asymmetric\n32-bit system unless admission control is disabled by writing -1 to\n``/proc/sys/kernel/sched_rt_runtime_us``."
+}

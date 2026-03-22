@@ -1,0 +1,96 @@
+{
+  "availableVersions": [
+    "v6.17",
+    "v6.18",
+    "v6.19"
+  ],
+  "name": "kernel.panic_sys_info",
+  "namespace": "kernel",
+  "slug": "kernel.panic_sys_info",
+  "versions": [
+    {
+      "docRefs": [
+        {
+          "blob": "ab5b081043dc98be",
+          "heading": "panic_sys_info",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/kernel.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "panic_print",
+          "handler_symbol": "sysctl_sys_info_handler",
+          "path_segments": [
+            "kernel",
+            "panic_sys_info"
+          ],
+          "source_path": "kernel/panic.c",
+          "table": "kern_panic_table"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.17"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "ab5b081043dc98be",
+          "heading": "panic_sys_info",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/kernel.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "panic_print",
+          "handler_symbol": "sysctl_sys_info_handler",
+          "path_segments": [
+            "kernel",
+            "panic_sys_info"
+          ],
+          "source_path": "kernel/panic.c",
+          "table": "kern_panic_table"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.18"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "cf076f3bfc36ebd2",
+          "heading": "panic_sys_info",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/kernel.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "panic_print",
+          "handler_symbol": "sysctl_sys_info_handler",
+          "path_segments": [
+            "kernel",
+            "panic_sys_info"
+          ],
+          "source_path": "kernel/panic.c",
+          "table": "kern_panic_table"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.19"
+    }
+  ]
+}

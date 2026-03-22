@@ -1,0 +1,3 @@
+{
+  "text": "Maximal reordering level of packets in a TCP stream.\n\t300 is a fairly conservative value, but you might increase it\n\tif paths are using per packet load balancing (like bonding rr mode)\n\tDefault: 300"
+}

@@ -1,0 +1,3 @@
+{
+  "text": "This file shows the size of the generic SCSI (sg) buffer.\nYou can't tune it just yet, but you could change it on\ncompile time by editing include/scsi/sg.h and changing\nthe value of SG_BIG_BUFF.\n\nThere shouldn't be any reason to change this value. If\nyou can come up with one, you probably know what you\nare doing anyway :)"
+}

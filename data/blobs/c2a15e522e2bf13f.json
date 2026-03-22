@@ -1,0 +1,3 @@
+{
+  "text": "Maximum number of neighbor entries allowed.  Increase this\n\twhen using large numbers of interfaces and when communicating\n\twith large numbers of directly-connected peers."
+}

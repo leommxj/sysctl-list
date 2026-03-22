@@ -1,0 +1,3 @@
+{
+  "text": "How many keepalive probes TCP sends out, until it decides that the\n\tconnection is broken. Default value: 9."
+}

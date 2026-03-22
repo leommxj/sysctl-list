@@ -1,0 +1,26 @@
+{
+  "availableVersions": [
+    "v3.14"
+  ],
+  "name": "kernel.hung_task_warning",
+  "namespace": "kernel",
+  "slug": "kernel.hung_task_warning",
+  "versions": [
+    {
+      "docRefs": [
+        {
+          "blob": "00ddf4178e5acd16",
+          "heading": "hung_task_warning",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/sysctl/kernel.txt"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v3.14"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+{
+  "text": "Define behavior for accepting gratuitous ARP (garp) frames from devices\n\tthat are not already present in the ARP table:\n\n\t- 0 - don't create new entries in the ARP table\n\t- 1 - create new entries in the ARP table\n\t- 2 - create new entries only if the source IP address is in the same\n\t  subnet as an address configured on the interface that received the\n\t  garp message.\n\n\tBoth replies and requests type gratuitous arp will trigger the\n\tARP table to be updated, if this setting is on.\n\n\tIf the ARP table already contains the IP address of the\n\tgratuitous arp frame, the arp table will be updated regardless\n\tif this setting is on or off."
+}

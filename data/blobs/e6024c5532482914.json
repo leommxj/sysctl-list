@@ -1,0 +1,3 @@
+{
+  "text": "Similar functionality as ``kexec_load_limit_panic``, but for a normal\nimage."
+}

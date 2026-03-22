@@ -1,0 +1,3 @@
+{
+  "text": "Sets the threshold window (in packets) where BIC TCP starts to\n\tadjust the congestion window. Below this threshold BIC TCP behaves\n\tthe same as the default TCP Reno.\n\tDefault: 14"
+}

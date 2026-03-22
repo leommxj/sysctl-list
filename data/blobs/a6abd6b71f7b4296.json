@@ -1,0 +1,3 @@
+{
+  "text": "Amount of dirty memory from fib entries that can be backlogged before\n\tsynchronize_rcu is forced.\n\t  Default: 512kB   Minimum: 64kB   Maximum: 64MB"
+}

@@ -1,0 +1,3 @@
+{
+  "text": "The kernel allocates file handles dynamically, but as yet it\ndoesn't free them again.\n\nThe value in file-max denotes the maximum number of file-\nhandles that the Linux kernel will allocate. When you get lots\nof error messages about running out of file handles, you might\nwant to increase this limit.\n\nThe three values in file-nr denote the number of allocated\nfile handles, the number of unused file handles and the maximum\nnumber of file handles. When the allocated file handles come\nclose to the maximum, but the number of unused file handles is\nsignificantly greater than 0, you've encountered a peak in your\nusage of file handles and you don't need to increase the maximum."
+}

@@ -1,0 +1,3 @@
+{
+  "text": "Control whether MPTCP sockets can be created.\n\n\tMPTCP sockets can be created if the value is 1. This is a\n\tper-namespace sysctl.\n\n\tDefault: 1 (enabled)"
+}

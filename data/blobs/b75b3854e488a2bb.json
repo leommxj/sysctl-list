@@ -1,0 +1,3 @@
+{
+  "text": "The advertised MSS depends on the first hop route MTU, but will\n\tnever be lower than this setting.\n\nIP Fragmentation:"
+}

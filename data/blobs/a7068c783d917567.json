@@ -1,0 +1,3 @@
+{
+  "text": "Enables/disables Energy Aware Scheduling (EAS). EAS starts\nautomatically on platforms where it can run (that is,\nplatforms with asymmetric CPU topologies and having an Energy\nModel available). If your platform happens to meet the\nrequirements for EAS but you do not want to use it, change\nthis value to 0. On Non-EAS platforms, write operation fails and\nread doesn't return anything."
+}

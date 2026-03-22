@@ -1,0 +1,3 @@
+{
+  "text": "Max size (in skbs) of the per-cpu list of skbs being freed\nby the cpu which allocated them.\n\nDefault: 128"
+}

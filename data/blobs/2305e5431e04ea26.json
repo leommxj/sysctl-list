@@ -1,0 +1,3 @@
+{
+  "text": "The amount of time (in milliseconds) that the implementation will wait\n\tto send a SACK.\n\n\tDefault: 200"
+}

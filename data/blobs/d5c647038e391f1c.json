@@ -1,0 +1,3 @@
+{
+  "text": "Whether to accept DAD (Duplicate Address Detection).\n\t0: Disable DAD\n\t1: Enable DAD (default)\n\t2: Enable DAD, and disable IPv6 operation if MAC-based duplicate\n\t   link-local address has been found.\n\nicmp/*:"
+}

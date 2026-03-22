@@ -1,0 +1,3 @@
+{
+  "text": "Determines whether the kernels maps a vDSO page into 32-bit processes;\ncan be set to 1 to enable, or 0 to disable. Defaults to enabled if\n``CONFIG_COMPAT_VDSO`` is set, disabled otherwise.\n\nThis controls the same setting as the ``vdso32`` kernel boot\nparameter."
+}

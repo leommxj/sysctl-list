@@ -1,0 +1,3 @@
+{
+  "text": "The Linux VM subsystem avoids excessive disk seeks by reading\nmultiple pages on a page fault. The number of pages it reads\nis dependent on the amount of memory in your machine.\n\nThe number of pages the kernel reads in at once is equal to\n2 ^ page-cluster. Values above 2 ^ 5 don't make much sense\nfor swap because we only cluster swap data in 32-page groups."
+}

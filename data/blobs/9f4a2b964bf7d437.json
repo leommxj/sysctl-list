@@ -1,0 +1,3 @@
+{
+  "text": "Show/set the congestion control choices available to non-privileged\n\tprocesses. The list is a subset of those listed in\n\ttcp_available_congestion_control.\n\n\tDefault is \"reno\" and the default setting (tcp_congestion_control)."
+}

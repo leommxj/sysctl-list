@@ -1,0 +1,3 @@
+{
+  "text": "LoadPin starts pinning when it sees the first file loaded. If the\nblock device backing the filesystem is not read-only, a sysctl is\ncreated to toggle pinning: /proc/sys/kernel/loadpin/enabled. (Having\na mutable filesystem means pinning is mutable too, but having the\nsysctl allows for easy testing on systems with a mutable filesystem.)"
+}

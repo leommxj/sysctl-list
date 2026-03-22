@@ -1,0 +1,3 @@
+{
+  "text": "Skip charging socket buffers to the global per-protocol memory\naccounting controlled by net.ipv4.tcp_mem, net.ipv4.udp_mem, etc.\n\nDefault: 0 (off)"
+}

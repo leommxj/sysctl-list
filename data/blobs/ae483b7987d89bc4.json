@@ -1,0 +1,3 @@
+{
+  "text": "Set the default path manager name to use for each new MPTCP\n\tsocket. In-kernel path management will control subflow\n\tconnections and address advertisements according to\n\tper-namespace values configured over the MPTCP netlink\n\tAPI. Userspace path management puts per-MPTCP-connection subflow\n\tconnection decisions and address advertisements under control of\n\ta privileged userspace program, at the cost of more netlink\n\ttraffic to propagate all of the related events and commands.\n\n\tThis is a per-namespace sysctl.\n\n\t* \"kernel\"          - In-kernel path manager\n\t* \"userspace\"       - Userspace path manager\n\n\tDefault: \"kernel\""
+}

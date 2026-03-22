@@ -1,0 +1,3 @@
+{
+  "text": "Maximal number of remembered connection requests (SYN_RECV),\n\twhich have not received an acknowledgment from connecting client.\n\n\tThis is a per-listener limit.\n\n\tThe minimal value is 128 for low memory machines, and it will\n\tincrease in proportion to the memory of machine.\n\n\tIf server suffers from overload, try increasing this number."
+}

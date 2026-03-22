@@ -1,0 +1,75 @@
+{
+  "availableVersions": [
+    "v3.6",
+    "v3.14",
+    "v3.15"
+  ],
+  "name": "net.sctp.pf_retrans",
+  "namespace": "net",
+  "slug": "net.sctp.pf_retrans",
+  "versions": [
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "sctp_pf_retrans",
+          "handler_symbol": "proc_dointvec_minmax",
+          "path_segments": [
+            "net",
+            "sctp",
+            "pf_retrans"
+          ],
+          "source_path": "net/sctp/sysctl.c",
+          "table": "sctp_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v3.6"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "pf_retrans",
+          "handler_symbol": "proc_dointvec_minmax",
+          "path_segments": [
+            "net",
+            "sctp",
+            "pf_retrans"
+          ],
+          "source_path": "net/sctp/sysctl.c",
+          "table": "sctp_net_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v3.14"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "pf_retrans",
+          "handler_symbol": "proc_dointvec_minmax",
+          "path_segments": [
+            "net",
+            "sctp",
+            "pf_retrans"
+          ],
+          "source_path": "net/sctp/sysctl.c",
+          "table": "sctp_net_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v3.15"
+    }
+  ]
+}

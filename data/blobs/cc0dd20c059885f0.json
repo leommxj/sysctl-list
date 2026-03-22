@@ -1,0 +1,3 @@
+{
+  "text": "Maximal number of timewait sockets held by system simultaneously.\n\tIf this number is exceeded time-wait socket is immediately destroyed\n\tand warning is printed. This limit exists only to prevent\n\tsimple DoS attacks, you _must_ not lower the limit artificially,\n\tbut rather increase it (probably, after increasing installed memory),\n\tif network conditions require more than default value."
+}

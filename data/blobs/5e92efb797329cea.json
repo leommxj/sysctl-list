@@ -1,0 +1,3 @@
+{
+  "text": "Set the congestion control algorithm to be used for new\n\tconnections. The algorithm \"reno\" is always available, but\n\tadditional choices may be available based on kernel configuration.\n\tDefault is set as part of kernel configuration.\n\tFor passive connections, the listener congestion control choice\n\tis inherited.\n\n\t[see setsockopt(listenfd, SOL_TCP, TCP_CONGESTION, \"name\" ...) ]"
+}

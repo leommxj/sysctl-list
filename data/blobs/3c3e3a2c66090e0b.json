@@ -1,0 +1,3 @@
+{
+  "text": "Calls panic() in the WARN() path when set to 1.  This is useful to avoid\na kernel rebuild when attempting to kdump at the location of a WARN().\n\n= ================================================\n0 Only WARN(), default behaviour.\n1 Call panic() after printing out WARN() location.\n= ================================================"
+}

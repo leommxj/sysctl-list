@@ -1,0 +1,3 @@
+{
+  "text": "Control the logging to /dev/kmsg from userspace:\n\nratelimit:\n\tdefault, ratelimited\n\non: unlimited logging to /dev/kmsg from userspace\n\noff: logging to /dev/kmsg disabled\n\nThe kernel command line parameter printk.devkmsg= overrides this and is\na one-time setting until next reboot: once set, it cannot be changed by\nthis sysctl interface anymore."
+}

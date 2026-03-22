@@ -1,0 +1,3 @@
+{
+  "text": "Enable global IPv6 forwarding between all interfaces.\n\n\tIPv4 and IPv6 work differently here; e.g. netfilter must be used\n\tto control which interfaces may forward packets and which not.\n\n\tThis also sets all interfaces' Host/Router setting\n\t'forwarding' to the specified value.  See below for details.\n\n\tThis referred to as global forwarding."
+}

@@ -1,0 +1,3 @@
+{
+  "text": "Enables F-RTO, an enhanced recovery algorithm for TCP retransmission\n\ttimeouts.  It is particularly beneficial in wireless environments\n\twhere packet loss is typically due to random radio interference\n\trather than intermediate router congestion. If set to 1, basic\n\tversion is enabled. 2 enables SACK enhanced F-RTO, which is\n\tEXPERIMENTAL. The basic version can be used also when SACK is\n\tenabled for a flow through tcp_sack sysctl."
+}
