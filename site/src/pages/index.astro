@@ -1,0 +1,61 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="sysctl list">
+  <main class="page-frame">
+    <section class="workspace" id="workspace">
+      <aside class="panel sidebar" id="sidebar">
+        <button
+          id="sidebarToggle"
+          class="inline-button sidebar-toggle"
+          type="button"
+          aria-controls="sidebarContent"
+          aria-expanded="true"
+        >
+          <span class="toggle-label-open" aria-hidden="true">‹</span>
+          <span class="toggle-label-closed" aria-hidden="true">›</span>
+        </button>
+
+        <div class="sidebar-content" id="sidebarContent">
+          <div class="toolbar">
+            <label class="field field-span-all">
+              <span>Search</span>
+              <input id="searchInput" type="search" placeholder="Search parameter name" />
+            </label>
+            <label class="field">
+              <span>Namespace</span>
+              <select id="namespaceSelect"></select>
+            </label>
+            <label class="field">
+              <span>Version</span>
+              <select id="versionSelect"></select>
+            </label>
+          </div>
+
+          <div class="list-header">
+            <div>
+              <p class="eyebrow">Parameters</p>
+              <strong id="resultsCount">0 results</strong>
+            </div>
+            <button id="randomButton" class="inline-button" type="button">Random</button>
+          </div>
+
+          <div class="list-viewport" id="listViewport">
+            <div class="list-spacer" id="listSpacer"></div>
+          </div>
+        </div>
+      </aside>
+
+      <section class="panel detail-panel">
+        <div id="detailPane" class="detail-pane">
+          <p class="empty-copy">Loading…</p>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <script>
+    import "../lib/explorer.ts";
+  </script>
+</BaseLayout>

@@ -1,0 +1,3 @@
+{
+  "text": "::\n\n  # cat osrelease\n  2.1.88\n  # cat ostype\n  Linux\n  # cat version\n  #5 Wed Feb 25 21:49:24 MET 1998\n\nThe files osrelease and ostype should be clear enough. Version\nneeds a little more clarification however. The '#5' means that\nthis is the fifth kernel built from this source base and the\ndate behind it indicates the time the kernel was built.\nThe only way to tune these values is to rebuild the kernel :-)"
+}

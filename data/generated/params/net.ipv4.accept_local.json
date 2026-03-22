@@ -1,0 +1,43 @@
+{
+  "availableVersions": [
+    "v2.6.33",
+    "v2.6.34"
+  ],
+  "name": "net.ipv4.accept_local",
+  "namespace": "net",
+  "slug": "net.ipv4.accept_local",
+  "versions": [
+    {
+      "docRefs": [
+        {
+          "blob": "a9107c506441764d",
+          "heading": "accept_local",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.txt"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v2.6.33"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "a9107c506441764d",
+          "heading": "accept_local",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.txt"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v2.6.34"
+    }
+  ]
+}

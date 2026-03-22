@@ -1,0 +1,3 @@
+{
+  "text": "Minimal TCP retransmission timeout (in microseconds). Note that the\n\trto_min route option has the highest precedence for configuring this\n\tsetting, followed by the TCP_BPF_RTO_MIN socket option, followed by\n\tthis tcp_rto_min_us sysctl.\n\n\tThe recommended practice is to use a value less or equal to 200000\n\tmicroseconds.\n\n\tPossible Values: 1 - INT_MAX\n\n\tDefault: 200000\n\nUDP variables\n============="
+}

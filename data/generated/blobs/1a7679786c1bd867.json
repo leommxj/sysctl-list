@@ -1,0 +1,3 @@
+{
+  "text": "How frequently the probes are send out. Multiplied by\n\ttcp_keepalive_probes it is time to kill not responding connection,\n\tafter probes started. Default value: 75sec i.e. connection\n\twill be aborted after ~11 minutes of retries."
+}

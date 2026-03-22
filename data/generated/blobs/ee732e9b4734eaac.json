@@ -1,0 +1,3 @@
+{
+  "text": "If either is set to true, then the kernel will ignore either all\n\tICMP ECHO requests sent to it or just those to broadcast/multicast\n\taddresses, respectively."
+}

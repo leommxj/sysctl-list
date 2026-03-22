@@ -1,0 +1,3 @@
+{
+  "text": "Default value of TTL field (Time To Live) for outgoing (but not\n\tforwarded) IP packets. Should be between 1 and 255 inclusive.\n\tDefault: 64 (as recommended by RFC1700)"
+}

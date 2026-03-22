@@ -1,0 +1,3 @@
+{
+  "text": "Minimum hop limit Information in Router Advertisement.\n\n\tHop limit Information in Router Advertisement less than this\n\tvariable shall be ignored.\n\n\tDefault: 1"
+}

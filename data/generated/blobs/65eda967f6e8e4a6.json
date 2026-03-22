@@ -1,0 +1,3 @@
+{
+  "text": "Controls the IGMP query robustness variable (see RFC2236 8.1).\n\n\tDefault: 2 (as specified by RFC2236 8.1)\n\n\tMinimum: 1 (as specified by RFC6636 4.5)"
+}

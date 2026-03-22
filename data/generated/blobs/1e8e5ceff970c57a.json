@@ -1,0 +1,3 @@
+{
+  "text": "Controls how often to start TCP Packetization-Layer Path MTU\n\tDiscovery reprobe. The default is reprobing every 10 minutes as\n\tper RFC4821."
+}

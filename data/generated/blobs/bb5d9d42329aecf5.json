@@ -1,0 +1,3 @@
+{
+  "text": "The maximum number of packets which may be queued for each\n\tunresolved address by other network layers.\n\t(deprecated in linux 3.3) : use unres_qlen_bytes instead.\n\tPrior to linux 3.3, the default value is 3 which may cause\n\tunexpected packet loss. The current default value is calculated\n\taccording to default value of unres_qlen_bytes and true size of\n\tpacket.\n\tDefault: 31"
+}

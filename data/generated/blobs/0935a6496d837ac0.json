@@ -1,0 +1,3 @@
+{
+  "text": "Enable TCP Vegas congestion avoidance algorithm.\n\tTCP Vegas is a sender-side only change to TCP that anticipates\n\tthe onset of congestion by estimating the bandwidth. TCP Vegas\n\tadjusts the sending rate by modifying the congestion\n\twindow. TCP Vegas should provide less packet loss, but it is\n\tnot as aggressive as TCP Reno.\n\tDefault:0"
+}

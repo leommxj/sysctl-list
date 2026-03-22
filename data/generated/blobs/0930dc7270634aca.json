@@ -1,0 +1,3 @@
+{
+  "text": "- 0 - disabled (default)\n\t- not 0 - enabled\n\n\tEnable connection tracking flow accounting. 64-bit byte and packet\n\tcounters per flow are added."
+}

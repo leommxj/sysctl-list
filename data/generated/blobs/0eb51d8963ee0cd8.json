@@ -1,0 +1,3 @@
+{
+  "text": "Enables/disables scheduler statistics. Enabling this feature\nincurs a small amount of overhead in the scheduler but is\nuseful for debugging and performance tuning."
+}

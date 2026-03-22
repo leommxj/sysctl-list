@@ -1,0 +1,3 @@
+{
+  "text": "highwater lowwater frequency\n\nIf BSD-style process accounting is enabled these values control\nits behaviour. If free space on filesystem where the log lives\ngoes below <lowwater>% accounting suspends. If free space gets\nabove <highwater>% accounting resumes. <Frequency> determines\nhow often do we check the amount of free space (value is in\nseconds). Default:\n4 2 30\nThat is, suspend accounting if there left <= 2% free; resume it\nif we got >=4%; consider information about amount of free space\nvalid for 30 seconds."
+}

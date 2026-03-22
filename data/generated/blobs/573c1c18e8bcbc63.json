@@ -1,0 +1,3 @@
+{
+  "text": "Accept or drop SR-enabled IPv6 packets on this interface.\n\n\tRelevant packets are those with SRH present and DA = local.\n\n\t* 0 - disabled (default)\n\t* not 0 - enabled"
+}

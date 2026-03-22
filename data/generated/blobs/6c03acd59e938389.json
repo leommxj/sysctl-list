@@ -1,0 +1,3 @@
+{
+  "text": "Number of consecutive congested rounds (RTT) seen after which\n\ta rehash can be performed, given there are no packets in flight.\n\tThis is referred to as M in PLB paper:\n\thttps://doi.org/10.1145/3544216.3544226.\n\n\tPossible Values: 0 - 31\n\n\tDefault: 3"
+}

@@ -1,0 +1,3 @@
+{
+  "text": "The file dquot-max shows the maximum number of cached disk\nquota entries.\n\nThe file dquot-nr shows the number of allocated disk quota\nentries and the number of free disk quota entries.\n\nIf the number of free cached disk quotas is very low and\nyou have some awesome number of simultaneous system users,\nyou might want to raise the limit."
+}

@@ -1,0 +1,3 @@
+{
+  "text": "block_dump enables block I/O debugging when set to a nonzero value. More\ninformation on block I/O debugging is in Documentation/admin-guide/laptops/laptop-mode.rst."
+}

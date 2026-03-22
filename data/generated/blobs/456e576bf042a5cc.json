@@ -1,0 +1,3 @@
+{
+  "text": "The last pid allocated in the current (the one task using this sysctl\nlives in) pid namespace. When selecting a pid for a next task on fork\nkernel tries to allocate a number starting from this one."
+}

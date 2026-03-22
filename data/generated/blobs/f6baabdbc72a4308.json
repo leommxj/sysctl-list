@@ -1,0 +1,3 @@
+{
+  "text": "The value in this file represents the number of seconds the kernel\nwaits before rebooting on a panic. When you use the software watchdog,\nthe recommended setting is 60."
+}

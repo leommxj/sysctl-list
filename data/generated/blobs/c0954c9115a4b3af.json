@@ -1,0 +1,3 @@
+{
+  "text": "The initial value of search_low to be used by the packetization layer\n\tPath MTU discovery (MTU probing).  If MTU probing is enabled,\n\tthis is the initial MSS used by the connection."
+}

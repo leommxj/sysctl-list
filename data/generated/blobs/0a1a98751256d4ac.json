@@ -1,0 +1,3 @@
+{
+  "text": "Any read or write (by root only) flushes all the per-cpu vm statistics\ninto their global totals, for more accurate reports when testing\ne.g. cat /proc/sys/vm/stat_refresh /proc/meminfo\n\nAs a side-effect, it also checks for negative totals (elsewhere reported\nas 0) and \"fails\" with EINVAL if any are found, with a warning in dmesg.\n(At time of writing, a few stats are known sometimes to be found negative,\nwith no ill effects: errors and warnings on these stats are suppressed.)"
+}

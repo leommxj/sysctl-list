@@ -1,0 +1,3 @@
+{
+  "text": "Change the maximum size of the hugepage pool. The maximum is\nnr_hugepages + nr_overcommit_hugepages.\n\nSee Documentation/admin-guide/mm/hugetlbpage.rst"
+}

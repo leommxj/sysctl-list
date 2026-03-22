@@ -1,0 +1,3 @@
+{
+  "text": "0  - disabled (default)\n\n        The secure_tcp defense is to use a more complicated state\n        transition table and some possible short timeouts of each\n        state. In the VS/NAT, it delays the entering the ESTABLISHED\n        until the real server starts to send data and ACK packet\n        (after 3-way handshake).\n\n        The value definition is the same as that of drop_entry or\n        drop_packet."
+}

@@ -1,0 +1,3 @@
+{
+  "text": "0 - disabled\n\tnot 0 - enabled (default)\n\n\tVerify checksum of incoming packets. Packets with bad checksums are\n\tin INVALID state. If this is enabled, such packets will not be\n\tconsidered for connection tracking.\n\nnf_conntrack_count - INTEGER (read-only)\n\tNumber of currently allocated flow entries."
+}

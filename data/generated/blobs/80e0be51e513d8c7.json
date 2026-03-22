@@ -1,0 +1,3 @@
+{
+  "text": "Drop any unicast IP packets that are received in link-layer\n\tmulticast (or broadcast) frames.\n\tThis behavior (for multicast) is actually a SHOULD in RFC\n\t1122, but is disabled by default for compatibility reasons.\n\tDefault: off (0)"
+}

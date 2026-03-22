@@ -1,0 +1,3 @@
+{
+  "text": "The per net-namespace route cache emergency rebuild threshold.\n\tAny net-namespace having its route cache rebuilt due to\n\ta hash bucket chain being too long more than this many times\n\twill have its route caching disabled\n\nIP Fragmentation:"
+}

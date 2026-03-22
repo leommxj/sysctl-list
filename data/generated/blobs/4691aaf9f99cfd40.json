@@ -1,0 +1,3 @@
+{
+  "text": "Controls when TCP Packetization-Layer Path MTU Discovery probing\n\twill stop in respect to the width of search range in bytes. Default\n\tis 8 bytes."
+}

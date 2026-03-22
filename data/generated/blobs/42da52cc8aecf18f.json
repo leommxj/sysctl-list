@@ -1,0 +1,3 @@
+{
+  "text": "Tail loss probe (TLP) converts RTOs occurring due to tail\n\tlosses into fast recovery (RFC8985). Note that\n\tTLP requires RACK to function properly (see tcp_recovery below)\n\n\tPossible values:\n\n\t\t- 0 disables TLP\n\t\t- 3 or 4 enables TLP\n\n\tDefault: 3"
+}

@@ -1,0 +1,3 @@
+{
+  "text": "Mask made of ICMP types for which rates are being limited.\n\tSignificant bits: IHGFEDCBA9876543210\n\tDefault mask:     0000001100000011000 (6168)\n\n\tBit definitions (see include/linux/icmp.h):\n\t\t0 Echo Reply\n\t\t3 Destination Unreachable *\n\t\t4 Source Quench *\n\t\t5 Redirect\n\t\t8 Echo Request\n\t\tB Time Exceeded *\n\t\tC Parameter Problem *\n\t\tD Timestamp Request\n\t\tE Timestamp Reply\n\t\tF Info Request\n\t\tG Info Reply\n\t\tH Address Mask Request\n\t\tI Address Mask Reply\n\n\t* These are rate limited by default (see default mask above)"
+}

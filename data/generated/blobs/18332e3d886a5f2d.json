@@ -1,0 +1,3 @@
+{
+  "text": "The time interval (in milliseconds) for the PLPMTUD probe timer,\n        which is configured to expire after this period to receive an\n        acknowledgment to a probe packet. This is also the time interval\n        between the probes for the current pmtu when the probe search\n        is done.\n\n        PLPMTUD will be disabled when 0 is set, and other values for it\n        must be >= 5000.\n\n\tDefault: 0"
+}

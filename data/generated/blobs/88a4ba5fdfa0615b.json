@@ -1,0 +1,3 @@
+{
+  "text": "When io_uring_disabled is set to 1, a process must either be\nprivileged (CAP_SYS_ADMIN) or be in the io_uring_group group in order\nto create an io_uring instance.  If io_uring_group is set to -1 (the\ndefault), only processes with the CAP_SYS_ADMIN capability may create\nio_uring instances."
+}

@@ -1,0 +1,26 @@
+{
+  "availableVersions": [
+    "v6.19"
+  ],
+  "name": "net.core.somaxconn.tcp_comp_sack_rtt_percent",
+  "namespace": "net",
+  "slug": "net.core.somaxconn.tcp_comp_sack_rtt_percent",
+  "versions": [
+    {
+      "docRefs": [
+        {
+          "blob": "81c70516b686b2c3",
+          "heading": "tcp_comp_sack_rtt_percent",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v6.19"
+    }
+  ]
+}

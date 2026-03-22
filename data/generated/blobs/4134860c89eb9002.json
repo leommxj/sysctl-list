@@ -1,0 +1,3 @@
+{
+  "text": "Shows the available congestion control choices that are registered.\n\tMore congestion control algorithms may be available as modules,\n\tbut not loaded."
+}

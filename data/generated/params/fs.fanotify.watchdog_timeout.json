@@ -1,0 +1,53 @@
+{
+  "availableVersions": [
+    "v6.18",
+    "v6.19"
+  ],
+  "name": "fs.fanotify.watchdog_timeout",
+  "namespace": "fs",
+  "slug": "fs.fanotify.watchdog_timeout",
+  "versions": [
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "perm_group_timeout",
+          "handler_symbol": "proc_dointvec_minmax",
+          "path_segments": [
+            "fs",
+            "fanotify",
+            "watchdog_timeout"
+          ],
+          "source_path": "fs/notify/fanotify/fanotify_user.c",
+          "table": "fanotify_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.18"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "perm_group_timeout",
+          "handler_symbol": "proc_dointvec_minmax",
+          "path_segments": [
+            "fs",
+            "fanotify",
+            "watchdog_timeout"
+          ],
+          "source_path": "fs/notify/fanotify/fanotify_user.c",
+          "table": "fanotify_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.19"
+    }
+  ]
+}

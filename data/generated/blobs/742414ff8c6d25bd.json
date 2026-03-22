@@ -1,0 +1,3 @@
+{
+  "text": "icmp_msgs_per_sec controls number of ICMP packets sent per second,\n\twhile icmp_msgs_burst controls the burst size of these packets.\n\n\tDefault: 50"
+}

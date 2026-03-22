@@ -1,0 +1,3 @@
+{
+  "text": "Maximum total number of pages a non-privileged user may allocate for pipes\nbefore the pipe size gets limited to a single page. Once this limit is reached,\nnew pipes will be limited to a single page in size for this user in order to\nlimit total memory usage, and trying to increase them using fcntl() will be\ndenied until usage goes below the limit again. The default value allows to\nallocate up to 1024 pipes at their default size. When set to 0, no limit is\napplied."
+}

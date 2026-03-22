@@ -1,0 +1,3 @@
+{
+  "text": "Controls the kernel's behavior when a hung task is detected.\nThis file shows up if CONFIG_DETECT_HUNG_TASK is enabled.\n\n0: continue operation. This is the default behavior.\n\n1: panic immediately."
+}

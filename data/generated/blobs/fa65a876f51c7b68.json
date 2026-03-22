@@ -1,0 +1,3 @@
+{
+  "text": "Controls if fallback tunnels (like tunl0, gre0, gretap0, erspan0,\nsit0, ip6tnl0, ip6gre0) are automatically created when a new\nnetwork namespace is created, if corresponding tunnel is present\nin initial network namespace.\nIf set to 1, these devices are not automatically created, and\nuser space is responsible for creating them if needed.\n\nDefault : 0  (for compatibility reasons)"
+}

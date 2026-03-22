@@ -1,0 +1,3 @@
+{
+  "text": "A comma separated list of extra information to be dumped on panic,\nfor example, \"tasks,mem,timers,...\".  It is a human readable alternative\nto 'panic_print'. Possible values are:\n\n=============   ===================================================\ntasks           print all tasks info\nmem             print system memory info\ntimers          print timers info\nlocks           print locks info if CONFIG_LOCKDEP is on\nftrace          print ftrace buffer\nall_bt          print all CPUs backtrace (if available in the arch)\nblocked_tasks   print only tasks in uninterruptible (blocked) state\n=============   ==================================================="
+}

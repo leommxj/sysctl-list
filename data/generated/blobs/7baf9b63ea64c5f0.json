@@ -1,0 +1,3 @@
+{
+  "text": "Control use of Explicit Congestion Notification (ECN) by TCP.\n\tECN is used only when both ends of the TCP connection indicate\n\tsupport for it.  This feature is useful in avoiding losses due\n\tto congestion by allowing supporting routers to signal\n\tcongestion before having to drop packets.\n\tPossible values are:\n\t\t0 Disable ECN.  Neither initiate nor accept ECN.\n\t\t1 Always request ECN on outgoing connection attempts.\n\t\t2 Enable ECN when requested by incoming connections\n\t\t  but do not request ECN on outgoing connections.\n\tDefault: 2"
+}

@@ -1,0 +1,72 @@
+{
+  "availableVersions": [
+    "v6.4",
+    "v6.5",
+    "v6.6"
+  ],
+  "name": "kernel.kdump_on_fatal_mca",
+  "namespace": "kernel",
+  "slug": "kernel.kdump_on_fatal_mca",
+  "versions": [
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "kdump_on_fatal_mca",
+          "handler_symbol": "proc_dointvec",
+          "path_segments": [
+            "kernel",
+            "kdump_on_fatal_mca"
+          ],
+          "source_path": "arch/ia64/kernel/crash.c",
+          "table": "kdump_ctl_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.4"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "kdump_on_fatal_mca",
+          "handler_symbol": "proc_dointvec",
+          "path_segments": [
+            "kernel",
+            "kdump_on_fatal_mca"
+          ],
+          "source_path": "arch/ia64/kernel/crash.c",
+          "table": "kdump_ctl_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.5"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "kdump_on_fatal_mca",
+          "handler_symbol": "proc_dointvec",
+          "path_segments": [
+            "kernel",
+            "kdump_on_fatal_mca"
+          ],
+          "source_path": "arch/ia64/kernel/crash.c",
+          "table": "kdump_ctl_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.6"
+    }
+  ]
+}

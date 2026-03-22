@@ -1,0 +1,3 @@
+{
+  "text": "If set, provide RFC2861 behavior and time out the congestion\n\twindow after an idle period.  An idle period is defined at\n\tthe current RTO.  If unset, the congestion window will not\n\tbe timed out after an idle period.\n\n\tDefault: 1"
+}

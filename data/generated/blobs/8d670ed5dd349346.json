@@ -1,0 +1,3 @@
+{
+  "text": "Preferred lifetime (in seconds) for temporary addresses. If\n\ttemp_prefered_lft is less than the minimum required lifetime (typically\n\t5-7 seconds), the preferred lifetime is the minimum required. If\n\ttemp_prefered_lft is greater than temp_valid_lft, the preferred lifetime\n\tis temp_valid_lft.\n\n\tDefault: 86400 (1 day)"
+}

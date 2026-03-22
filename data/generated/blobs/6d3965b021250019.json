@@ -1,0 +1,3 @@
+{
+  "text": "Number of kernel warnings after which the kernel should panic when\n``panic_on_warn`` is not set. Setting this to 0 disables checking\nthe warning count. Setting this to 1 has the same effect as setting\n``panic_on_warn=1``. The default value is 0."
+}

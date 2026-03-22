@@ -1,0 +1,3 @@
+{
+  "text": "Enable FACK congestion avoidance and fast retransmission.\n\tThe value is not used, if tcp_sack is not enabled."
+}

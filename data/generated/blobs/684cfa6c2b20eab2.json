@@ -1,0 +1,3 @@
+{
+  "text": "The default coredump filename is \"core\".  By setting\n``core_uses_pid`` to 1, the coredump filename becomes core.PID.\nIf `core_pattern`_ does not include \"%p\" (default does not)\nand ``core_uses_pid`` is set, then .PID will be appended to\nthe filename."
+}

@@ -1,0 +1,3 @@
+{
+  "text": "Adjustment of TSO packet sizes based on min_rtt\n\n\tStarting from linux-5.18, TCP autosizing can be tweaked\n\tfor flows having small RTT.\n\n\tOld autosizing was splitting the pacing budget to send 1024 TSO\n\tper second.\n\n\ttso_packet_size = sk->sk_pacing_rate / 1024;\n\n\tWith the new mechanism, we increase this TSO sizing using:\n\n\tdistance = min_rtt_usec / (2^tcp_tso_rtt_log)\n\ttso_packet_size += gso_max_size >> distance;\n\n\tThis means that flows between very close hosts can use bigger\n\tTSO packets, reducing their cpu costs.\n\n\tIf you want to use the old autosizing, set this sysctl to 0.\n\n\tDefault: 9  (2^9 = 512 usec)"
+}

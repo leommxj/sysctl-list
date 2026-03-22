@@ -1,0 +1,3 @@
+{
+  "text": "This enforces a global limit for memory allocations to the BPF JIT\ncompiler in order to reject unprivileged JIT requests once it has\nbeen surpassed. bpf_jit_limit contains the value of the global limit\nin bytes."
+}

@@ -1,0 +1,3 @@
+{
+  "text": "Clears the neighbor discovery table on NOCARRIER events. This option is\n\timportant for wireless devices where the neighbor discovery cache should\n\tnot be cleared when roaming between access points on the same network.\n\tIn most cases this should remain as the default (1).\n\n\tPossible values:\n\n\t- 0 (disabled) - Do not clear neighbor discovery cache on NOCARRIER events.\n\t- 1 (enabled)  - Clear neighbor discover cache on NOCARRIER events.\n\n\tDefault: 1 (enabled)"
+}

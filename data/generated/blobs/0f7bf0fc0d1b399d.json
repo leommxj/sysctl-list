@@ -1,0 +1,3 @@
+{
+  "text": "aio-nr is the running total of the number of events specified on the\nio_setup system call for all currently active aio contexts.  If aio-nr\nreaches aio-max-nr then io_setup will fail with EAGAIN.  Note that\nraising aio-max-nr does not result in the pre-allocation or re-sizing\nof any kernel data structures."
+}

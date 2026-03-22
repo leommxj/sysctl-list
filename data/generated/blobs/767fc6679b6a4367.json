@@ -1,0 +1,3 @@
+{
+  "text": "Maximal number of remembered connection requests, which are\n\tstill did not receive an acknowledgment from connecting client.\n\tDefault value is 1024 for systems with more than 128Mb of memory,\n\tand 128 for low memory machines. If server suffers of overload,\n\ttry to increase this number."
+}

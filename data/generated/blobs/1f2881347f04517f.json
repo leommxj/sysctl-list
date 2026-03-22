@@ -1,0 +1,3 @@
+{
+  "text": "Learn Prefix Information in Router Advertisement.\n\n\tFunctional default:\n\n\t\t- enabled if accept_ra is enabled.\n\t\t- disabled if accept_ra is disabled."
+}

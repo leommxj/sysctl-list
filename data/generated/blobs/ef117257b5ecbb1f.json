@@ -1,0 +1,3 @@
+{
+  "text": "How often TCP sends out keepalive messages when keepalive is enabled.\n\tDefault: 2hours."
+}

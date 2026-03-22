@@ -1,0 +1,3 @@
+{
+  "text": "Defaults to 100 (minimum allowed value). Requires corresponding\nvfs_cache_pressure setting to take effect."
+}

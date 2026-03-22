@@ -1,0 +1,3 @@
+{
+  "text": "A comma separated list of extra system information to be dumped when\nhung task is detected, for example, \"tasks,mem,timers,locks,...\".\nRefer 'panic_sys_info' section below for more details."
+}

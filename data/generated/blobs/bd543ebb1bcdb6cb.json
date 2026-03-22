@@ -1,0 +1,3 @@
+{
+  "text": "The maximum number of retransmissions that will be attempted on a given\n\tpath.  Once this threshold is exceeded, the path is considered\n\tunreachable, and new traffic will use a different path when the\n\tassociation is multihomed.\n\n\tDefault: 5"
+}

@@ -1,0 +1,93 @@
+{
+  "availableVersions": [
+    "v6.16",
+    "v6.17",
+    "v6.18",
+    "v6.19"
+  ],
+  "name": "kernel.core_modes",
+  "namespace": "kernel",
+  "slug": "kernel.core_modes",
+  "versions": [
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "core_modes",
+          "handler_symbol": "proc_dostring",
+          "path_segments": [
+            "kernel",
+            "core_modes"
+          ],
+          "source_path": "fs/coredump.c",
+          "table": "coredump_sysctls"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.16"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "core_modes",
+          "handler_symbol": "proc_dostring",
+          "path_segments": [
+            "kernel",
+            "core_modes"
+          ],
+          "source_path": "fs/coredump.c",
+          "table": "coredump_sysctls"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.17"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "core_modes",
+          "handler_symbol": "proc_dostring",
+          "path_segments": [
+            "kernel",
+            "core_modes"
+          ],
+          "source_path": "fs/coredump.c",
+          "table": "coredump_sysctls"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.18"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "core_modes",
+          "handler_symbol": "proc_dostring",
+          "path_segments": [
+            "kernel",
+            "core_modes"
+          ],
+          "source_path": "fs/coredump.c",
+          "table": "coredump_sysctls"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.19"
+    }
+  ]
+}

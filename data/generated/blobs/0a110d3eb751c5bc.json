@@ -1,0 +1,3 @@
+{
+  "text": "Do multicast routing. The kernel needs to be compiled with CONFIG_MROUTE\n\tand a multicast routing daemon is required.\n\tconf/all/mc_forwarding must also be set to TRUE to enable multicast\n\trouting\tfor the interface"
+}

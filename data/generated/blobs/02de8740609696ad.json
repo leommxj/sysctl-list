@@ -1,0 +1,3 @@
+{
+  "text": "Whether to update SKB priority from \"TOS\" field in IPv4 header after it\n\tis forwarded. The new SKB priority is mapped from TOS field value\n\taccording to an rt_tos2priority table (see e.g. man tc-prio).\n\tDefault: 1 (Update priority.)\n\tPossible values:\n\t0 - Do not update priority.\n\t1 - Update priority."
+}

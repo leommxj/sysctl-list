@@ -1,0 +1,3 @@
+{
+  "text": "Limits number of Challenge ACK sent per second, as recommended\n\tin RFC 5961 (Improving TCP's Robustness to Blind In-Window Attacks)\n\tDefault: 100\n\nUDP variables:\n\nudp_mem - vector of 3 INTEGERs: min, pressure, max\n\tNumber of pages allowed for queueing by all UDP sockets.\n\n\tmin: Below this number of pages UDP is not bothered about its\n\tmemory appetite. When amount of memory allocated by UDP exceeds\n\tthis number, UDP starts to moderate memory usage.\n\n\tpressure: This value was introduced to follow format of tcp_mem.\n\n\tmax: Number of pages allowed for queueing by all UDP sockets.\n\n\tDefault is calculated at boot time from amount of available memory."
+}

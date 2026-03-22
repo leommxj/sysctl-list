@@ -1,0 +1,3 @@
+{
+  "text": "Enable IP forwarding on this interface.  This controls whether packets\n\treceived _on_ this interface can be forwarded."
+}

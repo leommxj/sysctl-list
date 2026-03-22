@@ -1,0 +1,38 @@
+{
+  "availableVersions": [
+    "v6.19"
+  ],
+  "name": "kernel.kernel_sys_info",
+  "namespace": "kernel",
+  "slug": "kernel.kernel_sys_info",
+  "versions": [
+    {
+      "docRefs": [
+        {
+          "blob": "45ba91d837b7723a",
+          "heading": "kernel_sys_info",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/kernel.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "kernel_si_mask",
+          "handler_symbol": "sysctl_sys_info_handler",
+          "path_segments": [
+            "kernel",
+            "kernel_sys_info"
+          ],
+          "source_path": "lib/sys_info.c",
+          "table": "sys_info_sysctls"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.19"
+    }
+  ]
+}

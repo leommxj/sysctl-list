@@ -1,0 +1,3 @@
+{
+  "text": "When set to a non-zero value, attempt to migrate timers away from idle cpus to\nallow them to remain in low power states longer.\n\nDefault is set (1)."
+}

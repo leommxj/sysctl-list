@@ -1,0 +1,3 @@
+{
+  "text": "default 1024\n\n\tIt sets the available memory threshold (in pages), which is\n\tused in the automatic modes of defense. When there is no\n\tenough available memory, the respective strategy will be\n\tenabled and the variable is automatically set to 2, otherwise\n\tthe strategy is disabled and the variable is  set  to 1."
+}

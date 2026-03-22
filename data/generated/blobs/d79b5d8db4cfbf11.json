@@ -1,0 +1,3 @@
+{
+  "text": "Initial time period in second to disable Fastopen on active TCP sockets\n\twhen a TFO firewall blackhole issue happens.\n\tThis time period will grow exponentially when more blackhole issues\n\tget detected right after Fastopen is re-enabled and will reset to\n\tinitial value when the blackhole issue goes away.\n\tBy default, it is set to 1hr."
+}

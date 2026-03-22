@@ -1,0 +1,41 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { loadCatalog } from "../../lib/server-data";
+import type { CatalogItem } from "../../lib/types";
+
+export async function getStaticPaths() {
+  const catalog = await loadCatalog();
+  return catalog.items.map((item) => ({
+    params: { name: item.slug },
+    props: { item }
+  }));
+}
+
+const { item } = Astro.props as { item: CatalogItem };
+---
+
+<BaseLayout title={`${item.name} · sysctl list`} pageClass="detail-route">
+  <main class="page-frame">
+    <header class="page-bar panel">
+      <a class="back-link" href={`${import.meta.env.BASE_URL}?param=${item.slug}`}>
+        <span>List</span>
+      </a>
+      <div class="page-tools">
+        <label class="field compact">
+          <span>Version</span>
+          <select id="detailVersion"></select>
+        </label>
+      </div>
+    </header>
+
+    <section class="panel detail-page-panel">
+      <div id="detailPagePane" data-slug={item.slug}>
+        <p class="empty-copy">Loading…</p>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    import "../../lib/detail.ts";
+  </script>
+</BaseLayout>

@@ -1,0 +1,55 @@
+{
+  "availableVersions": [
+    "v3.15",
+    "v3.16"
+  ],
+  "name": "net.ieee802154.6lowpan.6lowpanfrag_max_datagram_size",
+  "namespace": "net",
+  "slug": "net.ieee802154.6lowpan.6lowpanfrag_max_datagram_size",
+  "versions": [
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "max_dsize",
+          "handler_symbol": "proc_dointvec",
+          "path_segments": [
+            "net",
+            "ieee802154",
+            "6lowpan",
+            "6lowpanfrag_max_datagram_size"
+          ],
+          "source_path": "net/ieee802154/reassembly.c",
+          "table": "lowpan_frags_ns_ctl_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v3.15"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "max_dsize",
+          "handler_symbol": "proc_dointvec",
+          "path_segments": [
+            "net",
+            "ieee802154",
+            "6lowpan",
+            "6lowpanfrag_max_datagram_size"
+          ],
+          "source_path": "net/ieee802154/reassembly.c",
+          "table": "lowpan_frags_ns_ctl_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v3.16"
+    }
+  ]
+}

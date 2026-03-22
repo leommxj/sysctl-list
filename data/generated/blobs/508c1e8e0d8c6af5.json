@@ -1,0 +1,3 @@
+{
+  "text": "Control IPv4 address scoping - draft-stewart-tsvwg-sctp-ipv4-00\n\n\t0   - Disable IPv4 address scoping\n\t1   - Enable IPv4 address scoping\n\t2   - Follow draft but allow IPv4 private addresses\n\t3   - Follow draft but allow IPv4 link local addresses\n\n\tDefault: 1"
+}

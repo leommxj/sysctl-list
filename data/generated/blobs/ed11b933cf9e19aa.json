@@ -1,0 +1,3 @@
+{
+  "text": "Low latency busy poll timeout for poll and select. (needs CONFIG_NET_RX_BUSY_POLL)\nApproximate time in us to busy loop waiting for events.\nRecommended value depends on the number of sockets you poll on.\nFor several sockets 50, for several hundreds 100.\nFor more than that you probably want to use epoll.\nNote that only sockets with SO_BUSY_POLL set will be busy polled,\nso you want to either selectively set SO_BUSY_POLL on those sockets or set\nsysctl.net.busy_read globally.\n\nWill increase power usage.\n\nDefault: 0 (off)"
+}

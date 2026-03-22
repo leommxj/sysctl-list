@@ -1,0 +1,114 @@
+{
+  "availableVersions": [
+    "v6.11",
+    "v6.12",
+    "v6.13",
+    "v6.14",
+    "v6.15"
+  ],
+  "name": "foo.foo",
+  "namespace": "foo",
+  "slug": "foo.foo",
+  "versions": [
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "data",
+          "handler_symbol": "proc_dou8vec_minmax",
+          "path_segments": [
+            "foo",
+            "foo"
+          ],
+          "source_path": "kernel/sysctl-test.c",
+          "table": "table_foo"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.11"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "data",
+          "handler_symbol": "proc_dou8vec_minmax",
+          "path_segments": [
+            "foo",
+            "foo"
+          ],
+          "source_path": "kernel/sysctl-test.c",
+          "table": "table_foo"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.12"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "data",
+          "handler_symbol": "proc_dou8vec_minmax",
+          "path_segments": [
+            "foo",
+            "foo"
+          ],
+          "source_path": "kernel/sysctl-test.c",
+          "table": "table_foo"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.13"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "data",
+          "handler_symbol": "proc_dou8vec_minmax",
+          "path_segments": [
+            "foo",
+            "foo"
+          ],
+          "source_path": "kernel/sysctl-test.c",
+          "table": "table_foo"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.14"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "data",
+          "handler_symbol": "proc_dou8vec_minmax",
+          "path_segments": [
+            "foo",
+            "foo"
+          ],
+          "source_path": "kernel/sysctl-test.c",
+          "table": "table_foo"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.15"
+    }
+  ]
+}

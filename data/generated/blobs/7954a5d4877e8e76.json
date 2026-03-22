@@ -1,0 +1,3 @@
+{
+  "text": "The number of estimated data replies sent for estimated incoming data\n\trequests that must happen before TCP considers that a connection is a\n\t\"ping-pong\" (request-response) connection for which delayed\n\tacknowledgments can provide benefits.\n\n\tThis threshold is 1 by default, but some applications may need a higher\n\tthreshold for optimal performance.\n\n\tPossible Values: 1 - 255\n\n\tDefault: 1"
+}

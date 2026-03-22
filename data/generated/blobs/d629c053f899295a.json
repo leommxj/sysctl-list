@@ -1,0 +1,3 @@
+{
+  "text": "Define mode for notification of address and device changes.\n\n\t* 0 - (default): do nothing\n\t* 1 - Generate unsolicited neighbour advertisements when device is brought\n\t  up or hardware address changes."
+}

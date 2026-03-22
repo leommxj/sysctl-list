@@ -1,0 +1,3 @@
+{
+  "text": "The approximate size of the storage.  Starting from this threshold\n\tentries will be thrown aggressively.  This threshold also determines\n\tentries' time-to-live and time intervals between garbage collection\n\tpasses.  More entries, less time-to-live, less GC interval."
+}

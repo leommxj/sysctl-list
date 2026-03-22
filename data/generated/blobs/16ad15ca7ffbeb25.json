@@ -1,0 +1,3 @@
+{
+  "text": "The maximum number of bytes which may be used by packets\n\tqueued for each\tunresolved address by other network layers.\n\t(added in linux 3.3)\n\tSetting negative value is meaningless and will return error.\n\tDefault: SK_WMEM_MAX, (same as net.core.wmem_default).\n\t\tExact value depends on architecture and kernel options,\n\t\tbut should be enough to allow queuing 256 packets\n\t\tof medium size."
+}

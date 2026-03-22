@@ -1,0 +1,3 @@
+{
+  "text": "Enable or disable Authenticated Chunks extension.  This extension\n\tprovides the ability to send and receive authenticated chunks and is\n\trequired for secure operation of Dynamic Address Reconfiguration\n\t(ADD-IP) extension.\n\n\tPossible values:\n\n\t- 0 (disabled) - disable extension.\n\t- 1 (enabled)  - enable extension\n\n\tDefault: 0 (disabled)"
+}

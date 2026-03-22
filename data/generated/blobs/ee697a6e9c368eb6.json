@@ -1,0 +1,3 @@
+{
+  "text": "Enables/disables task delay accounting (see\n:doc:`accounting/delay-accounting.rst`). Enabling this feature incurs\na small amount of overhead in the scheduler but is useful for debugging\nand performance tuning. It is required by some tools such as iotop."
+}

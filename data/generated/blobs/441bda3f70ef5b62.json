@@ -1,0 +1,3 @@
+{
+  "text": "This flag controls the mode in which unprivileged users can use the\nuserfaultfd system calls. Set this to 0 to restrict unprivileged users\nto handle page faults in user mode only. In this case, users without\nSYS_CAP_PTRACE must pass UFFD_USER_MODE_ONLY in order for userfaultfd to\nsucceed. Prohibiting use of userfaultfd for handling faults from kernel\nmode may make certain vulnerabilities more difficult to exploit.\n\nSet this to 1 to allow unprivileged users to use the userfaultfd system\ncalls without any restrictions.\n\nThe default value is 0."
+}

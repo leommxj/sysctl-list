@@ -1,0 +1,3 @@
+{
+  "text": "Bug-to-bug compatibility with some broken printers.\n\tOn retransmit try to send bigger packets to work around bugs in\n\tcertain TCP stacks."
+}

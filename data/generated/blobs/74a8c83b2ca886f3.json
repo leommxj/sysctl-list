@@ -1,0 +1,3 @@
+{
+  "text": "The maximum number of retransmissions of INIT and COOKIE-ECHO chunks\n\tthat an association will attempt before declaring the destination\n\tunreachable and terminating.\n\n\tDefault: 8"
+}

@@ -1,0 +1,3 @@
+{
+  "text": "A TCP socket can control the amount of unsent bytes in its write queue,\n\tthanks to TCP_NOTSENT_LOWAT socket option. poll()/select()/epoll()\n\treports POLLOUT events if the amount of unsent bytes is below a per\n\tsocket value, and if the write queue is not full. sendmsg() will\n\talso not add new buffers if the limit is hit.\n\n\tThis global variable controls the amount of unsent data for\n\tsockets not using TCP_NOTSENT_LOWAT. For these sockets, a change\n\tto the global variable has immediate effect.\n\n\tDefault: UINT_MAX (0xFFFFFFFF)"
+}

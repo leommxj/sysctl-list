@@ -1,0 +1,3 @@
+{
+  "text": "Setting TCP buffer space (min/pressure/max):\n      sysctl -w net.ipv4.tcp_mem=\"10000000 10000000 10000000\""
+}

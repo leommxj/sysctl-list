@@ -1,0 +1,3 @@
+{
+  "text": "Controls whether TCP saves ssthresh metrics in the route cache.\n\tDefault is 1, which disables ssthresh metrics."
+}

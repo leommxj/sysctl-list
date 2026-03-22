@@ -1,0 +1,3 @@
+{
+  "text": "kernel.pty.max = 4096\t- global limit\n    kernel.pty.reserve = 1024\t- reserved for filesystems mounted from the initial mount namespace\n    kernel.pty.nr\t\t- current count of ptys"
+}

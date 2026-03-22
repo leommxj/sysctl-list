@@ -1,0 +1,3 @@
+{
+  "text": "Some routers violate RFC1122 by sending bogus responses to broadcast\n\tframes.  Such violations are normally logged via a kernel warning.\n\tIf this is set to TRUE, the kernel will not give such warnings, which\n\twill avoid log file clutter.\n\tDefault: 1"
+}

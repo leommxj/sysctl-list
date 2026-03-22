@@ -1,0 +1,3 @@
+{
+  "text": "Indicates the total number of tasks that have been detected as hung since\nthe system boot.\n\nThis file shows up if ``CONFIG_DETECT_HUNG_TASK`` is enabled."
+}

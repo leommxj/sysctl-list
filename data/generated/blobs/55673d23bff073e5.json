@@ -1,0 +1,3 @@
+{
+  "text": "The maximum number of packets that kernel can handle on a NAPI\n\tinterrupt, it's a Per-CPU variable.\n\n\tDefault: 64"
+}

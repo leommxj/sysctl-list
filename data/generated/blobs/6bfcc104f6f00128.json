@@ -1,0 +1,3 @@
+{
+  "text": "When BPF JIT compiler is enabled, then compiled images are unknown\naddresses to the kernel, meaning they neither show up in traces nor\nin /proc/kallsyms. This enables export of these addresses, which can\nbe used for debugging/tracing. If bpf_jit_harden is enabled, this\nfeature is disabled.\n\nValues :\n\n\t- 0 - disable JIT kallsyms export (default value)\n\t- 1 - enable JIT kallsyms export for privileged users only"
+}

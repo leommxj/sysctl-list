@@ -1,0 +1,3 @@
+{
+  "text": "If set to 0, RX packet timestamps can be sampled after RPS processing, when\nthe target CPU processes packets. It might give some delay on timestamps, but\npermit to distribute the load on several cpus.\n\nIf set to 1 (default), timestamps are sampled as soon as possible, before\nqueueing."
+}

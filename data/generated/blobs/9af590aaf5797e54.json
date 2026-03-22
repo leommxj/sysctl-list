@@ -1,0 +1,3 @@
+{
+  "text": "This enables or disables killing the OOM-triggering task in\nout-of-memory situations.\n\nIf this is set to zero, the OOM killer will scan through the entire\ntasklist and select a task based on heuristics to kill.  This normally\nselects a rogue memory-hogging task that frees up a large amount of\nmemory when killed.\n\nIf this is set to non-zero, the OOM killer simply kills the task that\ntriggered the out-of-memory condition.  This avoids the expensive\ntasklist scan.\n\nIf panic_on_oom is selected, it takes precedence over whatever value\nis used in oom_kill_allocating_task.\n\nThe default value is 0."
+}

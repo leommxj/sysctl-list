@@ -1,0 +1,3 @@
+{
+  "text": "Controls TCP Small Queue limit per tcp socket.\n\tTCP bulk sender tends to increase packets in flight until it\n\tgets losses notifications. With SNDBUF autotuning, this can\n\tresult in a large amount of packets queued on the local machine\n\t(e.g.: qdiscs, CPU backlog, or device) hurting latency of other\n\tflows, for typical pfifo_fast qdiscs.  tcp_limit_output_bytes\n\tlimits the number of bytes on qdisc or device to reduce artificial\n\tRTT/cwnd and reduce bufferbloat.\n\tDefault: 262144"
+}

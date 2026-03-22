@@ -1,0 +1,3 @@
+{
+  "text": "1: if bridge-nf-filter-vlan-tagged is enabled, try to find a vlan\n\tinterface on the bridge and set the netfilter input device to the vlan.\n\tThis allows use of e.g. \"iptables -i br0.1\" and makes the REDIRECT\n\ttarget work with vlan-on-top-of-bridge interfaces.  When no matching\n\tvlan interface is found, or this switch is off, the input device is\n\tset to the bridge interface.\n\t0: disable bridge netfilter vlan interface lookup.\n\tDefault: 0\n\nproc/sys/net/sctp/* Variables:"
+}

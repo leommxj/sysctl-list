@@ -1,0 +1,39 @@
+{
+  "availableVersions": [
+    "v6.19"
+  ],
+  "name": "net.core.bypass_prot_mem",
+  "namespace": "net",
+  "slug": "net.core.bypass_prot_mem",
+  "versions": [
+    {
+      "docRefs": [
+        {
+          "blob": "fbc2a6b38af4f3c9",
+          "heading": "bypass_prot_mem",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/net.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "sysctl_bypass_prot_mem",
+          "handler_symbol": "proc_dou8vec_minmax",
+          "path_segments": [
+            "net",
+            "core",
+            "bypass_prot_mem"
+          ],
+          "source_path": "net/core/sysctl_net_core.c",
+          "table": "netns_core_table"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.19"
+    }
+  ]
+}

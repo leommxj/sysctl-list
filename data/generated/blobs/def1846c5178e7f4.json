@@ -1,0 +1,3 @@
+{
+  "text": "Controls whether an RTM_DELROUTE message is generated for routes\n\tremoved when a device is taken down or deleted. IPv4 does not\n\tgenerate this message; IPv6 does by default. Setting this sysctl\n\tto true skips the message, making IPv4 and IPv6 on par in relying\n\ton userspace caches to track link events and evict routes.\n\tDefault: false (generate message)\n\nIPv6 Fragmentation:"
+}

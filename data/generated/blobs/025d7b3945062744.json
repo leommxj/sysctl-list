@@ -1,0 +1,3 @@
+{
+  "text": "The default Linux behaviour on an NMI of either memory or unknown is\nto continue operation. For many environments such as scientific\ncomputing it is preferable that the box is taken out and the error\ndealt with than an uncorrected parity/ECC error get propagated.\n\nA small number of systems do generate NMIs for bizarre random reasons\nsuch as power management so the default is off. That sysctl works like\nthe existing panic controls already in that directory."
+}

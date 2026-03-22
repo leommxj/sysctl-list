@@ -1,0 +1,3 @@
+{
+  "text": "For listening sockets, reuse the DSCP value of the initial SYN message\n\tfor outgoing packets. This allows to have both directions of a TCP\n\tstream to use the same DSCP value, assuming DSCP remains unchanged for\n\tthe lifetime of the connection.\n\n\tThis options affects both IPv4 and IPv6.\n\n\tPossible values:\n\n\t- 0 (disabled)\n\t- 1 (enabled)\n\n\tDefault: 0 (disabled)"
+}

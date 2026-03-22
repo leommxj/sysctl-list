@@ -1,0 +1,3 @@
+{
+  "text": "Changing this value is same as changing ``conf/default/disable_ipv6``\n\tsetting and also all per-interface ``disable_ipv6`` settings to the same\n\tvalue.\n\n\tReading this value does not have any particular meaning. It does not say\n\twhether IPv6 support is enabled or disabled. Returned value can be 1\n\talso in the case when some interface has ``disable_ipv6`` set to 0 and\n\thas configured IPv6 addresses."
+}

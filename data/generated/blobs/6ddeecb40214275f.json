@@ -1,0 +1,3 @@
+{
+  "text": "Enabling this option allows a \"global\" bound socket to work\n\tacross L3 master domains (e.g., VRFs) with packets capable of\n\tbeing received regardless of the L3 domain in which they\n\toriginated. Only valid when the kernel was compiled with\n\tCONFIG_NET_L3_MASTER_DEV.\n\n\tPossible values:\n\n\t- 0 (disabled)\n\t- 1 (enabled)\n\n\tDefault: 0 (disabled)\n\nudp_mem - vector of 3 INTEGERs: min, pressure, max\n\tNumber of pages allowed for queueing by all UDP sockets.\n\n\tmin: Number of pages allowed for queueing by all UDP sockets.\n\n\tpressure: This value was introduced to follow format of tcp_mem.\n\n\tmax: This value was introduced to follow format of tcp_mem.\n\n\tDefault is calculated at boot time from amount of available memory."
+}

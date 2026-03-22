@@ -1,0 +1,3 @@
+{
+  "text": "* 0 - (default) No enforcement of a MLD version, MLDv1 fallback allowed\n\t* 1 - Enforce to use MLD version 1\n\t* 2 - Enforce to use MLD version 2"
+}

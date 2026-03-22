@@ -1,0 +1,3 @@
+{
+  "text": "Maximum number of allowed connection tracking entries. This value is set\n        to nf_conntrack_buckets by default.\n        Note that connection tracking entries are added to the table twice -- once\n        for the original direction and once for the reply direction (i.e., with\n        the reversed address). This means that with default settings a maxed-out\n        table will have a average hash chain length of 2, not 1."
+}

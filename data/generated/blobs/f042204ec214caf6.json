@@ -1,0 +1,3 @@
+{
+  "text": "sk->sk_pacing_rate is set by TCP stack using a ratio applied\n\tto current rate. (current_rate = cwnd * mss / srtt)\n\tIf TCP is in congestion avoidance phase, tcp_pacing_ca_ratio\n\tis applied to conservatively probe for bigger throughput.\n\n\tDefault: 120"
+}

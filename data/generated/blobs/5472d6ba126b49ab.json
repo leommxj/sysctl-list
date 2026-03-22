@@ -1,0 +1,3 @@
+{
+  "text": "Determines if the receive buffer is attributed to the socket or to\n\tassociation.   SCTP supports the capability to create multiple\n\tassociations on a single socket.  When using this capability, it is\n\tpossible that a single stalled association that's buffering a lot\n\tof data may block other associations from delivering their data by\n\tconsuming all of the receive buffer space.  To work around this,\n\tthe rcvbuf_policy could be set to attribute the receiver buffer space\n\tto each association instead of the socket.  This prevents the described\n\tblocking.\n\n\t1: rcvbuf space is per association\n\t0: recbuf space is per socket\n\n\tDefault: 0"
+}

@@ -1,0 +1,3 @@
+{
+  "text": "If listening service is too slow to accept new connections,\n\treset them. Default state is FALSE. It means that if overflow\n\toccurred due to a burst, connection will recover. Enable this\n\toption _only_ if you are really sure that listening daemon\n\tcannot be tuned to accept connections faster. Enabling this\n\toption can harm clients of your server."
+}

@@ -1,0 +1,3 @@
+{
+  "text": "The default device for routing can be set through the /proc filesystem\nby setting /proc/sys/net/decnet/default_device to the\ndevice you want DECnet to route packets out of when no specific route\nis available. Usually this will be eth0, for example:"
+}

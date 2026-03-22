@@ -1,0 +1,3 @@
+{
+  "text": "0 - don't register conntrack in new net namespaces\n\t1 - register conntrack in new net namespaces (default)\n\n\tThis controls wheter newly created network namespaces have connection\n\ttracking enabled by default.  It will be enabled automatically\n\tregardless of this setting if the new net namespace requires\n\tconnection tracking, e.g. when NAT rules are created.\n\tThis setting is only visible in initial user namespace, it has no\n\teffect on existing namespaces."
+}

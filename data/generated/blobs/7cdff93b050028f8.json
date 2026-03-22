@@ -1,0 +1,3 @@
+{
+  "text": "Control whether TTL is propagated from the IPv4/IPv6 header to\n\tthe MPLS header on imposing labels and propagated from the\n\tMPLS header to the IPv4/IPv6 header on popping the last label.\n\n\tIf disabled, the MPLS transport network will appear as a\n\tsingle hop to transit traffic.\n\n\t* 0 - disabled / RFC 3443 [Short] Pipe Model\n\t* 1 - enabled / RFC 3443 Uniform Model (default)"
+}

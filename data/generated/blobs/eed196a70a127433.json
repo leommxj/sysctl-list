@@ -1,0 +1,3 @@
+{
+  "text": "Number of maximum addresses per interface.  0 disables limitation.\n\tIt is recommended not set too large value (or 0) because it would\n\tbe too easy way to crash kernel to allow to create too much of\n\tautoconfigured addresses.\n\tDefault: 16"
+}

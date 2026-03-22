@@ -1,0 +1,3 @@
+{
+  "text": "Limits number of Challenge ACK sent per second, as recommended\n\tin RFC 5961 (Improving TCP's Robustness to Blind In-Window Attacks)\n\tNote that this per netns rate limit can allow some side channel\n\tattacks and probably should not be enabled.\n\tTCP stack implements per TCP socket limits anyway.\n\tDefault: INT_MAX (unlimited)"
+}

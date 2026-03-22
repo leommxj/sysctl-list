@@ -1,0 +1,3 @@
+{
+  "text": "Control size of per-cpu ring buffer not counted against mlock limit.\n\nThe default value is 512 + 1 page"
+}

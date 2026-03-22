@@ -1,0 +1,356 @@
+{
+  "availableVersions": [
+    "v5.8",
+    "v5.9",
+    "v5.10",
+    "v5.11",
+    "v5.12",
+    "v5.13",
+    "v5.14",
+    "v5.15",
+    "v5.16",
+    "v5.17",
+    "v5.18",
+    "v5.19",
+    "v6.0",
+    "v6.1",
+    "v6.2",
+    "v6.3",
+    "v6.4",
+    "v6.5",
+    "v6.6"
+  ],
+  "name": "kernel.unaligned-dump-stack",
+  "namespace": "kernel",
+  "slug": "kernel.unaligned-dump-stack",
+  "versions": [
+    {
+      "docRefs": [
+        {
+          "blob": "2d7c44a1ea2909dd",
+          "heading": "unaligned-dump-stack (ia64)",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/kernel.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v5.8"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "2d7c44a1ea2909dd",
+          "heading": "unaligned-dump-stack (ia64)",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/kernel.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v5.9"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "2d7c44a1ea2909dd",
+          "heading": "unaligned-dump-stack (ia64)",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/kernel.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v5.10"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "2d7c44a1ea2909dd",
+          "heading": "unaligned-dump-stack (ia64)",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/kernel.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v5.11"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "2d7c44a1ea2909dd",
+          "heading": "unaligned-dump-stack (ia64)",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/kernel.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v5.12"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "2d7c44a1ea2909dd",
+          "heading": "unaligned-dump-stack (ia64)",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/kernel.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v5.13"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "2d7c44a1ea2909dd",
+          "heading": "unaligned-dump-stack (ia64)",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/kernel.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v5.14"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "2d7c44a1ea2909dd",
+          "heading": "unaligned-dump-stack (ia64)",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/kernel.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v5.15"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "2d7c44a1ea2909dd",
+          "heading": "unaligned-dump-stack (ia64)",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/kernel.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v5.16"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "2d7c44a1ea2909dd",
+          "heading": "unaligned-dump-stack (ia64)",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/kernel.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v5.17"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "2d7c44a1ea2909dd",
+          "heading": "unaligned-dump-stack (ia64)",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/kernel.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v5.18"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "2d7c44a1ea2909dd",
+          "heading": "unaligned-dump-stack (ia64)",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/kernel.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v5.19"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "2d7c44a1ea2909dd",
+          "heading": "unaligned-dump-stack (ia64)",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/kernel.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v6.0"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "2d7c44a1ea2909dd",
+          "heading": "unaligned-dump-stack (ia64)",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/kernel.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v6.1"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "2d7c44a1ea2909dd",
+          "heading": "unaligned-dump-stack (ia64)",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/kernel.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v6.2"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "2d7c44a1ea2909dd",
+          "heading": "unaligned-dump-stack (ia64)",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/kernel.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v6.3"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "2d7c44a1ea2909dd",
+          "heading": "unaligned-dump-stack (ia64)",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/kernel.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v6.4"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "2d7c44a1ea2909dd",
+          "heading": "unaligned-dump-stack (ia64)",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/kernel.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "unaligned_dump_stack",
+          "handler_symbol": "proc_dointvec",
+          "path_segments": [
+            "kernel",
+            "unaligned-dump-stack"
+          ],
+          "source_path": "kernel/sysctl.c",
+          "table": "kern_table"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.5"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "2d7c44a1ea2909dd",
+          "heading": "unaligned-dump-stack (ia64)",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/kernel.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "unaligned_dump_stack",
+          "handler_symbol": "proc_dointvec",
+          "path_segments": [
+            "kernel",
+            "unaligned-dump-stack"
+          ],
+          "source_path": "kernel/sysctl.c",
+          "table": "kern_table"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.6"
+    }
+  ]
+}

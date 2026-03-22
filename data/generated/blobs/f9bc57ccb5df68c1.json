@@ -1,0 +1,3 @@
+{
+  "text": "Controls default hash rethink behaviour on listening socket when SO_TXREHASH\noption is set to SOCK_TXREHASH_DEFAULT (i. e. not overridden by setsockopt).\n\nIf set to 1 (default), hash rethink is performed on listening socket.\nIf set to 0, hash rethink is not performed."
+}

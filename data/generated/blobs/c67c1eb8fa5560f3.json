@@ -1,0 +1,3 @@
+{
+  "text": "If set, allows processes to bind() to non-local IPv6 addresses,\n\twhich can be quite useful - but may break some applications.\n\tDefault: 0"
+}

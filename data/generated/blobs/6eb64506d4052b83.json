@@ -1,0 +1,3 @@
+{
+  "text": "Factor to apply to the NMI watchdog timeout (only when ``nmi_watchdog`` is\nset to 1). This factor represents the percentage added to\n``watchdog_thresh`` when calculating the NMI watchdog timeout during an\nLPM. The soft lockup timeout is not impacted.\n\nA value of 0 means no change. The default value is 200 meaning the NMI\nwatchdog is set to 30s (based on ``watchdog_thresh`` equal to 10)."
+}

@@ -1,0 +1,219 @@
+{
+  "availableVersions": [
+    "v6.4",
+    "v6.5",
+    "v6.6",
+    "v6.7",
+    "v6.8",
+    "v6.9",
+    "v6.10",
+    "v6.11",
+    "v6.12",
+    "v6.13"
+  ],
+  "name": "kernel.sched_itmt_enabled",
+  "namespace": "kernel",
+  "slug": "kernel.sched_itmt_enabled",
+  "versions": [
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "sysctl_sched_itmt_enabled",
+          "handler_symbol": "sched_itmt_update_handler",
+          "path_segments": [
+            "kernel",
+            "sched_itmt_enabled"
+          ],
+          "source_path": "arch/x86/kernel/itmt.c",
+          "table": "itmt_kern_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.4"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "sysctl_sched_itmt_enabled",
+          "handler_symbol": "sched_itmt_update_handler",
+          "path_segments": [
+            "kernel",
+            "sched_itmt_enabled"
+          ],
+          "source_path": "arch/x86/kernel/itmt.c",
+          "table": "itmt_kern_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.5"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "sysctl_sched_itmt_enabled",
+          "handler_symbol": "sched_itmt_update_handler",
+          "path_segments": [
+            "kernel",
+            "sched_itmt_enabled"
+          ],
+          "source_path": "arch/x86/kernel/itmt.c",
+          "table": "itmt_kern_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.6"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "sysctl_sched_itmt_enabled",
+          "handler_symbol": "sched_itmt_update_handler",
+          "path_segments": [
+            "kernel",
+            "sched_itmt_enabled"
+          ],
+          "source_path": "arch/x86/kernel/itmt.c",
+          "table": "itmt_kern_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.7"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "sysctl_sched_itmt_enabled",
+          "handler_symbol": "sched_itmt_update_handler",
+          "path_segments": [
+            "kernel",
+            "sched_itmt_enabled"
+          ],
+          "source_path": "arch/x86/kernel/itmt.c",
+          "table": "itmt_kern_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.8"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "sysctl_sched_itmt_enabled",
+          "handler_symbol": "sched_itmt_update_handler",
+          "path_segments": [
+            "kernel",
+            "sched_itmt_enabled"
+          ],
+          "source_path": "arch/x86/kernel/itmt.c",
+          "table": "itmt_kern_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.9"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "sysctl_sched_itmt_enabled",
+          "handler_symbol": "sched_itmt_update_handler",
+          "path_segments": [
+            "kernel",
+            "sched_itmt_enabled"
+          ],
+          "source_path": "arch/x86/kernel/itmt.c",
+          "table": "itmt_kern_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.10"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "sysctl_sched_itmt_enabled",
+          "handler_symbol": "sched_itmt_update_handler",
+          "path_segments": [
+            "kernel",
+            "sched_itmt_enabled"
+          ],
+          "source_path": "arch/x86/kernel/itmt.c",
+          "table": "itmt_kern_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.11"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "sysctl_sched_itmt_enabled",
+          "handler_symbol": "sched_itmt_update_handler",
+          "path_segments": [
+            "kernel",
+            "sched_itmt_enabled"
+          ],
+          "source_path": "arch/x86/kernel/itmt.c",
+          "table": "itmt_kern_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.12"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "sysctl_sched_itmt_enabled",
+          "handler_symbol": "sched_itmt_update_handler",
+          "path_segments": [
+            "kernel",
+            "sched_itmt_enabled"
+          ],
+          "source_path": "arch/x86/kernel/itmt.c",
+          "table": "itmt_kern_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.13"
+    }
+  ]
+}

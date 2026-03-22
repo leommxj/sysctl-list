@@ -1,0 +1,185 @@
+{
+  "availableVersions": [
+    "v6.12",
+    "v6.13",
+    "v6.14",
+    "v6.15",
+    "v6.16",
+    "v6.17",
+    "v6.18",
+    "v6.19"
+  ],
+  "name": "net.smc.limit_smc_hs",
+  "namespace": "net",
+  "slug": "net.smc.limit_smc_hs",
+  "versions": [
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "limit_smc_hs",
+          "handler_symbol": "proc_dointvec_minmax",
+          "path_segments": [
+            "net",
+            "smc",
+            "limit_smc_hs"
+          ],
+          "source_path": "net/smc/smc_sysctl.c",
+          "table": "smc_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.12"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "limit_smc_hs",
+          "handler_symbol": "proc_dointvec_minmax",
+          "path_segments": [
+            "net",
+            "smc",
+            "limit_smc_hs"
+          ],
+          "source_path": "net/smc/smc_sysctl.c",
+          "table": "smc_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.13"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "limit_smc_hs",
+          "handler_symbol": "proc_dointvec_minmax",
+          "path_segments": [
+            "net",
+            "smc",
+            "limit_smc_hs"
+          ],
+          "source_path": "net/smc/smc_sysctl.c",
+          "table": "smc_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.14"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "limit_smc_hs",
+          "handler_symbol": "proc_dointvec_minmax",
+          "path_segments": [
+            "net",
+            "smc",
+            "limit_smc_hs"
+          ],
+          "source_path": "net/smc/smc_sysctl.c",
+          "table": "smc_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.15"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "limit_smc_hs",
+          "handler_symbol": "proc_dointvec_minmax",
+          "path_segments": [
+            "net",
+            "smc",
+            "limit_smc_hs"
+          ],
+          "source_path": "net/smc/smc_sysctl.c",
+          "table": "smc_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.16"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "limit_smc_hs",
+          "handler_symbol": "proc_dointvec_minmax",
+          "path_segments": [
+            "net",
+            "smc",
+            "limit_smc_hs"
+          ],
+          "source_path": "net/smc/smc_sysctl.c",
+          "table": "smc_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.17"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "limit_smc_hs",
+          "handler_symbol": "proc_dointvec_minmax",
+          "path_segments": [
+            "net",
+            "smc",
+            "limit_smc_hs"
+          ],
+          "source_path": "net/smc/smc_sysctl.c",
+          "table": "smc_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.18"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "limit_smc_hs",
+          "handler_symbol": "proc_dointvec_minmax",
+          "path_segments": [
+            "net",
+            "smc",
+            "limit_smc_hs"
+          ],
+          "source_path": "net/smc/smc_sysctl.c",
+          "table": "smc_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.19"
+    }
+  ]
+}

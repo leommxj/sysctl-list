@@ -1,0 +1,3 @@
+{
+  "text": "1 : pass bridged pppoe-tagged IP/IPv6 traffic to {ip,ip6}tables.\n\t0 : disable this.\n\tDefault: 0"
+}

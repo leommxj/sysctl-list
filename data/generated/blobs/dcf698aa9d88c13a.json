@@ -1,0 +1,3 @@
+{
+  "text": "This is available only on NUMA kernels.\n\nA percentage of the total pages in each zone.  On Zone reclaim\n(fallback from the local zone occurs) slabs will be reclaimed if more\nthan this percentage of pages in a zone are reclaimable slab pages.\nThis insures that the slab growth stays under control even in NUMA\nsystems that rarely perform global reclaim.\n\nThe default is 5 percent.\n\nNote that slab reclaim is triggered in a per zone / node fashion.\nThe process of reclaiming slab memory is currently not node specific\nand may not be fast."
+}

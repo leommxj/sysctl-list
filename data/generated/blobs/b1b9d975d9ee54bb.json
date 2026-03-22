@@ -1,0 +1,3 @@
+{
+  "text": "sunrpc.min_resvport=\n\tsunrpc.max_resvport=\n\t\t\t[NFS,SUNRPC]\n\t\t\tSunRPC servers often require that client requests\n\t\t\toriginate from a privileged port (i.e. a port in the\n\t\t\trange 0 < portnr < 1024).\n\t\t\tAn administrator who wishes to reserve some of these\n\t\t\tports for other uses may adjust the range that the\n\t\t\tkernel's sunrpc client considers to be privileged\n\t\t\tusing these two parameters to set the minimum and\n\t\t\tmaximum port values."
+}

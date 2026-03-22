@@ -1,0 +1,26 @@
+{
+  "availableVersions": [
+    "v6.19"
+  ],
+  "name": "net.core.somaxconn.tcp_rcvbuf_low_rtt",
+  "namespace": "net",
+  "slug": "net.core.somaxconn.tcp_rcvbuf_low_rtt",
+  "versions": [
+    {
+      "docRefs": [
+        {
+          "blob": "bd7216e4c6002b6b",
+          "heading": "tcp_rcvbuf_low_rtt",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v6.19"
+    }
+  ]
+}

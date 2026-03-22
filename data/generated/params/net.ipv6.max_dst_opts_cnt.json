@@ -1,0 +1,43 @@
+{
+  "availableVersions": [
+    "v4.15",
+    "v4.16"
+  ],
+  "name": "net.ipv6.max_dst_opts_cnt",
+  "namespace": "net",
+  "slug": "net.ipv6.max_dst_opts_cnt",
+  "versions": [
+    {
+      "docRefs": [
+        {
+          "blob": "2a28a5a5b4c31221",
+          "heading": "max_dst_opts_cnt",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.txt"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v4.15"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "2a28a5a5b4c31221",
+          "heading": "max_dst_opts_cnt",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.txt"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v4.16"
+    }
+  ]
+}

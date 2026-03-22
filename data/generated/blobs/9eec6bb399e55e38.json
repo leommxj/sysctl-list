@@ -1,0 +1,3 @@
+{
+  "text": "When a primary IP address is removed from this interface\n\tpromote a corresponding secondary IP address instead of\n\tremoving all the corresponding secondary IP addresses."
+}

@@ -1,0 +1,3 @@
+{
+  "text": "Allowed\tCPUs for estimation kthreads\n\n\tSyntax: standard cpulist format\n\tempty list - stop kthread tasks and estimation\n\tdefault - the system's housekeeping CPUs for kthreads\n\n\tExample:\n\t\"all\": all possible CPUs\n\t\"0-N\": all possible CPUs, N denotes last CPU number\n\t\"0,1-N:1/2\": first and all CPUs with odd number\n\t\"\": empty list"
+}

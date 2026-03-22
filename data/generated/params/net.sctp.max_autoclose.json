@@ -1,0 +1,163 @@
+{
+  "availableVersions": [
+    "v3.2",
+    "v3.3",
+    "v3.4",
+    "v3.5",
+    "v3.6",
+    "v3.14",
+    "v3.15"
+  ],
+  "name": "net.sctp.max_autoclose",
+  "namespace": "net",
+  "slug": "net.sctp.max_autoclose",
+  "versions": [
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl_paths",
+          "data_symbol": "sctp_max_autoclose",
+          "handler_symbol": "proc_doulongvec_minmax",
+          "path_segments": [
+            "net",
+            "sctp",
+            "max_autoclose"
+          ],
+          "source_path": "net/sctp/sysctl.c",
+          "table": "sctp_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v3.2"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl_paths",
+          "data_symbol": "sctp_max_autoclose",
+          "handler_symbol": "proc_doulongvec_minmax",
+          "path_segments": [
+            "net",
+            "sctp",
+            "max_autoclose"
+          ],
+          "source_path": "net/sctp/sysctl.c",
+          "table": "sctp_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v3.3"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl_paths",
+          "data_symbol": "sctp_max_autoclose",
+          "handler_symbol": "proc_doulongvec_minmax",
+          "path_segments": [
+            "net",
+            "sctp",
+            "max_autoclose"
+          ],
+          "source_path": "net/sctp/sysctl.c",
+          "table": "sctp_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v3.4"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "sctp_max_autoclose",
+          "handler_symbol": "proc_doulongvec_minmax",
+          "path_segments": [
+            "net",
+            "sctp",
+            "max_autoclose"
+          ],
+          "source_path": "net/sctp/sysctl.c",
+          "table": "sctp_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v3.5"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "sctp_max_autoclose",
+          "handler_symbol": "proc_doulongvec_minmax",
+          "path_segments": [
+            "net",
+            "sctp",
+            "max_autoclose"
+          ],
+          "source_path": "net/sctp/sysctl.c",
+          "table": "sctp_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v3.6"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "max_autoclose",
+          "handler_symbol": "proc_doulongvec_minmax",
+          "path_segments": [
+            "net",
+            "sctp",
+            "max_autoclose"
+          ],
+          "source_path": "net/sctp/sysctl.c",
+          "table": "sctp_net_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v3.14"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "max_autoclose",
+          "handler_symbol": "proc_doulongvec_minmax",
+          "path_segments": [
+            "net",
+            "sctp",
+            "max_autoclose"
+          ],
+          "source_path": "net/sctp/sysctl.c",
+          "table": "sctp_net_table"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v3.15"
+    }
+  ]
+}

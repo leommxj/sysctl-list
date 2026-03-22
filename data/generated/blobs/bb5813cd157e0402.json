@@ -1,0 +1,3 @@
+{
+  "text": "default 1\n\n\tThe version of the synchronisation protocol used when sending\n\tsynchronisation messages.\n\n\t0 selects the original synchronisation protocol (version 0). This\n\tshould be used when sending synchronisation messages to a legacy\n\tsystem that only understands the original synchronisation protocol.\n\n\t1 selects the current synchronisation protocol (version 1). This\n\tshould be used where possible.\n\n\tKernels with this sync_version entry are able to receive messages\n\tof both version 1 and version 2 of the synchronisation protocol."
+}

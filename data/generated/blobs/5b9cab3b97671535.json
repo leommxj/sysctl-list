@@ -1,0 +1,3 @@
+{
+  "text": "1 - default\n\n\tControls how ipvs will deal with connections that are detected\n\tport reuse. It is a bitmap, with the values being:\n\n\t0: disable any special handling on port reuse. The new\n\tconnection will be delivered to the same real server that was\n\tservicing the previous connection.\n\n\tbit 1: enable rescheduling of new connections when it is safe.\n\tThat is, whenever expire_nodest_conn and for TCP sockets, when\n\tthe connection is in TIME_WAIT state (which is only possible if\n\tyou use NAT mode).\n\n\tbit 2: it is bit 1 plus, for TCP connections, when connections\n\tare in FIN_WAIT state, as this is the last state seen by load\n\tbalancer in Direct Routing mode. This bit helps on adding new\n\treal servers to a very busy cluster."
+}

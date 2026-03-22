@@ -1,0 +1,3 @@
+{
+  "text": "Maximum length allowed for a Hop-by-Hop options extension\n\theader.\n\tDefault: INT_MAX (unlimited)\n\nIPv6 Fragmentation:"
+}

@@ -1,0 +1,3 @@
+{
+  "text": "Default size of TCP Cookie Transactions (TCPCT) option, that may be\n\toverridden on a per socket basis by the TCPCT socket option.\n\tValues greater than the maximum (16) are interpreted as the maximum.\n\tValues greater than zero and less than the minimum (8) are interpreted\n\tas the minimum.  Odd values are interpreted as the next even value.\n\tDefault: 0 (off)."
+}

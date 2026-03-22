@@ -1,0 +1,3 @@
+{
+  "text": "When overcommit_memory is set to 2, the committed address\nspace is not permitted to exceed swap plus this percentage\nof physical RAM.  See above."
+}

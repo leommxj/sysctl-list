@@ -1,0 +1,3 @@
+{
+  "text": "Control whether DSS checksum can be enabled.\n\n\tDSS checksum can be enabled if the value is nonzero. This is a\n\tper-namespace sysctl.\n\n\tDefault: 0\n\nclose_timeout - INTEGER (seconds)\n\tSet the make-after-break timeout: in absence of any close or\n\tshutdown syscall, MPTCP sockets will maintain the status\n\tunchanged for such time, after the last subflow removal, before\n\tmoving to TCP_CLOSE.\n\n\tThe default value matches TCP_TIMEWAIT_LEN. This is a per-namespace\n\tsysctl.\n\n\tDefault: 60"
+}

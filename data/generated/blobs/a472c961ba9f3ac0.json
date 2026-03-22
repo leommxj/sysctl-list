@@ -1,0 +1,3 @@
+{
+  "text": "> cat /proc/sys/s390dbf/debug_stoppable"
+}

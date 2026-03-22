@@ -1,0 +1,3 @@
+{
+  "text": "The second trigger which stops the debug feature is a kernel oops.\nThat prevents the debug feature from overwriting debug information that\nhappened before the oops. After an oops you can reactivate the debug feature\nby piping 1 to ``/proc/sys/s390dbf/debug_active``. Nevertheless, it's not\nsuggested to use an oopsed kernel in a production environment."
+}

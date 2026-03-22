@@ -1,0 +1,3 @@
+{
+  "text": "Enable or disable the ability to extend the lifetime of the SCTP cookie\n\tthat is used during the establishment phase of SCTP association\n\n\tPossible values:\n\n\t- 0 (disabled) - disable.\n\t- 1 (enabled)  - enable cookie lifetime extension.\n\n\tDefault: 1 (enabled)"
+}

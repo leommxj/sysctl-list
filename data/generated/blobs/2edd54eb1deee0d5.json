@@ -1,0 +1,3 @@
+{
+  "text": "Select the scheduler of your choice.\n\n\tSupport for selection of different schedulers. This is a per-namespace\n\tsysctl.\n\n\tDefault: \"default\""
+}

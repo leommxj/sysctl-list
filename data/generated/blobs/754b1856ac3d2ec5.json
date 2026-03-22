@@ -1,0 +1,3 @@
+{
+  "text": "Enable TCP auto corking :\n\tWhen applications do consecutive small write()/sendmsg() system calls,\n\twe try to coalesce these small writes as much as possible, to lower\n\ttotal amount of sent packets. This is done if at least one prior\n\tpacket for the flow is waiting in Qdisc queues or device transmit\n\tqueue. Applications can still use TCP_CORK for optimal behavior\n\twhen they know how/when to uncork their sockets.\n\tDefault : 1"
+}

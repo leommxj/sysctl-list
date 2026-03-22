@@ -1,0 +1,3 @@
+{
+  "text": "By default, TCP saves various connection metrics in the route cache\n\twhen the connection closes, so that connections established in the\n\tnear future can use these to set initial conditions.  Usually, this\n\tincreases overall performance, but may sometimes cause performance\n\tdegredation.  If set, TCP will not cache metrics on closing\n\tconnections."
+}

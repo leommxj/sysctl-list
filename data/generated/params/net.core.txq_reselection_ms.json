@@ -1,0 +1,39 @@
+{
+  "availableVersions": [
+    "v6.19"
+  ],
+  "name": "net.core.txq_reselection_ms",
+  "namespace": "net",
+  "slug": "net.core.txq_reselection_ms",
+  "versions": [
+    {
+      "docRefs": [
+        {
+          "blob": "aca8e396bf7f7dec",
+          "heading": "txq_reselection_ms",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/net.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_net_sysctl",
+          "data_symbol": "sysctl_txq_reselection",
+          "handler_symbol": "proc_dointvec_ms_jiffies",
+          "path_segments": [
+            "net",
+            "core",
+            "txq_reselection_ms"
+          ],
+          "source_path": "net/core/sysctl_net_core.c",
+          "table": "netns_core_table"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.19"
+    }
+  ]
+}

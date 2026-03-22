@@ -1,0 +1,24 @@
+{
+  "name": "sysctl-list-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prebuild": "node ./scripts/stage-data.mjs",
+    "predev": "node ./scripts/stage-data.mjs",
+    "build": "astro build",
+    "check": "astro check",
+    "dev": "astro dev --host",
+    "preview": "astro preview --host"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.8",
+    "@fontsource-variable/newsreader": "^5.2.6",
+    "@fontsource/space-grotesk": "^5.2.8",
+    "astro": "^5.14.1",
+    "minisearch": "^7.2.0",
+    "typescript": "^5.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0"
+  }
+}

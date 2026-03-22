@@ -1,0 +1,3 @@
+{
+  "text": "x86 bootloader identification\n\nThis gives the bootloader type number as indicated by the bootloader,\nshifted left by 4, and OR'd with the low four bits of the bootloader\nversion.  The reason for this encoding is that this used to match the\ntype_of_loader field in the kernel header; the encoding is kept for\nbackwards compatibility.  That is, if the full bootloader type number\nis 0x15 and the full version number is 0x234, this file will contain\nthe value 340 = 0x154.\n\nSee the type_of_loader and ext_loader_type fields in\nDocumentation/x86/boot.rst for additional information."
+}

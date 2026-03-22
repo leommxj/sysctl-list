@@ -1,0 +1,19 @@
+{
+  "name": "sysctl-list",
+  "private": true,
+  "scripts": {
+    "build": "npm --prefix site run build",
+    "check": "python3 -m unittest discover -s tests && npm --prefix site run check",
+    "dev": "npm --prefix site run dev",
+    "deploy": "node ./tools/deploy-pages.mjs",
+    "extract:sync": "python3 -m tools.extract sync-tags",
+    "extract:sample": "python3 -m tools.extract extract-tags --tags v2.6.39,v4.20,v5.2,v5.3,v6.8",
+    "extract:index": "python3 -m tools.extract build-index",
+    "extract:stats": "python3 -m tools.extract stats",
+    "extract:all": "python3 -m tools.extract all",
+    "sample": "python3 -m tools.extract sample"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}

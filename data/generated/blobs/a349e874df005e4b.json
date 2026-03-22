@@ -1,0 +1,3 @@
+{
+  "text": "This value influences the time, after which TCP decides, that\n\tsomething is wrong due to unacknowledged RTO retransmissions,\n\tand reports this suspicion to the network layer.\n\tSee tcp_retries2 for more details.\n\n\tRFC 1122 recommends at least 3 retransmissions, which is the\n\tdefault."
+}

@@ -1,0 +1,3 @@
+{
+  "text": "This parameter affects whether the kernel will compact memory or direct\nreclaim to satisfy a high-order allocation. The extfrag/extfrag_index file in\ndebugfs shows what the fragmentation index for each order is in each zone in\nthe system. Values tending towards 0 imply allocations would fail due to lack\nof memory, values towards 1000 imply failures are due to fragmentation and -1\nimplies that the allocation will succeed as long as watermarks are met.\n\nThe kernel will not compact memory in a zone if the\nfragmentation index is <= extfrag_threshold. The default value is 500."
+}

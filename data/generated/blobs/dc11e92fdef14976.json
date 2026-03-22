@@ -1,0 +1,3 @@
+{
+  "text": "This value can be used to lower the softlockup tolerance threshold.  The\ndefault threshold is 60 seconds.  If a cpu is locked up for 60 seconds,\nthe kernel complains.  Valid values are 1-60 seconds.  Setting this\ntunable to zero will disable the softlockup detection altogether."
+}

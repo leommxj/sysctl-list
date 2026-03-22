@@ -1,0 +1,3 @@
+{
+  "text": "Maximum number of routes allowed in the kernel.  Increase\n\tthis when using large numbers of interfaces and/or routes."
+}

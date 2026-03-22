@@ -1,0 +1,3 @@
+{
+  "text": "New nexthop API provides a means for managing nexthops independent of\n\tprefixes. Backwards compatibilty with old route format is enabled by\n\tdefault which means route dumps and notifications contain the new\n\tnexthop attribute but also the full, expanded nexthop definition.\n\tFurther, updates or deletes of a nexthop configuration generate route\n\tnotifications for each fib entry using the nexthop. Once a system\n\tunderstands the new API, this sysctl can be disabled to achieve full\n\tperformance benefits of the new API by disabling the nexthop expansion\n\tand extraneous notifications.\n\tDefault: true (backward compat mode)\n\nIPv6 Fragmentation:"
+}

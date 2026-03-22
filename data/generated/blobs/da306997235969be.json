@@ -1,0 +1,3 @@
+{
+  "text": "The maximum number of multicast probes after unicast and\n\tapp probes in PROBE state.  Defaults to 0."
+}

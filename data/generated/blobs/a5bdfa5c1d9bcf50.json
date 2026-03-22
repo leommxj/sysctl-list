@@ -1,0 +1,3 @@
+{
+  "text": "If set, assume no receipt of a window scaling option means the\n\tremote TCP is broken and treats the window as a signed quantity.\n\tIf unset, assume the remote TCP is not broken even if we do\n\tnot receive a window scaling option from them.\n\tDefault: 0\n\nCIPSOv4 Variables:"
+}

@@ -1,0 +1,3 @@
+{
+  "text": "Percentage of SRTT used for the compressed SACK feature.\n\tSee tcp_comp_sack_nr, tcp_comp_sack_delay_ns, tcp_comp_sack_slack_ns.\n\n\tPossible values : 1 - 1000\n\n\tDefault : 33 %"
+}

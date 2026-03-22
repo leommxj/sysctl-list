@@ -1,0 +1,3 @@
+{
+  "text": "This interface allows runtime configuration of numa statistics.\n\nWhen page allocation performance becomes a bottleneck and you can tolerate\nsome possible tool breakage and decreased numa counter precision, you can\ndo::\n\n\techo 0 > /proc/sys/vm/numa_stat\n\nWhen page allocation performance is not a bottleneck and you want all\ntooling to work, you can do::\n\n\techo 1 > /proc/sys/vm/numa_stat"
+}

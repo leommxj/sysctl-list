@@ -1,0 +1,3 @@
+{
+  "text": "A toggle indicating if the kexec_load syscall has been disabled. This\nvalue defaults to 0 (false: kexec_load enabled), but can be set to 1\n(true: kexec_load disabled). Once true, kexec can no longer be used, and\nthe toggle cannot be set back to false. This allows a kexec image to be\nloaded before disabling the syscall, allowing a system to set up (and\nlater use) an image without it being altered. Generally used together\nwith the \"modules_disabled\" sysctl."
+}

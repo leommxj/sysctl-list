@@ -1,0 +1,3 @@
+{
+  "text": "A comma separated list of extra system information to be dumped when\nsoft/hard lockup is detected, for example, \"tasks,mem,timers,locks,...\".\nRefer 'panic_sys_info' section below for more details.\n\nIt serves as the default kernel control knob, which will take effect\nwhen a kernel module calls sys_info() with parameter==0."
+}

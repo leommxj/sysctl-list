@@ -1,0 +1,3 @@
+{
+  "text": "This tunable is used to define when dirty data is old enough to be eligible\nfor writeout by the kernel flusher threads.  It is expressed in 100'ths\nof a second.  Data which has been dirty in-memory for longer than this\ninterval will be written out next time a flusher thread wakes up."
+}

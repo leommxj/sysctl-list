@@ -1,0 +1,3 @@
+{
+  "text": "Shows the available schedulers choices that are registered. More packet\n\tschedulers may be available, but not loaded.\n\nblackhole_timeout - INTEGER (seconds)\n\tInitial time period in second to disable MPTCP on active MPTCP sockets\n\twhen a MPTCP firewall blackhole issue happens. This time period will\n\tgrow exponentially when more blackhole issues get detected right after\n\tMPTCP is re-enabled and will reset to the initial value when the\n\tblackhole issue goes away.\n\n\t0 to disable the blackhole detection.\n\n\tDefault: 3600"
+}

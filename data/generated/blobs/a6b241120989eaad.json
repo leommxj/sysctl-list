@@ -1,0 +1,3 @@
+{
+  "text": "This allows control over what percentage of the congestion window\n\tcan be consumed by a single TSO frame.\n\tThe setting of this parameter is a choice between burstiness and\n\tbuilding larger TSO frames.\n\tDefault: 3"
+}

@@ -1,0 +1,3 @@
+{
+  "text": "Minimum interval between garbage collection passes.  This interval is\n\tin effect under high memory pressure on the pool.\n\tMeasured in jiffies(1)."
+}

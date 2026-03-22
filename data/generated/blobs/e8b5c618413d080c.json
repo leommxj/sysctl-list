@@ -1,0 +1,3 @@
+{
+  "text": "By default we don't trust protocol path MTUs while forwarding\n\tbecause they could be easily forged and can lead to unwanted\n\tfragmentation by the router.\n\tYou only need to enable this if you have user-space software\n\twhich tries to discover path mtus by itself and depends on the\n\tkernel honoring this information. This is normally not the\n\tcase.\n\tDefault: 0 (disabled)\n\tPossible values:\n\t0 - disabled\n\t1 - enabled"
+}

@@ -1,0 +1,3 @@
+{
+  "text": "This value determines the maximum number of shared memory segments.\n4096 by default (``SHMMNI``)."
+}

@@ -1,0 +1,3 @@
+{
+  "text": "Enable or disable extension of User Message Interleaving functionality\n        specified in RFC8260. This extension allows the interleaving of user\n        messages sent on different streams. With this feature enabled, I-DATA\n        chunk will replace DATA chunk to carry user messages if also supported\n        by the peer. Note that to use this feature, one needs to set this option\n        to 1 and also needs to set socket options SCTP_FRAGMENT_INTERLEAVE to 2\n        and SCTP_INTERLEAVING_SUPPORTED to 1.\n\n\t- 1: Enable extension.\n\t- 0: Disable extension.\n\n\tDefault: 0"
+}

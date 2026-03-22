@@ -1,0 +1,3 @@
+{
+  "text": "Limit of socket listen() backlog, known in userspace as SOMAXCONN.\n\tDefaults to 4096. (Was 128 before linux-5.4)\n\tSee also tcp_max_syn_backlog for additional tuning for TCP sockets."
+}

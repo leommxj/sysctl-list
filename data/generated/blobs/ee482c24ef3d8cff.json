@@ -1,0 +1,3 @@
+{
+  "text": "- 0   - disable (default)\n\t- 1   - log ICMP packets\n\t- 6   - log TCP packets\n\t- 17  - log UDP packets\n\t- 33  - log DCCP packets\n\t- 41  - log ICMPv6 packets\n\t- 136 - log UDPLITE packets\n\t- 255 - log packets of any protocol\n\n\tLog invalid packets of a type specified by value."
+}

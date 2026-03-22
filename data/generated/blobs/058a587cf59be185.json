@@ -1,0 +1,3 @@
+{
+  "text": "The limit of the number of new packets that can be initially sent.  It\n\tcontrols how bursty the generated traffic can be.\n\n\tDefault: 4"
+}

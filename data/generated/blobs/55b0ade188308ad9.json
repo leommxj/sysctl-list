@@ -1,0 +1,3 @@
+{
+  "text": "This file contains the maximum number of memory map areas a process\nmay have. Memory map areas are used as a side-effect of calling\nmalloc, directly by mmap, mprotect, and madvise, and also when loading\nshared libraries.\n\nWhile most applications need less than a thousand maps, certain\nprograms, particularly malloc debuggers, may consume lots of them,\ne.g., up to one or two maps per allocation.\n\nThe default value is 65530."
+}

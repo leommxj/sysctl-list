@@ -1,0 +1,3 @@
+{
+  "text": "Primary.Switchover.Max.Retrans (PSMR), it's a tunable parameter coming\n\tfrom section-5 \"Primary Path Switchover\" in rfc7829.  The primary path\n\twill be changed to another active path when the path error counter on\n\tthe old primary path exceeds PSMR, so that \"the SCTP sender is allowed\n\tto continue data transmission on a new working path even when the old\n\tprimary destination address becomes active again\".   Note this feature\n\tis disabled by initializing 'ps_retrans' per netns as 0xffff by default,\n\tand its value can't be less than 'pf_retrans' when changing by sysctl.\n\n\tDefault: 0xffff"
+}

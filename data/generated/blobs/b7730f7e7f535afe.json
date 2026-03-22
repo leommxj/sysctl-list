@@ -1,0 +1,3 @@
+{
+  "text": "Controls which type of sndbufs and RMBs to use in later newly created\n        SMC-R link group. Only for SMC-R.\n\n        Default: 0 (physically contiguous sndbufs and RMBs)\n\n        Possible values:\n\n        - 0 - Use physically contiguous buffers\n        - 1 - Use virtually contiguous buffers\n        - 2 - Mixed use of the two types. Try physically contiguous buffers first.\n          If not available, use virtually contiguous buffers then."
+}

@@ -1,0 +1,3 @@
+{
+  "text": "Controls whether symlinks are created with mode 0777 (default)\n\tor whether their mode is affected by the umask (irix mode)."
+}

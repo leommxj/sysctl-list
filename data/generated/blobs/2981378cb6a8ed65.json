@@ -1,0 +1,3 @@
+{
+  "text": "Delay proxy response.\n\n\tDelay response to a neighbor solicitation when proxy_arp\n\tor proxy_ndp is enabled. A random value between [0, proxy_delay)\n\twill be chosen, setting to zero means reply with no delay.\n\tValue in jiffies. Defaults to 80."
+}

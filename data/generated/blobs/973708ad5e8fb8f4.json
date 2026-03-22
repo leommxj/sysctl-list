@@ -1,0 +1,3 @@
+{
+  "text": "Regeneration interval (in seconds) of the hash secret (or lifetime\n\tfor the hash secret) for IP fragments.\n\tDefault: 600\n\nINET peer storage:"
+}

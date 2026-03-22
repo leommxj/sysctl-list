@@ -1,0 +1,3 @@
+{
+  "text": "[*] At boot, by default no address rewriting is attempted.\n  To enable:\n     # echo 1 > /proc/sys/net/ipv4/ip_dynaddr\n  To enable verbose mode:\n     # echo 2 > /proc/sys/net/ipv4/ip_dynaddr\n  To disable (default)\n     # echo 0 > /proc/sys/net/ipv4/ip_dynaddr"
+}

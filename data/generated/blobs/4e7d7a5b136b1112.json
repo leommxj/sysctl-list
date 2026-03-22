@@ -1,0 +1,3 @@
+{
+  "text": "Maximum total number of pages a non-privileged user may allocate for pipes.\nOnce this limit is reached, no new pipes may be allocated until usage goes\nbelow the limit again. When set to 0, no limit is applied, which is the default\nsetting."
+}

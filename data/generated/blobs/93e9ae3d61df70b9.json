@@ -1,0 +1,3 @@
+{
+  "text": "This is available only on NOMMU kernels.\n\nThis value adjusts the excess page trimming behaviour of power-of-2 aligned\nNOMMU mmap allocations.\n\nA value of 0 disables trimming of allocations entirely, while a value of 1\ntrims excess pages aggressively. Any value >= 1 acts as the watermark where\ntrimming of allocations is initiated.\n\nThe default value is 1.\n\nSee Documentation/nommu-mmap.txt for more information."
+}

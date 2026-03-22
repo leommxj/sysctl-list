@@ -1,0 +1,3 @@
+{
+  "text": "Contains the amount of dirty memory at which a process generating disk writes\nwill itself start writeback.\n\nNote: dirty_bytes is the counterpart of dirty_ratio. Only one of them may be\nspecified at a time. When one sysctl is written it is immediately taken into\naccount to evaluate the dirty memory limits and the other appears as 0 when\nread.\n\nNote: the minimum value allowed for dirty_bytes is two pages (in bytes); any\nvalue lower than this limit will be ignored and the old configuration will be\nretained."
+}

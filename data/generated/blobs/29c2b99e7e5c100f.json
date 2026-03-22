@@ -1,0 +1,3 @@
+{
+  "text": "When set to 1, the page allocator tries harder to avoid fragmentation\nand maintain the ability to produce huge pages / higher-order pages.\n\nIt is recommended to enable this right after boot, as fragmentation,\nonce it occurred, can be long-lasting or even permanent."
+}

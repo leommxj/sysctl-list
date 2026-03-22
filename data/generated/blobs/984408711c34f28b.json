@@ -1,0 +1,3 @@
+{
+  "text": "PID allocation wrap value.  When the kernel's next PID value\nreaches this value, it wraps back to a minimum PID value.\nPIDs of value pid_max or larger are not allocated."
+}

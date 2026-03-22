@@ -1,0 +1,3 @@
+{
+  "text": "Accept packets with local source addresses. In combination\n\twith suitable routing, this can be used to direct packets\n\tbetween two local interfaces over the wire and have them\n\taccepted properly.\n\n\trp_filter must be set to a non-zero value in order for\n\taccept_local to have an effect.\n\n\tdefault FALSE"
+}

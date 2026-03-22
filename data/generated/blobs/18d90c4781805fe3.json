@@ -1,0 +1,3 @@
+{
+  "text": "Hard limit for queued sync messages that are not sent yet. It\n\tdefaults to 1/32 of the memory pages but actually represents\n\tnumber of messages. It will protect us from allocating large\n\tparts of memory when the sending rate is lower than the queuing\n\trate."
+}

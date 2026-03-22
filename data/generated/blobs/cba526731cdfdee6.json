@@ -1,0 +1,3 @@
+{
+  "text": "default 1\n\n\tThe number of threads that master and backup servers can use for\n\tsync traffic. Every thread will use single UDP port, thread 0 will\n\tuse the default port 8848 while last thread will use port\n\t8848+sync_ports-1."
+}

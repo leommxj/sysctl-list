@@ -1,0 +1,3 @@
+{
+  "text": "This value determines the number of times that the page lock can be\nstolen from under a waiter. After the lock is stolen the number of times\nspecified in this file (default is 5), the \"fair lock handoff\" semantics\nwill apply, and the waiter will only be awakened if the lock can be taken."
+}

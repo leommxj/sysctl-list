@@ -1,0 +1,3 @@
+{
+  "text": "This flag controls whether unprivileged users can use the userfaultfd\nsystem calls.  Set this to 1 to allow unprivileged users to use the\nuserfaultfd system calls, or set this to 0 to restrict userfaultfd to only\nprivileged users (with SYS_CAP_PTRACE capability).\n\nThe default value is 1."
+}

@@ -1,0 +1,3 @@
+{
+  "text": "Number of times initial SYNs for an active TCP connection attempt\n\twill be retransmitted. Should not be higher than 255. Default value\n\tis 6, which corresponds to 63seconds till the last restransmission\n\twith the current initial RTO of 1second. With this the final timeout\n\tfor an active TCP connection attempt will happen after 127seconds."
+}

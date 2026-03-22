@@ -1,0 +1,3 @@
+{
+  "text": "Enable early demux for connected UDP sockets. Disable this if\n\tyour system could experience more unconnected load.\n\n\tDefault: 1"
+}

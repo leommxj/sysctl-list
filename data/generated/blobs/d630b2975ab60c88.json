@@ -1,0 +1,3 @@
+{
+  "text": "Controls Stop-A:\n\n= ====================================\n0 Stop-A has no effect.\n1 Stop-A breaks to the PROM (default).\n= ====================================\n\nStop-A is always enabled on a panic, so that the user can return to\nthe boot PROM."
+}

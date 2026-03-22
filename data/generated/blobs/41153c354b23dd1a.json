@@ -1,0 +1,3 @@
+{
+  "text": "Enable memory failure recovery (when supported by the platform)\n\n1: Attempt recovery.\n\n0: Always panic on a memory failure."
+}

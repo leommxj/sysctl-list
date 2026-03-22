@@ -1,0 +1,3 @@
+{
+  "text": "Disable Path MTU Discovery. If enabled and a\n\tfragmentation-required ICMP is received, the PMTU to this\n\tdestination will be set to min_pmtu (see below). You will need\n\tto raise min_pmtu to the smallest interface MTU on your system\n\tmanually if you want to avoid locally generated fragments.\n\tDefault: FALSE"
+}

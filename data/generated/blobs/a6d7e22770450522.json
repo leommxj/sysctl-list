@@ -1,0 +1,3 @@
+{
+  "text": "Maximum prefix length of Route Information in RA.\n\n\tRoute Information w/ prefix larger than this variable shall\n\tbe ignored.\n\n\tFunctional default: 0 if accept_ra_rtr_pref is enabled.\n\t\t\t    -1 if accept_ra_rtr_pref is disabled."
+}

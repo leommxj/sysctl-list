@@ -1,0 +1,3 @@
+{
+  "text": "Maximum number of packets, queued on the INPUT side, when the interface\nreceives packets faster than kernel can process them."
+}

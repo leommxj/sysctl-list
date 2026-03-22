@@ -1,0 +1,3 @@
+{
+  "text": "Split the flow label number space into two ranges. 0-0x7FFFF is\n\treserved for the IPv6 flow manager facility, 0x80000-0xFFFFF\n\tis reserved for stateless flow labels as described in RFC6437.\n\n\tPossible values:\n\n\t- 0 (disabled)\n\t- 1 (enabled)\n\n\tDefault: 1 (enabled)"
+}

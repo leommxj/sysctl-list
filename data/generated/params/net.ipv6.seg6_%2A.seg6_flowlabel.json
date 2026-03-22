@@ -1,0 +1,43 @@
+{
+  "availableVersions": [
+    "v6.18",
+    "v6.19"
+  ],
+  "name": "net.ipv6.seg6_*.seg6_flowlabel",
+  "namespace": "net",
+  "slug": "net.ipv6.seg6_%2A.seg6_flowlabel",
+  "versions": [
+    {
+      "docRefs": [
+        {
+          "blob": "d69846410301987a",
+          "heading": "seg6_flowlabel",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/seg6-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v6.18"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "d69846410301987a",
+          "heading": "seg6_flowlabel",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/seg6-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v6.19"
+    }
+  ]
+}

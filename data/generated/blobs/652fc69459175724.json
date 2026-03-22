@@ -1,0 +1,3 @@
+{
+  "text": "The maximum number of packets which may be queued for each\n\tunresolved address by other network layers.\n\t(deprecated in linux 3.3) : use unres_qlen_bytes instead."
+}

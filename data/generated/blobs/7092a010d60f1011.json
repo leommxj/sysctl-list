@@ -1,0 +1,3 @@
+{
+  "text": "Allow peers to send join requests to the IP address and port number used\n\tby the initial subflow if the value is 1. This controls a flag that is\n\tsent to the peer at connection time, and whether such join requests are\n\taccepted or denied.\n\n\tJoins to addresses advertised with ADD_ADDR are not affected by this\n\tvalue.\n\n\tThis is a per-namespace sysctl.\n\n\tDefault: 1"
+}

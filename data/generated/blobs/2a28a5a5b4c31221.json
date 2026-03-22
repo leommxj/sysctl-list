@@ -1,0 +1,3 @@
+{
+  "text": "Maximum number of non-padding TLVs allowed in a Destination\n\toptions extension header. If this value is less than zero\n\tthen unknown options are disallowed and the number of known\n\tTLVs allowed is the absolute value of this number.\n\tDefault: 8"
+}

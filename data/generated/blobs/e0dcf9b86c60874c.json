@@ -1,0 +1,3 @@
+{
+  "text": "The maximum length of dgram socket receive queue\n\n\tDefault: 10"
+}

@@ -1,0 +1,3 @@
+{
+  "text": "Threshold when garbage collector becomes more aggressive about\n\tpurging entries. Entries older than 5 seconds will be cleared\n\twhen over this number.\n\tDefault: 512"
+}

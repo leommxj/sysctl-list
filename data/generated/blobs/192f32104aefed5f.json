@@ -1,0 +1,3 @@
+{
+  "text": "Maximum ancillary buffer size allowed per socket. Ancillary data is a sequence\nof struct cmsghdr structures with appended data."
+}

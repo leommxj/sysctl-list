@@ -1,0 +1,14 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="Not Found · sysctl list">
+  <main class="page-frame">
+    <section class="panel single-card">
+      <p class="eyebrow">404</p>
+      <h1>Page not found</h1>
+      <p>The requested page does not exist in this static build.</p>
+      <a class="accent-button inline-button" href={import.meta.env.BASE_URL}>Back to list</a>
+    </section>
+  </main>
+</BaseLayout>

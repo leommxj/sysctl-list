@@ -1,0 +1,3 @@
+{
+  "text": "Controls the behaviour of computing the flowlabel of outer\n\tIPv6 header in case of SR T.encaps\n\n\t == =======================================================\n\t -1  set flowlabel to zero.\n\t  0  copy flowlabel from Inner packet in case of Inner IPv6\n\t     (Set flowlabel to 0 in case IPv4/L2)\n\t  1  Compute the flowlabel using seg6_make_flowlabel()\n\t == =======================================================\n\n\tDefault is 0."
+}

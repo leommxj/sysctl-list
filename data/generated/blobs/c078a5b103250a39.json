@@ -1,0 +1,3 @@
+{
+  "text": "0 - (default) No enforcement of a IGMP version, IGMPv1/v2 fallback\n\t    allowed. Will back to IGMPv3 mode again if all IGMPv1/v2 Querier\n\t    Present timer expires.\n\t1 - Enforce to use IGMP version 1. Will also reply IGMPv1 report if\n\t    receive IGMPv2/v3 query.\n\t2 - Enforce to use IGMP version 2. Will fallback to IGMPv1 if receive\n\t    IGMPv1 query message. Will reply report if receive IGMPv3 query.\n\t3 - Enforce to use IGMP version 3. The same react with default 0.\n\n\tNote: this is not the same with force_mld_version because IGMPv3 RFC3376\n\tSecurity Considerations does not have clear description that we could\n\tignore other version messages completely as MLDv2 RFC3810. So make\n\tthis value as default 0 is recommended."
+}

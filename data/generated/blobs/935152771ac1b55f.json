@@ -1,0 +1,3 @@
+{
+  "text": "Control whether DSS checksum can be enabled.\n\n\tDSS checksum can be enabled if the value is nonzero. This is a\n\tper-namespace sysctl.\n\n\tDefault: 0"
+}

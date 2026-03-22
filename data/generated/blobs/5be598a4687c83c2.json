@@ -1,0 +1,3 @@
+{
+  "text": "Controls use of the performance events system by unprivileged\nusers (without CAP_SYS_ADMIN).  The default value is 2.\n\n===  ==================================================================\n -1  Allow use of (almost) all events by all users\n\n     Ignore mlock limit after perf_event_mlock_kb without CAP_IPC_LOCK\n\n>=0  Disallow ftrace function tracepoint by users without CAP_SYS_ADMIN\n\n     Disallow raw tracepoint access by users without CAP_SYS_ADMIN\n\n>=1  Disallow CPU event access by users without CAP_SYS_ADMIN\n\n>=2  Disallow kernel profiling by users without CAP_SYS_ADMIN\n===  =================================================================="
+}

@@ -1,0 +1,119 @@
+{
+  "availableVersions": [
+    "v6.15",
+    "v6.16",
+    "v6.17",
+    "v6.18",
+    "v6.19"
+  ],
+  "name": "csky.csky_alignment.kernel_enable",
+  "namespace": "csky",
+  "slug": "csky.csky_alignment.kernel_enable",
+  "versions": [
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "align_kern_enable",
+          "handler_symbol": "proc_dointvec",
+          "path_segments": [
+            "csky",
+            "csky_alignment",
+            "kernel_enable"
+          ],
+          "source_path": "arch/csky/abiv1/alignment.c",
+          "table": "alignment_tbl"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.15"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "align_kern_enable",
+          "handler_symbol": "proc_dointvec",
+          "path_segments": [
+            "csky",
+            "csky_alignment",
+            "kernel_enable"
+          ],
+          "source_path": "arch/csky/abiv1/alignment.c",
+          "table": "alignment_tbl"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.16"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "align_kern_enable",
+          "handler_symbol": "proc_dointvec",
+          "path_segments": [
+            "csky",
+            "csky_alignment",
+            "kernel_enable"
+          ],
+          "source_path": "arch/csky/abiv1/alignment.c",
+          "table": "alignment_tbl"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.17"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "align_kern_enable",
+          "handler_symbol": "proc_dointvec",
+          "path_segments": [
+            "csky",
+            "csky_alignment",
+            "kernel_enable"
+          ],
+          "source_path": "arch/csky/abiv1/alignment.c",
+          "table": "alignment_tbl"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.18"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "align_kern_enable",
+          "handler_symbol": "proc_dointvec",
+          "path_segments": [
+            "csky",
+            "csky_alignment",
+            "kernel_enable"
+          ],
+          "source_path": "arch/csky/abiv1/alignment.c",
+          "table": "alignment_tbl"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.19"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+{
+  "text": "The number of retransmissions that will be attempted on a given path\n\tbefore traffic is redirected to an alternate transport (should one\n\texist).  Note this is distinct from path_max_retrans, as a path that\n\tpasses the pf_retrans threshold can still be used.  Its only\n\tdeprioritized when a transmission path is selected by the stack.  This\n\tsetting is primarily used to enable fast failover mechanisms without\n\thaving to reduce path_max_retrans to a very low value.  See:\n\thttp://www.ietf.org/id/draft-nishida-tsvwg-sctp-failover-05.txt\n\tfor details.  Note also that a value of pf_retrans > path_max_retrans\n\tdisables this feature\n\n\tDefault: 0"
+}

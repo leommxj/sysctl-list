@@ -1,0 +1,3 @@
+{
+  "text": "Enable or disable extension of  Dynamic Address Reconfiguration\n\t(ADD-IP) functionality specified in RFC5061.  This extension provides\n\tthe ability to dynamically add and remove new addresses for the SCTP\n\tassociations.\n\n\t1: Enable extension.\n\n\t0: Disable extension.\n\n\tDefault: 0"
+}

@@ -1,0 +1,38 @@
+{
+  "availableVersions": [
+    "v6.19"
+  ],
+  "name": "kernel.hung_task_sys_info",
+  "namespace": "kernel",
+  "slug": "kernel.hung_task_sys_info",
+  "versions": [
+    {
+      "docRefs": [
+        {
+          "blob": "9d297b8564b94a89",
+          "heading": "hung_task_sys_info",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/sysctl/kernel.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "hung_task_si_mask",
+          "handler_symbol": "sysctl_sys_info_handler",
+          "path_segments": [
+            "kernel",
+            "hung_task_sys_info"
+          ],
+          "source_path": "kernel/hung_task.c",
+          "table": "hung_task_sysctls"
+        }
+      ],
+      "supportStatus": "exact",
+      "tag": "v6.19"
+    }
+  ]
+}

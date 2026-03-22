@@ -1,0 +1,3 @@
+{
+  "text": "The maximum number of unicast probes in PROBE state, when\n\tthe hardware address is being reconfirmed.  Defaults to 3."
+}

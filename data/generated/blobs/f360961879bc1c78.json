@@ -1,0 +1,3 @@
+{
+  "text": "Control whether MPTCP sockets can be created.\n\n\tMPTCP sockets can be created if the value is nonzero. This is\n\ta per-namespace sysctl.\n\n\tDefault: 1\n\nadd_addr_timeout - INTEGER (seconds)\n\tSet the timeout after which an ADD_ADDR control message will be\n\tresent to an MPTCP peer that has not acknowledged a previous\n\tADD_ADDR message.\n\n\tThe default value matches TCP_RTO_MAX. This is a per-namespace\n\tsysctl.\n\n\tDefault: 120"
+}

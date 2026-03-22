@@ -1,0 +1,26 @@
+{
+  "availableVersions": [
+    "v2.6.34"
+  ],
+  "name": "net.ipv4.proxy_arp_pvlan",
+  "namespace": "net",
+  "slug": "net.ipv4.proxy_arp_pvlan",
+  "versions": [
+    {
+      "docRefs": [
+        {
+          "blob": "297f0e5e24142f3b",
+          "heading": "proxy_arp_pvlan",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.txt"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v2.6.34"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+{
+  "text": "When tracepoints are sent to printk() (enabled by the ``tp_printk``\nboot parameter), this entry provides runtime control::\n\n    echo 0 > /proc/sys/kernel/tracepoint_printk\n\nwill stop tracepoints from being sent to printk(), and::\n\n    echo 1 > /proc/sys/kernel/tracepoint_printk\n\nwill send them to printk() again.\n\nThis only works if the kernel was booted with ``tp_printk`` enabled.\n\nSee Documentation/admin-guide/kernel-parameters.rst and\nDocumentation/trace/boottime-trace.rst.\n\n\n.. _unaligned-dump-stack:"
+}

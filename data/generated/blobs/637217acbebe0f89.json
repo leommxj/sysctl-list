@@ -1,0 +1,3 @@
+{
+  "text": "If set non-zero, enables support for dynamic addresses.\n\tIf set to a non-zero value larger than 1, a kernel log\n\tmessage will be printed when dynamic address rewriting\n\toccurs.\n\n\tDefault: 0"
+}

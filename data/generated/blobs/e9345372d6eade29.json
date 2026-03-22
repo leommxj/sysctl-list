@@ -1,0 +1,3 @@
+{
+  "text": "0 - disabled (default)\n\tnot 0 - enabled\n\n\tEnable connection tracking flow accounting. 64-bit byte and packet\n\tcounters per flow are added.\n\nnf_conntrack_buckets - INTEGER (read-only)\n\tSize of hash table. If not specified as parameter during module\n\tloading, the default size is calculated by dividing total memory\n\tby 16384 to determine the number of buckets but the hash table will\n\tnever have fewer than 32 and limited to 16384 buckets. For systems\n\twith more than 4GB of memory it will be 65536 buckets."
+}

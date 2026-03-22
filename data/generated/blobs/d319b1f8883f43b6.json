@@ -1,0 +1,3 @@
+{
+  "text": "When the value in this file is 0, ctrl-alt-del is trapped and\nsent to the init(1) program to handle a graceful restart.\nWhen, however, the value is > 0, Linux's reaction to a Vulcan\nNerve Pinch (tm) will be an immediate reboot, without even\nsyncing its dirty buffers.\n\nNote:\n  when a program (like dosemu) has the keyboard in 'raw'\n  mode, the ctrl-alt-del is intercepted by the program before it\n  ever reaches the kernel tty layer, and it's up to the program\n  to decide what to do with it."
+}

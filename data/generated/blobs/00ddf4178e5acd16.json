@@ -1,0 +1,3 @@
+{
+  "text": "The maximum number of warnings to report. During a check interval\nWhen this value is reached, no more the warnings will be reported.\nThis file shows up if CONFIG_DETECT_HUNG_TASK is enabled.\n\n-1: report an infinite number of warnings."
+}

@@ -1,0 +1,3 @@
+{
+  "text": "Check interval. When a task in D state did not get scheduled\nfor more than this value report a warning.\nThis file shows up if CONFIG_DETECT_HUNG_TASK is enabled.\n\n0: means infinite timeout - no checking done."
+}

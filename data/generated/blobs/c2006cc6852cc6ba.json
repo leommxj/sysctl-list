@@ -1,0 +1,3 @@
+{
+  "text": "Time, in seconds, to suspend PLB in event of an RTO. In order to avoid\n\thaving PLB repath onto a connectivity \"black hole\", after an RTO a TCP\n\tconnection suspends PLB repathing for a random duration between 1x and\n\t2x of this parameter. Randomness is added to avoid concurrent rehashing\n\tof multiple TCP connections. This should be set corresponding to the\n\tamount of time it takes to repair a failed link.\n\n\tPossible Values: 0 - 255\n\n\tDefault: 60"
+}

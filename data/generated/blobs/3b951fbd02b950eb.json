@@ -1,0 +1,3 @@
+{
+  "text": "Non-zero if the kernel has been tainted.  Numeric values, which\ncan be ORed together:\n\n  1 - A module with a non-GPL license has been loaded, this\n      includes modules with no license.\n      Set by modutils >= 2.4.9 and module-init-tools.\n  2 - A module was force loaded by insmod -f.\n      Set by modutils >= 2.4.9 and module-init-tools.\n  4 - Unsafe SMP processors: SMP with CPUs not designed for SMP."
+}

@@ -1,0 +1,3 @@
+{
+  "text": "The initial round trip timeout value in milliseconds that will be used\n\tin calculating round trip times.  This is the initial time interval\n\tfor retransmissions.\n\n\tDefault: 3000"
+}

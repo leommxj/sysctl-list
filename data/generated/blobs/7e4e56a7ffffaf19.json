@@ -1,0 +1,3 @@
+{
+  "text": "Protect the consistency (and unicity) of flow label.\n\tYou have to disable it to use IPV6_FL_F_REFLECT flag on the\n\tflow label manager.\n\tTRUE: enabled\n\tFALSE: disabled\n\tDefault: TRUE"
+}

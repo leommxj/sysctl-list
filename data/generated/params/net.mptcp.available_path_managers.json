@@ -1,0 +1,94 @@
+{
+  "availableVersions": [
+    "v6.15",
+    "v6.16",
+    "v6.17",
+    "v6.18",
+    "v6.19"
+  ],
+  "name": "net.mptcp.available_path_managers",
+  "namespace": "net",
+  "slug": "net.mptcp.available_path_managers",
+  "versions": [
+    {
+      "docRefs": [
+        {
+          "blob": "74d36215c4db160d",
+          "heading": "available_path_managers",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/mptcp-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v6.15"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "74d36215c4db160d",
+          "heading": "available_path_managers",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/mptcp-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v6.16"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "74d36215c4db160d",
+          "heading": "available_path_managers",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/mptcp-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v6.17"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "74d36215c4db160d",
+          "heading": "available_path_managers",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/mptcp-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v6.18"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "74d36215c4db160d",
+          "heading": "available_path_managers",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/mptcp-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v6.19"
+    }
+  ]
+}

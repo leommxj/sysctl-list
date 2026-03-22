@@ -1,0 +1,3 @@
+{
+  "text": "How far in advance (in seconds), at minimum, to create a new temporary\n\taddress before the current one is deprecated. This value is added to\n\tthe amount of time that may be required for duplicate address detection\n\tto determine when to create a new address. Linux permits setting this\n\tvalue to less than the default of 2 seconds, but a value less than 2\n\tdoes not conform to RFC 8981.\n\n\tDefault: 2"
+}

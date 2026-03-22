@@ -1,0 +1,3 @@
+{
+  "text": "Writing 1 to this entry will disable unprivileged calls to ``bpf()``;\nonce disabled, calling ``bpf()`` without ``CAP_SYS_ADMIN`` will return\n``-EPERM``.\n\nOnce set, this can't be cleared."
+}

@@ -1,0 +1,3 @@
+{
+  "text": "Accept packets with local source addresses. In combination with\n\tsuitable routing, this can be used to direct packets between two\n\tlocal interfaces over the wire and have them accepted properly.\n\tdefault FALSE"
+}

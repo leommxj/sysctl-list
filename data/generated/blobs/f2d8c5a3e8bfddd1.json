@@ -1,0 +1,3 @@
+{
+  "text": "/proc/sys/kernel/sched_cfs_bandwidth_slice_us (default=5ms)"
+}

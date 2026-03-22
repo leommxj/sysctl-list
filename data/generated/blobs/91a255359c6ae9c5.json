@@ -1,0 +1,3 @@
+{
+  "text": "When a lazytime inode is constantly having its pages dirtied, the inode with\nan updated timestamp will never get chance to be written out.  And, if the\nonly thing that has happened on the file system is a dirtytime inode caused\nby an atime update, a worker will be scheduled to make sure that inode\neventually gets pushed out to disk.  This tunable is used to define when dirty\ninode is old enough to be eligible for writeback by the kernel flusher threads.\nAnd, it is also used as the interval to wakeup dirtytime_writeback thread.\n\nSetting this to zero disables periodic dirtytime writeback."
+}

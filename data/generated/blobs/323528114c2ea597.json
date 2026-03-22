@@ -1,0 +1,3 @@
+{
+  "text": "Minimum interval between garbage collection passes.  This interval is\n\tin effect under low (or absent) memory pressure on the pool.\n\tMeasured in seconds.\n\nTCP variables:"
+}

@@ -1,0 +1,3 @@
+{
+  "text": "Controls the use of anycast addresses as source addresses for ICMPv6\n\techo reply\n\tTRUE:  enabled\n\tFALSE: disabled\n\tDefault: FALSE\n\nIPv6 Fragmentation:"
+}

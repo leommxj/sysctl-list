@@ -1,0 +1,3 @@
+{
+  "text": "Unregister network device timeout in seconds.\nThis option controls the timeout (in seconds) used to issue a warning while\nwaiting for a network device refcount to drop to 0 during device\nunregistration. A lower value may be useful during bisection to detect\na leaked reference faster. A larger value may be useful to prevent false\nwarnings on slow/loaded systems.\nDefault value is 10, minimum 1, maximum 3600."
+}

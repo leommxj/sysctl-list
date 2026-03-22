@@ -1,0 +1,3 @@
+{
+  "text": "The CIPSO label cache consists of a fixed size hash table with each\n\thash bucket containing a number of cache entries.  This variable limits\n\tthe number of entries in each hash bucket; the larger the value is, the\n\tmore CIPSO label mappings that can be cached.  When the number of\n\tentries in a given hash bucket reaches this limit adding new entries\n\tcauses the oldest entry in the bucket to be removed to make room.\n\n\tDefault: 10"
+}

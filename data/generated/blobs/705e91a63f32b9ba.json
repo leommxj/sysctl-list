@@ -1,0 +1,3 @@
+{
+  "text": "Accept ICMP redirect messages only to gateways listed in the\n\tinterface's current gateway list. Even if disabled, RFC1122 redirect\n\trules still apply.\n\tOverridden by shared_media.\n\tsecure_redirects for the interface will be enabled if at least one of\n\tconf/{all,interface}/secure_redirects is set to TRUE,\n\tit will be disabled otherwise\n\tdefault TRUE"
+}

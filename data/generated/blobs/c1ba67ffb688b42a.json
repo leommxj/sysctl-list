@@ -1,0 +1,3 @@
+{
+  "text": "These numbers control the maximum number of superblocks, and\nthus the maximum number of mounted filesystems the kernel\ncan have. You only need to increase super-max if you need to\nmount more filesystems than the current value in super-max\nallows you to."
+}

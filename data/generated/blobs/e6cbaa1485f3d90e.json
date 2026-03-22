@@ -1,0 +1,3 @@
+{
+  "text": "Delay each printk message in ``printk_delay`` milliseconds\n\nValue from 0 - 10000 is allowed."
+}

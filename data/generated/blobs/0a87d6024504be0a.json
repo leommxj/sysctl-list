@@ -1,0 +1,3 @@
+{
+  "text": "Include a nonce option in the IPv6 neighbor solicitation messages used for\n\tduplicate address detection per RFC7527. A received DAD NS will only signal\n\ta duplicate address if the nonce is different. This avoids any false\n\tdetection of duplicates due to loopback of the NS messages that we send.\n\tThe nonce option will be sent on an interface unless both of\n\tconf/{all,interface}/enhanced_dad are set to FALSE.\n\tDefault: TRUE\n\nicmp/*:"
+}

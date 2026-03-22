@@ -1,0 +1,3 @@
+{
+  "text": "Accept ICMP redirect messages.\n\taccept_redirects for the interface will be enabled if:\n\t- both conf/{all,interface}/accept_redirects are TRUE in the case\n\t  forwarding for the interface is enabled\n\tor\n\t- at least one of conf/{all,interface}/accept_redirects is TRUE in the\n\t  case forwarding for the interface is disabled\n\taccept_redirects for the interface will be disabled otherwise\n\tdefault TRUE (host)\n\t\tFALSE (router)"
+}

@@ -1,0 +1,60 @@
+{
+  "availableVersions": [
+    "v6.17",
+    "v6.18",
+    "v6.19"
+  ],
+  "name": "net.core.somaxconn.cipso_rbm_strictvalid",
+  "namespace": "net",
+  "slug": "net.core.somaxconn.cipso_rbm_strictvalid",
+  "versions": [
+    {
+      "docRefs": [
+        {
+          "blob": "1b2c0b7a84f372c1",
+          "heading": "cipso_rbm_strictvalid",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v6.17"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "1b2c0b7a84f372c1",
+          "heading": "cipso_rbm_strictvalid",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v6.18"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "1b2c0b7a84f372c1",
+          "heading": "cipso_rbm_strictvalid",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v6.19"
+    }
+  ]
+}

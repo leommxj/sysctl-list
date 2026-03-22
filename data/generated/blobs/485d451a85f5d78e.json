@@ -1,0 +1,3 @@
+{
+  "text": "Too high promotion/demotion throughput between different memory types\nmay hurt application latency.  This can be used to rate limit the\npromotion throughput.  The per-node max promotion throughput in MB/s\nwill be limited to be no more than the set value.\n\nA rule of thumb is to set this to less than 1/10 of the PMEM node\nwrite bandwidth."
+}

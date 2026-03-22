@@ -1,0 +1,3 @@
+{
+  "text": "0 - disabled\n\tnot 0 - enabled (default)\n\n\tIf enabled, recalculate the route of SNATed packets from\n\trealservers so that they are routed as if they originate from the\n\tdirector. Otherwise they are routed as if they are forwarded by the\n\tdirector.\n\n\tIf policy routing is in effect then it is possible that the route\n\tof a packet originating from a director is routed differently to a\n\tpacket being forwarded by the director.\n\n\tIf policy routing is not in effect then the recalculated route will\n\talways be the same as the original route so it is an optimisation\n\tto disable snat_reroute and avoid the recalculation."
+}

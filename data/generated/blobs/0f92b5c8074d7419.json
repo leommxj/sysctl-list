@@ -1,0 +1,3 @@
+{
+  "text": "This value can be used to select the number of bits to use to\ndetermine the random offset to the base address of vma regions\nresulting from mmap allocations for applications run in\ncompatibility mode on architectures which support tuning address\nspace randomization.  This value will be bounded by the\narchitecture's minimum and maximum supported values.\n\nThis value can be changed after boot using the\n/proc/sys/vm/mmap_rnd_compat_bits tunable"
+}

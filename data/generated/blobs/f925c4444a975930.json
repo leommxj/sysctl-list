@@ -1,0 +1,3 @@
+{
+  "text": "Change the maximum number of multicast groups we can subscribe to.\n\tDefault: 20"
+}

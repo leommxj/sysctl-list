@@ -1,0 +1,3 @@
+{
+  "text": "Causes certain error conditions to call BUG(). Value is a bitmask;\n\tOR together the tags which represent errors which should cause panics:\n\n\t\tXFS_NO_PTAG                     0\n\t\tXFS_PTAG_IFLUSH                 0x00000001\n\t\tXFS_PTAG_LOGRES                 0x00000002\n\t\tXFS_PTAG_AILDELETE              0x00000004\n\t\tXFS_PTAG_ERROR_REPORT           0x00000008\n\t\tXFS_PTAG_SHUTDOWN_CORRUPT       0x00000010\n\t\tXFS_PTAG_SHUTDOWN_IOERROR       0x00000020\n\t\tXFS_PTAG_SHUTDOWN_LOGERROR      0x00000040\n\t\tXFS_PTAG_FSBLOCK_ZERO           0x00000080\n\t\tXFS_PTAG_VERIFIER_ERROR         0x00000100\n\n\tThis option is intended for debugging only."
+}

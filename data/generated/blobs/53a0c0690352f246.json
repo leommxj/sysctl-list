@@ -1,0 +1,3 @@
+{
+  "text": "Maximal TCP retransmission timeout (in ms).\n\tNote that TCP_RTO_MAX_MS socket option has higher precedence.\n\n\tWhen changing tcp_rto_max_ms, it is important to understand\n\tthat tcp_retries2 might need a change.\n\n\tPossible Values: 1000 - 120,000\n\n\tDefault: 120,000\n\nUDP variables\n============="
+}

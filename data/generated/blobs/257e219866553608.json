@@ -1,0 +1,3 @@
+{
+  "text": "This control is used to define how aggressive the kernel will swap\nmemory pages.  Higher values will increase aggressiveness, lower values\ndecrease the amount of swap.  A value of 0 instructs the kernel not to\ninitiate swap until the amount of free and file-backed pages is less\nthan the high water mark in a zone.\n\nThe default value is 60."
+}

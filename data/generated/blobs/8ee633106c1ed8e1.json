@@ -1,0 +1,3 @@
+{
+  "text": "This value contains a flag that enables memory overcommitment.\n\nWhen this flag is 0, the kernel attempts to estimate the amount\nof free memory left when userspace requests more memory.\n\nWhen this flag is 1, the kernel pretends there is always enough\nmemory until it actually runs out.\n\nWhen this flag is 2, the kernel uses a \"never overcommit\"\npolicy that attempts to prevent any overcommit of memory.\nNote that user_reserve_kbytes affects this policy.\n\nThis feature can be very useful because there are a lot of\nprograms that malloc() huge amounts of memory \"just-in-case\"\nand don't use much of it.\n\nThe default value is 0.\n\nSee Documentation/vm/overcommit-accounting.rst and\nmm/mmap.c::__vm_enough_memory() for more information."
+}

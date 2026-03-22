@@ -1,0 +1,3 @@
+{
+  "text": "These parameters  are used to limit the warning messages written to the kernel\nlog from  the  networking  code.  They  enforce  a  rate  limit  to  make  a\ndenial-of-service attack  impossible. A higher message_cost factor, results in\nfewer messages that will be written. Message_burst controls when messages will\nbe dropped.  The  default  settings  limit  warning messages to one every five\nseconds."
+}

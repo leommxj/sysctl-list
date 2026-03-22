@@ -1,0 +1,3 @@
+{
+  "text": "Controls the number of retries to generate a stable privacy\n\taddress if a DAD conflict is detected.\n\tDefault: 3 (as specified in RFC7217)"
+}

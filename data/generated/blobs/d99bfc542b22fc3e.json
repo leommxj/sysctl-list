@@ -1,0 +1,3 @@
+{
+  "text": "Enables/Disables the NMI watchdog on x86 systems.  When the value is non-zero\nthe NMI watchdog is enabled and will continuously test all online cpus to\ndetermine whether or not they are still functioning properly. Currently,\npassing \"nmi_watchdog=\" parameter at boot time is required for this function\nto work.\n\nIf LAPIC NMI watchdog method is in use (nmi_watchdog=2 kernel parameter), the\nNMI watchdog shares registers with oprofile. By disabling the NMI watchdog,\noprofile may have more registers to utilize."
+}

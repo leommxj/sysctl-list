@@ -1,0 +1,3 @@
+{
+  "text": "1 : pass bridged IPv6 traffic to ip6tables' chains.\n\t0 : disable this.\n\tDefault: 1"
+}

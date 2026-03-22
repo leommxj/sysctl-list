@@ -1,0 +1,3 @@
+{
+  "text": "Controls maximum number of stack frame context entries for\n(attr.sample_type & PERF_SAMPLE_CALLCHAIN) configured events, for\ninstance, when using 'perf record -g' or 'perf trace --call-graph fp'.\n\nThis can only be done when no events are in use that have callchains\nenabled, otherwise writing to this file will return -EBUSY.\n\nThe default value is 8."
+}

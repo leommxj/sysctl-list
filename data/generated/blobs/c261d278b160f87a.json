@@ -1,0 +1,3 @@
+{
+  "text": "Sets the minimum window scale TCP will negotiate for on all\n\tconections.\n\tDefault: 7"
+}

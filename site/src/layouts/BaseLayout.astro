@@ -1,0 +1,85 @@
+---
+import "@fontsource-variable/newsreader";
+import "@fontsource/space-grotesk/400.css";
+import "@fontsource/space-grotesk/500.css";
+import "@fontsource/space-grotesk/700.css";
+
+import "../styles/global.css";
+
+interface Props {
+  description?: string;
+  pageClass?: string;
+  title: string;
+}
+
+const {
+  description = "Browse Linux sysctl documentation across kernel versions.",
+  pageClass = "",
+  title
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="en" data-base={import.meta.env.BASE_URL} data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL}favicon.svg`} />
+    <title>{title}</title>
+    <script is:inline>
+      try {
+        const storedTheme = window.localStorage.getItem("sysctl-explorer.theme");
+        if (storedTheme === "light" || storedTheme === "dark") {
+          document.documentElement.dataset.theme = storedTheme;
+        }
+      } catch {
+        document.documentElement.dataset.theme = "dark";
+      }
+    </script>
+  </head>
+  <body class={pageClass}>
+    <slot />
+    <div class="page-controls" aria-label="Global controls">
+      <button class="inline-button theme-toggle" type="button" data-theme-toggle aria-pressed="true">
+        Dark
+      </button>
+      <button class="inline-button" type="button" data-info-open>About</button>
+    </div>
+    <dialog class="info-modal" id="infoModal" aria-labelledby="infoModalTitle">
+      <article class="info-card">
+        <div class="info-head">
+          <div>
+            <p class="eyebrow">Data notes</p>
+            <h2 id="infoModalTitle">About this dataset</h2>
+          </div>
+          <button class="inline-button info-close" type="button" data-info-close>Close</button>
+        </div>
+        <div class="info-copy">
+          <p>
+            Data comes from Linux kernel documentation files plus sysctl registrations extracted from kernel C
+            sources across release tags.
+          </p>
+          <p>
+            The pipeline normalizes parameter names, scans static and dynamic registration paths, then merges
+            documentation and source matches into a static index for the site.
+          </p>
+          <p>
+            Some entries may still be incomplete or wrong. Kernel docs are inconsistent in places, and some
+            registrations or aliases are hard to resolve automatically.
+          </p>
+          <p>
+            Project:
+            <a href="https://github.com/leommxj/sysctl-list" target="_blank" rel="noreferrer">
+              github.com/leommxj/sysctl-list
+            </a>
+          </p>
+        </div>
+      </article>
+    </dialog>
+    <script>
+      import "../lib/info-modal.ts";
+      import "../lib/theme-toggle.ts";
+    </script>
+  </body>
+</html>

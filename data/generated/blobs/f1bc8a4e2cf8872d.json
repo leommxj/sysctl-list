@@ -1,0 +1,3 @@
+{
+  "text": "This is used to force the Linux VM to keep a minimum number\nof kilobytes free.  The VM uses this number to compute a\nwatermark[WMARK_MIN] value for each lowmem zone in the system.\nEach lowmem zone gets a number of reserved free pages based\nproportionally on its size.\n\nSome minimal amount of memory is needed to satisfy PF_MEMALLOC\nallocations; if you set this to lower than 1024KB, your system will\nbecome subtly broken, and prone to deadlock under high loads.\n\nSetting this too high will OOM your machine instantly."
+}

@@ -1,0 +1,3 @@
+{
+  "text": "The complete bootloader version number.  In the example above, this\nfile will contain the value 564 = 0x234.\n\nSee the ``type_of_loader`` and ``ext_loader_ver`` fields in\n:doc:`/x86/boot` for additional information."
+}

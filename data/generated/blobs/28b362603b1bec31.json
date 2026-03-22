@@ -1,0 +1,3 @@
+{
+  "text": "- 0 - disabled (default)\n\t- not 0 - enabled\n\n\tBe conservative in what you do, be liberal in what you accept from others.\n\tIf it's non-zero, we mark only out of window RST segments as INVALID."
+}

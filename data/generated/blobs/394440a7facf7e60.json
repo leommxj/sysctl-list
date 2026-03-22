@@ -1,0 +1,3 @@
+{
+  "text": "The TIPC protocol now has a tunable for the receive memory, similar to the\ntcp_rmem - i.e. a vector of 3 INTEGERs: (min, default, max)\n\n::\n\n    # cat /proc/sys/net/tipc/tipc_rmem\n    4252725 34021800        68043600\n    #\n\nThe max value is set to CONN_OVERLOAD_LIMIT, and the default and min values\nare scaled (shifted) versions of that same value.  Note that the min value\nis not at this point in time used in any meaningful way, but the triplet is\npreserved in order to be consistent with things like tcp_rmem."
+}

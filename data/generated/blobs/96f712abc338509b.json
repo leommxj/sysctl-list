@@ -1,0 +1,3 @@
+{
+  "text": "Number of consecutive congested rounds (RTT) seen after which\n\ta forced rehash can be performed. Be careful when setting this\n\tparameter, as a small value increases the risk of retransmissions.\n\tThis is referred to as N in PLB paper:\n\thttps://doi.org/10.1145/3544216.3544226.\n\n\tPossible Values: 0 - 31\n\n\tDefault: 12"
+}

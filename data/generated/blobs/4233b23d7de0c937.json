@@ -1,0 +1,3 @@
+{
+  "text": "Whether to accept DAD (Duplicate Address Detection).\n\n\t == ==============================================================\n\t  0  Disable DAD\n\t  1  Enable DAD (default)\n\t  2  Enable DAD, and disable IPv6 operation if MAC-based duplicate\n\t     link-local address has been found.\n\t == ==============================================================\n\n\tDAD operation and mode on a given interface will be selected according\n\tto the maximum value of conf/{all,interface}/accept_dad."
+}

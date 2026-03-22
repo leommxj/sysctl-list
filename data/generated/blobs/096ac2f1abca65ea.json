@@ -1,0 +1,3 @@
+{
+  "text": "The interval (in milliseconds) between HEARTBEAT chunks.  These chunks\n\tare sent at the specified interval on idle paths to probe the state of\n\ta given path between 2 associations.\n\n\tDefault: 30000"
+}

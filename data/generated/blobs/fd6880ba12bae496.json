@@ -1,0 +1,3 @@
+{
+  "text": "Maximal number of TCP sockets not attached to any user file handle,\n\theld by system.\tIf this number is exceeded orphaned connections are\n\treset immediately and warning is printed. This limit exists\n\tonly to prevent simple DoS attacks, you _must_ not rely on this\n\tor lower the limit artificially, but rather increase it\n\t(probably, after increasing installed memory),\n\tif network conditions require more than default value,\n\tand tune network services to linger and kill such states\n\tmore aggressively. Let me to remind again: each orphan eats\n\tup to ~64K of unswappable memory."
+}

@@ -1,0 +1,3 @@
+{
+  "text": "The intent of this protection is to avoid unintentional writes to\nan attacker-controlled FIFO, where a program expected to create a regular\nfile.\n\nWhen set to \"0\", writing to FIFOs is unrestricted.\n\nWhen set to \"1\" don't allow O_CREAT open on FIFOs that we don't own\nin world writable sticky directories, unless they are owned by the\nowner of the directory.\n\nWhen set to \"2\" it also applies to group writable sticky directories.\n\nThis protection is based on the restrictions in Openwall."
+}

@@ -1,0 +1,3 @@
+{
+  "text": "Autoconfigure addresses using Prefix Information in Router\n\tAdvertisements.\n\n\tFunctional default:\n\n\t\t- enabled if accept_ra_pinfo is enabled.\n\t\t- disabled if accept_ra_pinfo is disabled."
+}

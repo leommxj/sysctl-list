@@ -1,0 +1,3 @@
+{
+  "text": "Limits number of Challenge ACK sent per second, as recommended\n\tin RFC 5961 (Improving TCP's Robustness to Blind In-Window Attacks)\n\tDefault: 100"
+}

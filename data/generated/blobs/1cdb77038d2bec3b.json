@@ -1,0 +1,3 @@
+{
+  "text": "- 0 - The fwmark of the packet is not included in reverse path\n\t  route lookup.  This allows for asymmetric routing configurations\n\t  utilizing the fwmark in only one direction, e.g., transparent\n\t  proxying.\n\n\t- 1 - The fwmark of the packet is included in reverse path route\n\t  lookup.  This permits rp_filter to function when the fwmark is\n\t  used for routing traffic in both directions.\n\n\tThis setting also affects the utilization of fmwark when\n\tperforming source address selection for ICMP replies, or\n\tdetermining addresses stored for the IPOPT_TS_TSANDADDR and\n\tIPOPT_RR IP options.\n\n\tThe max value from conf/{all,interface}/src_valid_mark is used.\n\n\tDefault value is 0."
+}

@@ -1,0 +1,3 @@
+{
+  "text": "Maximum number of the segments to batch up on output of GRO. When a packet\nexits GRO, either as a coalesced superframe or as an original packet which\nGRO has decided not to coalesce, it is placed on a per-NAPI list. This\nlist is then passed to the stack when the number of segments reaches the\ngro_normal_batch limit."
+}

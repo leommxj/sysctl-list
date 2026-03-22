@@ -1,0 +1,3 @@
+{
+  "text": "Route metric for default route learned in Router Advertisement. This value\n\twill be assigned as metric for the default route learned via IPv6 Router\n\tAdvertisement. Takes affect only if accept_ra_defrtr is enabled.\n\n\tPossible values:\n\t\t1 to 0xFFFFFFFF\n\n\t\tDefault: IP6_RT_PRIO_USER i.e. 1024."
+}

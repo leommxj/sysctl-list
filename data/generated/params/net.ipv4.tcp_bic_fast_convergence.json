@@ -1,0 +1,43 @@
+{
+  "availableVersions": [
+    "v2.6.11",
+    "v2.6.12"
+  ],
+  "name": "net.ipv4.tcp_bic_fast_convergence",
+  "namespace": "net",
+  "slug": "net.ipv4.tcp_bic_fast_convergence",
+  "versions": [
+    {
+      "docRefs": [
+        {
+          "blob": "90be173a4a3ec263",
+          "heading": "tcp_bic_fast_convergence",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.txt"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v2.6.11"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "90be173a4a3ec263",
+          "heading": "tcp_bic_fast_convergence",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/networking/ip-sysctl.txt"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": false,
+      "sourceRefs": [],
+      "supportStatus": "exact",
+      "tag": "v2.6.12"
+    }
+  ]
+}

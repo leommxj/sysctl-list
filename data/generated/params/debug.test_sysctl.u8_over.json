@@ -1,0 +1,97 @@
+{
+  "availableVersions": [
+    "v6.16",
+    "v6.17",
+    "v6.18",
+    "v6.19"
+  ],
+  "name": "debug.test_sysctl.u8_over",
+  "namespace": "debug",
+  "slug": "debug.test_sysctl.u8_over",
+  "versions": [
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "uint_0001",
+          "handler_symbol": "proc_dou8vec_minmax",
+          "path_segments": [
+            "debug",
+            "test_sysctl",
+            "u8_over"
+          ],
+          "source_path": "lib/test_sysctl.c",
+          "table": "table_u8_over"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.16"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "uint_0001",
+          "handler_symbol": "proc_dou8vec_minmax",
+          "path_segments": [
+            "debug",
+            "test_sysctl",
+            "u8_over"
+          ],
+          "source_path": "lib/test_sysctl.c",
+          "table": "table_u8_over"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.17"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "uint_0001",
+          "handler_symbol": "proc_dou8vec_minmax",
+          "path_segments": [
+            "debug",
+            "test_sysctl",
+            "u8_over"
+          ],
+          "source_path": "lib/test_sysctl.c",
+          "table": "table_u8_over"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.18"
+    },
+    {
+      "docRefs": [],
+      "hasDoc": false,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl",
+          "data_symbol": "uint_0001",
+          "handler_symbol": "proc_dou8vec_minmax",
+          "path_segments": [
+            "debug",
+            "test_sysctl",
+            "u8_over"
+          ],
+          "source_path": "lib/test_sysctl.c",
+          "table": "table_u8_over"
+        }
+      ],
+      "supportStatus": "none",
+      "tag": "v6.19"
+    }
+  ]
+}

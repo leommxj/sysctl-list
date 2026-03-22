@@ -1,0 +1,3 @@
+{
+  "text": "hugetlb_shm_group contains group id that is allowed to create SysV\nshared memory segment using hugetlb page."
+}

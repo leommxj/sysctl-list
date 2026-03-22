@@ -1,0 +1,3 @@
+{
+  "text": "Enable window scaling as defined in RFC1323.\n\ntcp_wmem - vector of 3 INTEGERs: min, default, max\n\tmin: Amount of memory reserved for send buffers for TCP socket.\n\tEach TCP socket has rights to use it due to fact of its birth.\n\tDefault: 4K\n\n\tdefault: Amount of memory allowed for send buffers for TCP socket\n\tby default. This value overrides net.core.wmem_default used\n\tby other protocols, it is usually lower than net.core.wmem_default.\n\tDefault: 16K\n\n\tmax: Maximal amount of memory allowed for automatically selected\n\tsend buffers for TCP socket. This value does not override\n\tnet.core.wmem_max, \"static\" selection via SO_SNDBUF does not use this.\n\tDefault: 128K"
+}

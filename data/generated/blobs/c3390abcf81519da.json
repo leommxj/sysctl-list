@@ -1,0 +1,3 @@
+{
+  "text": "Bitmask of ICMP extensions to append to ICMPv4 error messages\n\t(\"Destination Unreachable\", \"Time Exceeded\" and \"Parameter Problem\").\n\tThe original datagram is trimmed / padded to 128 bytes in order to be\n\tcompatible with applications that do not comply with RFC 4884.\n\n\tPossible extensions are:\n\n\t==== ==============================================================\n\t0x01 Incoming IP interface information according to RFC 5837.\n\t     Extension will include the index, IPv4 address (if present),\n\t     name and MTU of the IP interface that received the datagram\n\t     which elicited the ICMP error.\n\t==== ==============================================================\n\n\tDefault: 0x00 (no extensions)"
+}

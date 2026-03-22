@@ -1,0 +1,3 @@
+{
+  "text": "Path for the hotplug policy agent.\nDefault value is \"``/sbin/hotplug``\"."
+}

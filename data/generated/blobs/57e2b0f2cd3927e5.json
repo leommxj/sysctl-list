@@ -1,0 +1,3 @@
+{
+  "text": "In \"inode32\" allocation mode, this option determines how many\n\tfiles the allocator attempts to allocate in the same allocation\n\tgroup before moving to the next allocation group.  The intent\n\tis to control the rate at which the allocator moves between\n\tallocation groups when allocating extents for new files."
+}

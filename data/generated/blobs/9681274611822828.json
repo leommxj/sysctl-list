@@ -1,0 +1,3 @@
+{
+  "text": "Whether to use RFC4862 Section 5.5.3e to determine the valid\n\tlifetime of an address matching a prefix sent in a Router\n\tAdvertisement Prefix Information Option.\n\n\tPossible values:\n\n\t- 0 (disabled) - RFC4862 section 5.5.3e is used to determine\n\t  the valid lifetime of the address.\n\t- 1 (enabled)  - the PIO valid lifetime will always be honored.\n\n\tDefault: 0 (disabled)"
+}

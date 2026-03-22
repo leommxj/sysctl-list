@@ -1,0 +1,3 @@
+{
+  "text": "How many times to retry before deciding that something is wrong\n\tand it is necessary to report this suspicion to network layer.\n\tMinimal RFC value is 3, it is default, which corresponds\n\tto ~3sec-8min depending on RTO."
+}

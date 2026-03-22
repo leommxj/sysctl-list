@@ -1,0 +1,3 @@
+{
+  "text": "The amount  of  time  we keep an ARP entry before expiring it. Used to age out\nold hosts."
+}

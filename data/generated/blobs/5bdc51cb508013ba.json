@@ -1,0 +1,3 @@
+{
+  "text": "The maximum number of probes to send to the user space ARP daemon\n\tvia netlink before dropping back to multicast probes (see\n\tmcast_solicit).  Defaults to 0."
+}

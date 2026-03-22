@@ -1,0 +1,3 @@
+{
+  "text": "The default lifetime of the SCTP cookie (in milliseconds).  The cookie\n\tis used during association establishment.\n\n\tDefault: 60000"
+}

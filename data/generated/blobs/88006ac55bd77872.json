@@ -1,0 +1,3 @@
+{
+  "text": "Enables/Disables automatic recomputing of msgmni upon memory add/remove\nor upon ipc namespace creation/removal (see the msgmni description\nabove). Echoing \"1\" into this file enables msgmni automatic recomputing.\nEchoing \"0\" turns it off. auto_msgmni default value is 1."
+}

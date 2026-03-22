@@ -1,0 +1,3 @@
+{
+  "text": "Define the wide IOAM id of this node. Uses only 56 bits out of 64 in\n        total. Can be different from ioam6_id.\n\n        Min: 0\n        Max: 0xFFFFFFFFFFFFFF\n\n        Default: 0xFFFFFFFFFFFFFF\n\nIPv6 Fragmentation:"
+}

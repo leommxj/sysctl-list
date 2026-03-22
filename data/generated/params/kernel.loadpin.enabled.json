@@ -1,0 +1,399 @@
+{
+  "availableVersions": [
+    "v4.7",
+    "v4.8",
+    "v4.9",
+    "v4.10",
+    "v4.11",
+    "v4.12",
+    "v4.13",
+    "v4.14",
+    "v4.15",
+    "v4.16",
+    "v4.17",
+    "v4.18",
+    "v4.19"
+  ],
+  "name": "kernel.loadpin.enabled",
+  "namespace": "kernel",
+  "slug": "kernel.loadpin.enabled",
+  "versions": [
+    {
+      "docRefs": [
+        {
+          "blob": "1124fafc5a8ddb42",
+          "heading": "LoadPin",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/security/LoadPin.txt"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl_paths",
+          "data_symbol": "enabled",
+          "handler_symbol": "proc_dointvec_minmax",
+          "path_segments": [
+            "kernel",
+            "loadpin",
+            "enabled"
+          ],
+          "source_path": "security/loadpin/loadpin.c",
+          "table": "loadpin_sysctl_table"
+        }
+      ],
+      "supportStatus": "context",
+      "tag": "v4.7"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "1124fafc5a8ddb42",
+          "heading": "LoadPin",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/security/LoadPin.txt"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl_paths",
+          "data_symbol": "enabled",
+          "handler_symbol": "proc_dointvec_minmax",
+          "path_segments": [
+            "kernel",
+            "loadpin",
+            "enabled"
+          ],
+          "source_path": "security/loadpin/loadpin.c",
+          "table": "loadpin_sysctl_table"
+        }
+      ],
+      "supportStatus": "context",
+      "tag": "v4.8"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "1124fafc5a8ddb42",
+          "heading": "LoadPin",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/security/LoadPin.txt"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl_paths",
+          "data_symbol": "enabled",
+          "handler_symbol": "proc_dointvec_minmax",
+          "path_segments": [
+            "kernel",
+            "loadpin",
+            "enabled"
+          ],
+          "source_path": "security/loadpin/loadpin.c",
+          "table": "loadpin_sysctl_table"
+        }
+      ],
+      "supportStatus": "context",
+      "tag": "v4.9"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "1124fafc5a8ddb42",
+          "heading": "LoadPin",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/security/LoadPin.txt"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl_paths",
+          "data_symbol": "enabled",
+          "handler_symbol": "proc_dointvec_minmax",
+          "path_segments": [
+            "kernel",
+            "loadpin",
+            "enabled"
+          ],
+          "source_path": "security/loadpin/loadpin.c",
+          "table": "loadpin_sysctl_table"
+        }
+      ],
+      "supportStatus": "context",
+      "tag": "v4.10"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "1124fafc5a8ddb42",
+          "heading": "LoadPin",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/security/LoadPin.txt"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl_paths",
+          "data_symbol": "enabled",
+          "handler_symbol": "proc_dointvec_minmax",
+          "path_segments": [
+            "kernel",
+            "loadpin",
+            "enabled"
+          ],
+          "source_path": "security/loadpin/loadpin.c",
+          "table": "loadpin_sysctl_table"
+        }
+      ],
+      "supportStatus": "context",
+      "tag": "v4.11"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "1124fafc5a8ddb42",
+          "heading": "LoadPin",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/security/LoadPin.txt"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl_paths",
+          "data_symbol": "enabled",
+          "handler_symbol": "proc_dointvec_minmax",
+          "path_segments": [
+            "kernel",
+            "loadpin",
+            "enabled"
+          ],
+          "source_path": "security/loadpin/loadpin.c",
+          "table": "loadpin_sysctl_table"
+        }
+      ],
+      "supportStatus": "context",
+      "tag": "v4.12"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "220caabd6c936548",
+          "heading": "LoadPin",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/LSM/LoadPin.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl_paths",
+          "data_symbol": "enabled",
+          "handler_symbol": "proc_dointvec_minmax",
+          "path_segments": [
+            "kernel",
+            "loadpin",
+            "enabled"
+          ],
+          "source_path": "security/loadpin/loadpin.c",
+          "table": "loadpin_sysctl_table"
+        }
+      ],
+      "supportStatus": "context",
+      "tag": "v4.13"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "220caabd6c936548",
+          "heading": "LoadPin",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/LSM/LoadPin.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl_paths",
+          "data_symbol": "enabled",
+          "handler_symbol": "proc_dointvec_minmax",
+          "path_segments": [
+            "kernel",
+            "loadpin",
+            "enabled"
+          ],
+          "source_path": "security/loadpin/loadpin.c",
+          "table": "loadpin_sysctl_table"
+        }
+      ],
+      "supportStatus": "context",
+      "tag": "v4.14"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "220caabd6c936548",
+          "heading": "LoadPin",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/LSM/LoadPin.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl_paths",
+          "data_symbol": "enabled",
+          "handler_symbol": "proc_dointvec_minmax",
+          "path_segments": [
+            "kernel",
+            "loadpin",
+            "enabled"
+          ],
+          "source_path": "security/loadpin/loadpin.c",
+          "table": "loadpin_sysctl_table"
+        }
+      ],
+      "supportStatus": "context",
+      "tag": "v4.15"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "220caabd6c936548",
+          "heading": "LoadPin",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/LSM/LoadPin.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl_paths",
+          "data_symbol": "enabled",
+          "handler_symbol": "proc_dointvec_minmax",
+          "path_segments": [
+            "kernel",
+            "loadpin",
+            "enabled"
+          ],
+          "source_path": "security/loadpin/loadpin.c",
+          "table": "loadpin_sysctl_table"
+        }
+      ],
+      "supportStatus": "context",
+      "tag": "v4.16"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "220caabd6c936548",
+          "heading": "LoadPin",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/LSM/LoadPin.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl_paths",
+          "data_symbol": "enabled",
+          "handler_symbol": "proc_dointvec_minmax",
+          "path_segments": [
+            "kernel",
+            "loadpin",
+            "enabled"
+          ],
+          "source_path": "security/loadpin/loadpin.c",
+          "table": "loadpin_sysctl_table"
+        }
+      ],
+      "supportStatus": "context",
+      "tag": "v4.17"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "220caabd6c936548",
+          "heading": "LoadPin",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/LSM/LoadPin.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl_paths",
+          "data_symbol": "enabled",
+          "handler_symbol": "proc_dointvec_minmax",
+          "path_segments": [
+            "kernel",
+            "loadpin",
+            "enabled"
+          ],
+          "source_path": "security/loadpin/loadpin.c",
+          "table": "loadpin_sysctl_table"
+        }
+      ],
+      "supportStatus": "context",
+      "tag": "v4.18"
+    },
+    {
+      "docRefs": [
+        {
+          "blob": "220caabd6c936548",
+          "heading": "LoadPin",
+          "lineEnd": null,
+          "lineStart": null,
+          "path": "Documentation/admin-guide/LSM/LoadPin.rst"
+        }
+      ],
+      "hasDoc": true,
+      "hasSource": true,
+      "sourceRefs": [
+        {
+          "api": "register_sysctl_paths",
+          "data_symbol": "enabled",
+          "handler_symbol": "proc_dointvec_minmax",
+          "path_segments": [
+            "kernel",
+            "loadpin",
+            "enabled"
+          ],
+          "source_path": "security/loadpin/loadpin.c",
+          "table": "loadpin_sysctl_table"
+        }
+      ],
+      "supportStatus": "context",
+      "tag": "v4.19"
+    }
+  ]
+}

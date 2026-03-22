@@ -1,0 +1,3 @@
+{
+  "text": "Maximum memory used to reassemble IP fragments before the kernel\n\tbegins to remove incomplete fragment queues to free up resources.\n\tThe kernel still accepts new fragments for defragmentation."
+}
